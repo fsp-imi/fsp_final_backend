@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rm3u8+1f8f5)^(*w%i-5k3@$z83u)l%w-qq!^4f+xk%voxxhr=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fsp-imi-fsp-final-backend-5a76.twc1.net', 'localhost', '127.0.0.1']
 
 
 # Application definition
