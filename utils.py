@@ -8,4 +8,4 @@ def get_page_object(objects, page=1, amount=25):
         page = pages.num_pages
     p = pages.page(page)
 
-    return (p.object_list, pages.num_pages, amount, page)
+    return (p.object_list, page, amount, pages.num_pages)
