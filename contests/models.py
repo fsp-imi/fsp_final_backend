@@ -1,6 +1,7 @@
 from django.db import models
 from country.models import City, Country
-#from notifications.models import Notification
+from notifications.models import Notification
+from django.utils.translation import gettext_lazy as _
 #from subscription.models import Subscrip
 from notifications.NotificationsFuncs import sendNotification
 
@@ -8,7 +9,6 @@ from notifications.NotificationsFuncs import sendNotification
 
 class SportType(models.Model):
     name = models.CharField(verbose_name="Вид спорта", max_length=250)
-    #code = models.CharField(verbose_name="Вид спорта", max_length=250)
 
     def __str__(self):
         return self.name
@@ -35,7 +35,6 @@ class Gender(models.IntegerChoices):
 
 
 class AgeGroup(models.Model):
-    contest = models.ForeignKey('Contest', verbose_name="Cоревнование", db_index=True, null=False, on_delete=models.CASCADE)
     gender = models.IntegerField('Пол', default=Gender.MALE, choices=Gender.choices)
     start = models.IntegerField(verbose_name="Нижний порог")
     end = models.IntegerField(verbose_name="Верхний порог")
@@ -45,16 +44,19 @@ class AgeGroup(models.Model):
 
 
 class Contest(models.Model):
-    program = models.CharField(verbose_name="Программа", max_length=250)
-    code = models.CharField(verbose_name="Код", max_length=250)
-    start = models.DateField(verbose_name="Дата начала")
-    end = models.DateField(verbose_name="Дата окончания")
+    
+    class ContestFormat(models.TextChoices):
+        ONL = "ONLINE", _("Онлайн")
+        OFL = "OFFLINE", _("Оффлайн")
+        ONFL = "ONLINE/OFFLINE", _("Онлайн/Оффлайн")
+
+    name = models.CharField(verbose_name="Наименование", max_length=300)
+    start_time = models.DateTimeField(verbose_name="Дата начала")
+    end_time = models.DateTimeField(verbose_name="Дата окончания")
     place = models.ForeignKey(City, verbose_name="Город проведения", db_index=True, null=True, on_delete=models.SET_NULL)
-    country = models.ForeignKey(Country, verbose_name="Страна проведения", db_index=True, null=True, on_delete=models.SET_NULL)
-    contestants = models.IntegerField(verbose_name="Количество участников")
     contest_type = models.ForeignKey(ContestType, verbose_name="Уровень соревнования", db_index=True, null=True, on_delete=models.SET_NULL)
-    male = models.BooleanField("Мужчины")
-    female = models.BooleanField("Женщины")
+    format = models.CharField("Формат соревнования", max_length=20, default=ContestFormat.ONL, choices=ContestFormat)
+    
 
     def save(self, *args, **kwargs):
         if self.pk is not None:
@@ -72,3 +74,10 @@ class ContestDiscipline(models.Model):
 
     def __str__(self):
         return f'{self.contest} {self.discipline}'
+
+class ContestAgeGroup(models.Model):
+    contest = models.ForeignKey(Contest, verbose_name="Cоревнование", db_index=True, null=True, on_delete=models.SET_NULL)
+    age_group = models.ForeignKey(AgeGroup, verbose_name="Возрастная группа", db_index=True, null=True, on_delete=models.SET_NULL)
+
+    def __str__(self):
+        return f'{self.contest} {self.age_group}'

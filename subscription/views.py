@@ -20,9 +20,9 @@ class SubscriptionView(ModelViewSet):
         ser = self.get_serializer(queryset, many=True)
         return Response(ser.data, status=200)
     
-    def delete(self, request, subscription_id):
+    def delete(self, request, pk):
         try:
-            notification = Subscription.objects.get(contest__id=subscription_id, user=request.user)
+            notification = Subscription.objects.get(contest__id=pk, user=request.user)
             notification.delete()
             return Response({"result":True}, status=HTTP_204_NO_CONTENT)
         except Subscription.DoesNotExist:
