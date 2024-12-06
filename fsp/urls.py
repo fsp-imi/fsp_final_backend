@@ -21,7 +21,7 @@ from rest_framework.authtoken import views
 apiv1 = [
     path('users/', include('users.urls')),
     path('contests/', include('contests.urls')),
-    path('country/', include('country.urls')),
+    path('countries/', include('country.urls')),
     path('notifications/', include('notifications.urls')),
     path('subscriptions/', include('subscription.urls')),
 ]
