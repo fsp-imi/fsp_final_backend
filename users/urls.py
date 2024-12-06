@@ -10,4 +10,5 @@ urlpatterns = [
     path('check-token/', CheckToken.as_view()),
     path('get-user/', GetUserData.as_view()),
     path('profile/', UserProfile.as_view()),
+    path('<int:pk>/', UserViewSet.as_view({'get': 'get_by_id'})),
 ]

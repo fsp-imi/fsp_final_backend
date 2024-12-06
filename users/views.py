@@ -22,6 +22,12 @@ class UserViewSet(ModelViewSet):
         user = serializer.save()
         token, created = Token.objects.get_or_create(user=user)
         return Response({'token': token.key}, status=HTTP_201_CREATED)
+ 
+    def get_by_id(self, request, *args, **kwargs):
+        user_id = kwargs.get('pk')
+        user = get_object_or_404(User, pk=user_id)
+        serializer = self.get_serializer(user)
+        return Response(serializer.data, status=HTTP_200_OK)
 
 
 class UserProfile(APIView):
