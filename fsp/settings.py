@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'contests',
     'notifications',
     'subscription',
+    'claims'
 ]
 
 REST_FRAMEWORK = {
