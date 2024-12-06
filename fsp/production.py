@@ -1,6 +1,6 @@
 from django.conf import settings
 
-settings.DEBUG = False
+settings.ALLOWED_HOSTS = ['*']
 
 settings.DATABASES = {
     'default': {
