@@ -1,8 +1,8 @@
-import fsp.settings
+from django.conf import settings
 
-fsp.settings.DEBUG = False
+settings.DEBUG = False
 
-fsp.settings.DATABASES = {
+settings.DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'prod',
