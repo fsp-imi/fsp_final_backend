@@ -18,10 +18,10 @@ def custom_exception_handler(exc, context):
             else:
                 errors.append(str(response.data))
                 
-            response.data = {'errors': errors}
+            response.data = {'details': errors}
         else:
             response.data = {
-                'errors': [str(msg) for msg in response.data.values()]
+                'details': [str(msg) for msg in response.data.values()]
             }
 
     return response
