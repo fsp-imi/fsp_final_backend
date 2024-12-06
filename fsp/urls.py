@@ -22,6 +22,7 @@ apiv1 = [
     path('users/', include('users.urls')),
     path('contests/', include('contests.urls')),
     path('country/', include('country.urls')),
+    path('notifications/', include('notifications.urls')),
 ]
 
 urlpatterns = [
