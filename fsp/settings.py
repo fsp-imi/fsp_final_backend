@@ -31,6 +31,14 @@ CSRF_TRUSTED_ORIGINS = ['http://localhost', 'https://fsp-imi-fsp-final-backend-5
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'DELETE',
+]
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -49,6 +57,7 @@ INSTALLED_APPS = [
     'notifications',
     'subscription',
     'federations',
+    'claims'
 ]
 
 REST_FRAMEWORK = {
