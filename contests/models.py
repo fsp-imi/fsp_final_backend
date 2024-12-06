@@ -50,13 +50,18 @@ class Contest(models.Model):
         OFL = "OFFLINE", _("Оффлайн")
         ONFL = "ONLINE/OFFLINE", _("Онлайн/Оффлайн")
 
+    class Status(models.TextChoices):
+        ACTIVE = "ACTIVE", _("Активный")
+        CLOSED = "CLOSED", _("Закрыт")
+        CANCLED = "CANCLED", _("Отменен")
+
     name = models.CharField(verbose_name="Наименование", max_length=300)
     start_time = models.DateTimeField(verbose_name="Дата начала")
     end_time = models.DateTimeField(verbose_name="Дата окончания")
     place = models.ForeignKey(City, verbose_name="Город проведения", db_index=True, null=True, on_delete=models.SET_NULL)
     contest_type = models.ForeignKey(ContestType, verbose_name="Уровень соревнования", db_index=True, null=True, on_delete=models.SET_NULL)
     format = models.CharField("Формат соревнования", max_length=20, default=ContestFormat.ONL, choices=ContestFormat)
-    
+    status = models.CharField("Статус", max_length=10, default=Status.ACTIVE, choices=Status)
 
     def save(self, *args, **kwargs):
         if self.pk is not None:
