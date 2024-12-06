@@ -46,6 +46,9 @@ INSTALLED_APPS = [
     'corsheaders',
     'users',
     'country',
+    'contests',
+    'notifications',
+    'subscription',
 ]
 
 REST_FRAMEWORK = {
