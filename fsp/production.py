@@ -1,8 +1,8 @@
-from django.conf import settings
+from .settings import *
 
-settings.ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*']
 
-settings.DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'prod',
