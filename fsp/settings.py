@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'contests',
     'notifications',
     'subscription',
+    'federations',
 ]
 
 REST_FRAMEWORK = {
