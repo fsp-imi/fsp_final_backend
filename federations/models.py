@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth.models import User
+from country.models import Region
 
 # Create your models here.
 
@@ -16,3 +17,4 @@ class Federation(models.Model):
     address = models.CharField("Адрес", max_length=300, blank=True, null=True)
     agent = models.ForeignKey(User, verbose_name="Представитель", db_index=True, null=True, on_delete=models.SET_NULL)
     level = models.CharField("Уровень", max_length=3, choices=Level, default=Level.REG)
+    region = models.ForeignKey(Region, verbose_name="Регион", db_index=True, null=True, on_delete=models.SET_NULL)
