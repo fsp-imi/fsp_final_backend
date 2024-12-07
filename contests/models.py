@@ -41,7 +41,7 @@ class AgeGroup(models.Model):
     end = models.IntegerField(verbose_name="Верхний порог", null=True, blank=True)
 
     def __str__(self):
-        return ("Мужчина" if self.gender == 1 else "Женщина") + ' >=' + str(self.start) + (' <=' + str(self.end) if self.end is not None else '')
+        return ("Мужчина" if self.gender == 1 else "Женщина") + ' (от ' + str(self.start) + (' до ' + str(self.end) if self.end is not None else '') + ')'
 
 
 class Contest(models.Model):
@@ -61,9 +61,9 @@ class Contest(models.Model):
         CANCLED = "CANCLED", _("Отменен")
 
     name = models.CharField(verbose_name="Наименование", max_length=300)
-    start_time = models.DateTimeField(verbose_name="Дата начала")
-    end_time = models.DateTimeField(verbose_name="Дата окончания")
-    place = models.ForeignKey(City, verbose_name="Город проведения", db_index=True, null=True, on_delete=models.SET_NULL)
+    start_time = models.DateTimeField(verbose_name="Дата начала", db_index=True)
+    end_time = models.DateTimeField(verbose_name="Дата окончания", null=True, db_index=True)
+    place = models.CharField(verbose_name="Наименование", max_length=300, blank=True, null=True)
     contest_char = models.CharField("Характер соревнования", max_length=11, db_index=True, default=ContestCharateristic.PERSONAL, choices=ContestCharateristic)
     contest_type = models.ForeignKey(ContestType, verbose_name="Уровень соревнования", db_index=True, null=True, on_delete=models.SET_NULL)
     format = models.CharField("Формат соревнования", max_length=20, db_index=True, default=ContestFormat.ONL, choices=ContestFormat)
