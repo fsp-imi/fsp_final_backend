@@ -25,6 +25,7 @@ apiv1 = [
     path('notifications/', include('notifications.urls')),
     path('subscriptions/', include('subscription.urls')),
     path('claims/', include('claims.urls')),
+    path('federations/', include('federations.urls')),
 ]
 
 urlpatterns = [
