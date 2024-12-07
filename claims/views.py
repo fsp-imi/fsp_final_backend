@@ -18,11 +18,8 @@ class ClaimView(ModelViewSet):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         claim = serializer.save()
-        claim.is_active=False
         claim.save()
-        token, created = Token.objects.get_or_create(claim=claim)
-        send_activation_email(user, request)
-        return Response({'detail': 'Проверьте почту для активации аккаунта.'}, status=HTTP_201_CREATED)
+        return Response(serializer.data, status=HTTP_201_CREATED)
 
     def put(self, request, *args, **kwargs):
         claim = get_object_or_404(Claim, id=kwargs['pk'])
