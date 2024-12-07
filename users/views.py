@@ -3,10 +3,12 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAdminUser, AllowAny, IsAuthenticated
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.authtoken.models import Token
+from rest_framework.authtoken.models import Token, default_token_generator
 from rest_framework.status import HTTP_201_CREATED, HTTP_200_OK, HTTP_400_BAD_REQUEST, HTTP_204_NO_CONTENT, HTTP_404_NOT_FOUND, HTTP_500_INTERNAL_SERVER_ERROR
+from django.utils.http import urlsafe_base64_decode
 from django.contrib.auth.models import User
 from .serializers import UserSerializer
+from fsp.utils.mail_confirm_sender import send_activation_email
 
 # Create your views here.
 
@@ -20,14 +22,31 @@ class UserViewSet(ModelViewSet):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
+        user.is_active=False
+        user.save()
         token, created = Token.objects.get_or_create(user=user)
-        return Response({'token': token.key}, status=HTTP_201_CREATED)
+        send_activation_email(user, request)
+        return Response({'detail': 'Проверьте почту для активации аккаунта.'}, status=HTTP_201_CREATED)
  
     def get_by_id(self, request, *args, **kwargs):
         user_id = kwargs.get('pk')
         user = get_object_or_404(User, pk=user_id)
         serializer = self.get_serializer(user)
         return Response(serializer.data, status=HTTP_200_OK)
+    
+    def activate_account(request, uid, token):
+        try:
+            uid = urlsafe_base64_decode(uid).decode()
+            user = User.objects.get(pk=uid)
+        except (TypeError, ValueError, OverflowError, User.DoesNotExist):
+            user = None
+
+        if user is not None and default_token_generator.check_token(user, token):
+            user.is_active = True
+            user.save()
+            return Response('Аккаунт активирован!')
+        else:
+            return Response('Ссылка активации недействительна.')
 
 
 class UserProfile(APIView):

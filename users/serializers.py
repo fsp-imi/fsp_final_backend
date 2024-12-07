@@ -17,6 +17,7 @@ class UserSerializer(serializers.ModelSerializer):
             email=validated_data['email'],
             first_name=validated_data.get('first_name', ''),
             last_name=validated_data.get('last_name', ''),
+            is_active=validated_data.get('is_active', False),
             password=validated_data['password']
         )
         return user
