@@ -1,0 +1,5095 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$0H0VEAlhDSwt9BXlOjAW29$cLXDkSgcOGYP8kdr4eADzj7St+vreBntVbU+Ol0pHi0=",
+        "last_login": "2024-12-07T11:59:03.511Z",
+        "is_superuser": true,
+        "username": "evv",
+        "first_name": "",
+        "last_name": "",
+        "email": "evv@ykt.ru",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-12-05T21:18:39.225Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Wr4gel4rFvbgMAnEjeE3Ul$jf98I5DDPPuyhE1lUUg1SdOrEOA6Uom6C8r5a5KBPTo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "rs",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T03:28:01.914Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$N0OWXkA6pX0m8h8A8Nm9Oh$Qe9emGPGvSFVVgOUmi0qFRB+Om3qRXvt4EdY3spUR2I=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user1",
+        "first_name": "Станков Игорь Валентинович",
+        "last_name": "",
+        "email": "fsp-dnr@mail.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:43.110Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$MHeFyL1BqEodD0O7kVDuxM$ydkhqdnE+lhV6zQAnp4H3NgLwNMUc745HDsxE5fN/Fo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user2",
+        "first_name": "Строителева Алина Андреевна",
+        "last_name": "",
+        "email": "penza@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:43.385Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$2pz0tqPH0SyXrBvJuzFh6A$v4nD8ccKH7RvDGYRwf06lX2HaV/H4tpS0wXi4ycxTKw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user3",
+        "first_name": "Алексей Алескандрович Лисьев",
+        "last_name": "",
+        "email": "arkhangelsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:43.655Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$GBR7KqLo3KsyH5eoBZelpL$6CwwuaZHu0RwfkxP1su1IPZoxh5P0eOR9lTxpD+JZGo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user4",
+        "first_name": "Алиев Марат Вячеславович",
+        "last_name": "",
+        "email": "adygea@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:43.927Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$g1IIJXrAjRyvPwibVl0YWN$uSqwlP0uW7IO9V34laG8fDUvSNBpmydsSazlY4lSvgY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user5",
+        "first_name": "Каширин Александр Алексеевич",
+        "last_name": "",
+        "email": "karelia@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:44.193Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$jmS0a3V9iLb4siOKpagqXg$DATGRoysWnx+g4Itzr0e+RMYIGPU0BGH+mDiCYDq4Cc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user6",
+        "first_name": "Образцов Сергей Александрович",
+        "last_name": "",
+        "email": "smolensk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:44.463Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$9aYloQPqtajjaRsRO46kFM$L8p4P/ljPRjoRWoBn7mPuUfmeI4QPh2f+V0USgrHi+k=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user7",
+        "first_name": "Корф Виктор Сергеевич",
+        "last_name": "",
+        "email": "leningrad@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:44.744Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$06IeXnMXn9gAdIpyHYksBj$sJV7BBRnK5vnT9EGBM3M9QQINXgRaGF3t+vW7RB1h8c=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user8",
+        "first_name": "Халамцева Евгения Милмировна",
+        "last_name": "",
+        "email": "ryazan@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:45.012Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$XgOPRkMGczlD7mo1aC18KC$b7s3NhW8/cPNqWEa33XOR7fKp03STXmOiMRIRUZ+HMI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user9",
+        "first_name": "Серочудинов Евгений Сергеевич",
+        "last_name": "",
+        "email": "fsprt@inbox.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:45.279Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$PmjQBhXjAbKdM7cgRclNFu$eExrSYxvroJHNLoctLI51TDQRHsd94ah8SegDiNHJDE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user10",
+        "first_name": "Царенко Михаил Геннадьевич",
+        "last_name": "",
+        "email": "sevastopol@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:45.545Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$upjaeqdcTMnCZUk8ysKoOE$IkHGbF6Iu83tzYQgtU8KFE74MPUDVQjabezlL//vZYk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user11",
+        "first_name": "Соболев Евгений Игоревич",
+        "last_name": "",
+        "email": "sakhalin@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:45.809Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$mQskoGVPEB7LkYVM2rF59z$y0EoLG7W1c3VXuAbA4TM13ERlcHwpmaBw7FUmMSDna8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user12",
+        "first_name": "Диденко Дмитрий Николаевич",
+        "last_name": "",
+        "email": "kostroma@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:46.077Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$qU8nZbujtnnXjzGUs5pmXu$+tQC0EXQYFjAY2pFmQj3oyw/7snxrJf01tKDKf6F+ks=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user13",
+        "first_name": "Асадуллина Юлия Альбертовна",
+        "last_name": "",
+        "email": "astrakhan@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:46.343Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$En9hz006dvk8LnVeQRXmib$Z0muaL0kpB94v4wmL5VVezmNjiftTQkq2zfsnUS50xs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user14",
+        "first_name": "Обабков Илья Николаевич",
+        "last_name": "",
+        "email": "sverdlovsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:46.608Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$LdaagaObCs3rttUDKXAyMp$4P/VMhWnvKbd3xe/PCWy5Ocdrw2x4SnPYF6I+8yS2BA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user15",
+        "first_name": "Давлетшин Родион Айратович",
+        "last_name": "",
+        "email": "hmao@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:46.873Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$nfXOogYwG72fl0jQh1tNHH$dZ+qQSRX9Dv1QHd/ZEC8pi/bh54ZJevbobIq7pFMhzQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user16",
+        "first_name": "Сычугов Алексей Алексеевич",
+        "last_name": "",
+        "email": "tula@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:47.137Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$IDx2EOZ6baon7JorLhUVqg$7FIEyw4jyJY7vnVULYrqpbvJDoG12i5QjuhmLxIX4ns=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user17",
+        "first_name": "Шпигальский Денис Олегович\t",
+        "last_name": "",
+        "email": "khakassia@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:47.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$fY7OwlqtKvR7xP2xhOVyvX$+DOT4sp/JPJEKVqA/TiWibE+rXccsiQBoiWU6oY/Jws=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user18",
+        "first_name": "Дубинин Иван Витальевич",
+        "last_name": "",
+        "email": "info@fsp-kaliningrad.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:47.665Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$wZUUvFwQPVJKPikbrahdC8$6WsFPngjvgVmr9PKHbswe0BsUNd8tdHtRJ8JzzglKqU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user19",
+        "first_name": "Ищенко Роман",
+        "last_name": "",
+        "email": "irkutsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:47.927Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zwslMR4i3oZaPkbDZFCtEG$ghta4wj8K9rRq+rg3pW0ua8Am2M+Ca2vBLz5YTnQCrU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user20",
+        "first_name": "Найденко Роман Анатольевич",
+        "last_name": "",
+        "email": "lngushetia@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:48.192Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$nA4Hs0hPyQXLCDXlp628Gi$H1SHFFL6EW2GYjZJgRvOSzhBcrYVtFQcPl3GBhQleIg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user21",
+        "first_name": "Егораев Алексей Анатольевич",
+        "last_name": "",
+        "email": "altai-k@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:48.458Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Ag5GcwB4yuv7zOvbgzCmbA$xqeE8wn9zfkZI9E2avgMzndN2xGeNLBOhVqSHVWAaJ8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user22",
+        "first_name": "Попов Александр Сергеевич",
+        "last_name": "",
+        "email": "kuzbass@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:48.726Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$vxbltbntzMhizO3jlLq46N$/B3dDo9LzU5iuuUt5da/FnQX3xrPUqK2za22kJ8t/Q4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user23",
+        "first_name": "Уралов Сергей Дмитриевич",
+        "last_name": "",
+        "email": "lvanovo@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:48.989Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$RdcAWJIPQIwk9je15SWX0I$eythv/ueBWkKDOxjfwLJyacNSJR/2RkzkcmKjPHQ9Gk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user24",
+        "first_name": "Юлия Валиахметова",
+        "last_name": "",
+        "email": "bashkortostan@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:49.256Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$U4AMwmI80QteequUeuPXCh$ZnuRvQXRJPIt5fei1NzEcFYjL5N7TA6/KciKmxG3N28=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user25",
+        "first_name": "Букреев Дмитрий",
+        "last_name": "",
+        "email": "directum@fsp-zo.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:49.521Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$8cDl0jFmZD2cnf2q03nGEx$CDI4qzgMV3OtU6OupvwOt2Q4ZAXESwSD0CxIi90FzMI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user26",
+        "first_name": "Муниев Аркадий Михайлович",
+        "last_name": "",
+        "email": "kalmykia@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:49.784Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$AFKabWVlWoKoBtDJQdQObR$Y0vPmvph+s8pgWLRNY8asRmQKUV3ChRXKGZ9+Lr3fFw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user27",
+        "first_name": "Бабенко Михаил Владимирович",
+        "last_name": "",
+        "email": "samara@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:50.050Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$dxKIOCEgMMJCMHnPDjzgI2$Zamrt7qS5vUfO7tNZJKgxN9SrGuIoDGdfPlXsPArfZg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user28",
+        "first_name": "Семкин Александр Николаевич",
+        "last_name": "",
+        "email": "oryol@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:50.315Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zVjRiJ4ClZRWxcNQZ4JGFe$MuSeDfNKLORaVRa6H6hezzy+dIh8ohK34zcaYifScx0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user29",
+        "first_name": "Савва Станислав Анатольевич",
+        "last_name": "",
+        "email": "rostov@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:50.578Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$r1xNwQGcriRunwWrbldhSU$qnoI5A4QtrzIkZ9o7mTfJ58jeDD+HSgDhRGg3TB5TG8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user30",
+        "first_name": "Дресвянский Владимир Сергеевич",
+        "last_name": "",
+        "email": "kamchatka@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:50.841Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$hQbClwN4Ew2OfmejCvJEHV$2qYKBBRUClVBaGJ7GrU8iAQYSzQikHJLH1zwP9Lo8zY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user31",
+        "first_name": "Андропов Константин Сергеевич",
+        "last_name": "",
+        "email": "karachay-cherkessia@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:51.105Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$naJSef9QbhpIXM1UeZ4c9p$n57XgLPTUuL63EKbLT7CKkgjdkD137wSciGwnNxHe0E=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user32",
+        "first_name": "Богданов Михаил Михайлович",
+        "last_name": "",
+        "email": "novgorod@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:51.371Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$HqvlxBTVcC8ILEkNVRvKYv$/Qb3lDtxC23u5OOn73toJUazhJBoZgLERR9ybBEppOA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user33",
+        "first_name": "Федорова Антонина Гавриловна",
+        "last_name": "",
+        "email": "saratov@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:51.635Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$3IRzDMWq5Lf664mEWWkspD$CZ9o27qgSaq4GwICDVIoKHwH67o1TIn+H6wetWF8mdQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user34",
+        "first_name": "Метельский Тарас Леонидович",
+        "last_name": "",
+        "email": "zabaykalsky@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:51.902Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$GKCFYAgo669iO1QqXXXoHp$BIiHGIQKfyVI9yhPX97vR4TyzyyFOFFq/r/Tmw+YNEQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user35",
+        "first_name": "Лисова Анастасия Андреевна",
+        "last_name": "",
+        "email": "vladimir@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:52.164Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$CmOfL0tmJagoVF08CC7K5a$0EzvN5ZiemjbZrvYWkmmyt/LtjCiWSpK8tMjbDlfBh8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user36",
+        "first_name": "Некрасов Александр Николаевич",
+        "last_name": "",
+        "email": "komi@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:52.429Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$XZOggKUNyH0cKzxZpWdvqw$3hiplRHmJZWCniL8mGxa1DyrTLQcRf9j8o1h8D8BUnk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user38",
+        "first_name": "Попов Руслан Игоревич",
+        "last_name": "",
+        "email": "amur@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:52.695Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$M0wXC34sHPcLMUKqz0PjN3$4i9nuwXzBZgb9A+bp1r9jOt/0C7d0BT2E4KTfyfNAHo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user39",
+        "first_name": "Алферов Сергей Сергеевич",
+        "last_name": "",
+        "email": "krasnodar@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:52.960Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$QGzS29rzcpRvSRObmrm8II$2VdGY2UmoKvPN4OW1yZ2bGA4vhnH28hCh7Fhje1puso=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user40",
+        "first_name": "Бекшаев Дмитрий Александрович",
+        "last_name": "",
+        "email": "mordovia@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:53.226Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zC8isTWK5l9sNDfvnu1uSG$Q/wAn6UNbhjUfVdVwq4xlcjml2yD2zIMqnIUYYjABUo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user41",
+        "first_name": "Шило Светлана Анатольевна",
+        "last_name": "",
+        "email": "altai@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:53.492Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$9nbffnHpKdpsiMqZ6ge00y$BM/iXS5g+jboTm9bdoFISYnx3GSszNbfpJ7zApYjQDE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user42",
+        "first_name": "Косов Георгий Александрович",
+        "last_name": "",
+        "email": "chukotka@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:53.757Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$mVViU3A2iv8uV7ADb0S5Si$RE63/hYWmEN/KQWHe43/E0qSDnhxerOT3la/ePyRsnU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user43",
+        "first_name": "Даниил Сапронов",
+        "last_name": "",
+        "email": "lipetsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:54.023Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$V1yImRoz6VsocdzOiJJBjs$Ql09dA8tcbTA8uXcc67I7ZxYPlze6IOAFZ36Nn5ANbo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user44",
+        "first_name": "Куликова Екатерина Ивановна",
+        "last_name": "",
+        "email": "mari-ei@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:54.289Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$GmDhvDvfljxXZChwGJP5oi$vSlhvveQcAtW/5CNDL+sJMkIq7oSZQimOj75Gyv1chc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user45",
+        "first_name": "Кокарев Дмитрий Михайлович",
+        "last_name": "",
+        "email": "kirov@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:54.553Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$RS03vN6WNaWdLThMJmDByz$bYGINlMh4shSXWGr4lRpd4NFJgHbqmiLNhT+kBt9KY8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user46",
+        "first_name": "Пигалев Сергей Александрович",
+        "last_name": "",
+        "email": "udmurtia@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:54.817Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$2ufhR8rAfuw10nPy3AxXu6$W+XBdVEC2fpHsaolXlMOEV5P48JAbZn5DOl1bTrGAiA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user47",
+        "first_name": "Кувиков Денис",
+        "last_name": "",
+        "email": "saint-petersburg@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:55.080Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$kzKSBrsmmuu349pFwN3nst$pIIWugqxVz5y7qmDd7Z9onDkKQDy7JRrzoflC2wJCmY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user48",
+        "first_name": "Белоусов Михаил Александрович",
+        "last_name": "",
+        "email": "kurgan@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:55.344Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$oPH0JB2Js9WaJBuol58u8E$g9zCWo0BoZThLcRZ6KUwELK1oTO3m3x30Fty4ZBXtGI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user49",
+        "first_name": "Пьянников Владимир Сергеевич",
+        "last_name": "",
+        "email": "buryatia@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:55.607Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$8Z9rLZ9VeYkrtxMvx7wl5v$jDyo+jyn0ao4BXB6s7cvB2ELx+cthehlidhklTJZkH8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user50",
+        "first_name": "Саидов Зубайр Ахмедович",
+        "last_name": "",
+        "email": "chechnya@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:55.871Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$nm8qNEZP3UfcubZDri6QVc$QPnUmIejTqB+eP4lTk6iFLmszbnlqY5DC2x5hujeaLU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user51",
+        "first_name": "Ягофаров Оскар Фаитович",
+        "last_name": "",
+        "email": "perm@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:56.136Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$2Fj8dnzGB7o56LeVhkdJBk$Z472D/g0CTaunEm8F/T64n9homYPhYSv31wlWxpI+ZI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user52",
+        "first_name": "Вечеренко Дмитрий Сергеевич",
+        "last_name": "",
+        "email": "orenburg@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:56.401Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Whd4UFMgPQKp8XrbRGoAIt$tuFhNa644zLRWSNemIM7q705cM76vPU1QpKHdjDdLQ8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user53",
+        "first_name": "Абдулаев Магомед Магомедгаджиевич",
+        "last_name": "",
+        "email": "Fsprd@mail.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:56.667Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$4CsIQcGmlqIbV3zK1mhaw6$hmi6rRrduyGNofO/MtOBjHvrrR3e1hxAhLPn4rf1duc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user54",
+        "first_name": "Нечет Сергей Геннадьевич",
+        "last_name": "",
+        "email": "chelyablnsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:56.933Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$qMGbBtqWk9GoZhjTjMGDUb$cfoK0wEEwV4BCjYsuMZwi/xNTyaladTgd9LqDFK3OvE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user55",
+        "first_name": "Павлов Вадим Вячеславович",
+        "last_name": "",
+        "email": "ulyanovsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:57.198Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$eamFXZ9FxvCPZNckQMFsHv$cAabqnXO04+p/EsYLr1tgGpSh4V+h5JdTmxmlG0aEyc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user56",
+        "first_name": "Журавлев Владимир Борисович",
+        "last_name": "",
+        "email": "kursk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:57.462Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$IBX64esTXBQA87fsTcZz1y$GmKyBPSRaplNJvyIbpvUsjevCn59sMkJBFTyYNdME6U=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user57",
+        "first_name": "Иванищев Юрий Ильич",
+        "last_name": "",
+        "email": "omsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:57.727Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ukNQb1wMQkXzLEw5XYhR3f$Lgh0iaD4+3FmCB8nCGSGrU/qZ45OZQdSWWRlFo/oMkc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user58",
+        "first_name": "Тюбеев Мурат Абдуллахович",
+        "last_name": "",
+        "email": "kabardino-balkaria@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:58.000Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$mE28dlpfBms0qrEmUN8GU4$bscqUhhX8z3te6w9E33jzQCe1oBXfv70ru7K+DAOf+g=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user59",
+        "first_name": "Зырянов Сергей Геннадиевич\t",
+        "last_name": "",
+        "email": "crimea@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:58.266Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$QDSwfW5u2IfL9956nd7IRi$MStZw+MaBBfn/Hnf6YBbIu1UEc8gTVcXvW7ebbC7Ac4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user60",
+        "first_name": "Мальцева-Светличная Ольга Валерьевна",
+        "last_name": "",
+        "email": "fsp_lnr@mail.ru сайт: www.fsp-lnr.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:58.530Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$3YS4DPtZW69hTw9DN5dLcQ$PFw1MYX4Faq/3mNasSPYjIZMkx9HI6/2pskOfJR2o5E=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user61",
+        "first_name": "Николаев Николай Борисович",
+        "last_name": "",
+        "email": "sakha@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:58.797Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$dcAkCa2Vhzynv73LCLV72I$1RcgI9i4SnQ9AMQlxjt/7ZLdeIJBmUIdp3tCCMurEO0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user62",
+        "first_name": "Мельников Олег Николаевич",
+        "last_name": "",
+        "email": "vologda@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:59.064Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$nhSJNfpgXmYfAjF5jOC5ah$L0orKmnFXgW1tf0KTA7iOKsPnLZEEjKNBsNuBf84BuY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user63",
+        "first_name": "Попова Елена Владимировна",
+        "last_name": "",
+        "email": "volgograd@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:59.330Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$b6Pw8EgMAn8kOgJhMnlwz6$KX1WF2ngHb0llNH5ozeBBAz/gVv8Ib8Z7gtR8HhIzNQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user64",
+        "first_name": "Оюн Субудай Викторович",
+        "last_name": "",
+        "email": "tuva@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:59.595Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$5OCAqPEeCC8MUgyX2Edhdy$QuHre1QiEgCXClHrs9r3BPWxV3BrrG5959qBPdOXQQY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user65",
+        "first_name": "Анашкин Евгений Юрьевич",
+        "last_name": "",
+        "email": "fspmsk@mail.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:55:59.859Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$vmfFQM4F3Voi5duBjOcYl9$zgF88CGEYuhtwhLkw2NgmnG4gPhedftql3zINEfu+dc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user66",
+        "first_name": "Чалый Дмитрий Юрьевич",
+        "last_name": "",
+        "email": "yaroslavl@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:00.124Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$n2lqikVS97sGKvbA3I7SPS$z2hkC0gmSb7vFcwINarmgFMwA8KO3zwa29U+SBS1AZg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user67",
+        "first_name": "Колесников Алексей",
+        "last_name": "",
+        "email": "kaluga@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:00.389Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$6MtuDT2AIe4ZkN0DLTYnpQ$cVUZ/+uslJ1HJYOFEqsSdmlmGYfj4a4rxe89MtRA+Uk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user68",
+        "first_name": "Снитко Владимир Алексеевич",
+        "last_name": "",
+        "email": "primorsky@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:00.660Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$7PJZjdIgeCsDh5OvDZKnGQ$SOw0BATmYXSnj3E5fdhrOqfkCtIIvLfaFOFrINQESYk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user69",
+        "first_name": "Ульянов Владимир",
+        "last_name": "",
+        "email": "voronezh@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:00.938Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$UNdumCbwHENBsMdcaxUDBG$BYlj/+xwBKMQf5i+3XDFaZOQxWOt504uhqa0d1Ob22w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user70",
+        "first_name": "Степаненков Марк Валерьевич",
+        "last_name": "",
+        "email": "pskov@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:01.214Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$UP4t1iD52KRXDz1DHEboJ8$ERmIX3ggexqV69tNvxNnJn7rNEepJRsLpKsXS1nRGxg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user71",
+        "first_name": "Капулин Денис Владимирович",
+        "last_name": "",
+        "email": "krasnoyarsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:01.487Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$YbDlnZEbSm3WwSnOV8v2RY$V0SZG3CvOJyPHwXash/BOXeylyI8Nc7cBjgLbbMfcY0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user72",
+        "first_name": "Набиев Александр Эльдарович",
+        "last_name": "",
+        "email": "fspchuv@mail.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:01.759Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$k5pprXBwMa7yVc63frFnSL$BrRq2Z41KJDhaFcyczU31ygKYaYmwTwP9wZifXotiIU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user73",
+        "first_name": "Пожидаев Петр Вячеславович",
+        "last_name": "",
+        "email": "tver@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:02.031Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$EfkoAs5hKLVnmMqdBPcMMj$x1fWoLHXMxrTJ5wx/eOLuokr/4mlvb6ah/862x5NUj8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user74",
+        "first_name": "Нартиков Александр Георгиевич",
+        "last_name": "",
+        "email": "ossetia-alania@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:02.301Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$UDA9WQdbWd22P6Lna7amgW$XSokBG4QJqMeBQcHA9Y1Zw5KA1q8Zi3lQhRBHRClgUQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user75",
+        "first_name": "Бородинов Николай Александрович",
+        "last_name": "",
+        "email": "khabarovsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:02.574Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$1IYUeGagvRlg4bDesGFE8I$b/wftoyZnv+aGtB7ThXuw1wwx8E+Vrmr1kjq5REEnEI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user76",
+        "first_name": "Демчик Ирина Игоревна",
+        "last_name": "",
+        "email": "nenets@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:02.846Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$5BYHHqOeqL2uUNn4fZw2rX$JrgA2UMJa9+X3uI3vMR+DMcsLW1S7A4F1sL09Amb+lQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user77",
+        "first_name": "Данилов Максим Олегович",
+        "last_name": "",
+        "email": "novosiblrsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:03.118Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$cQhxOQP8cjm2Pl114mVtM2$s/6/R1h2SLBy8cy2LmlwzOiGC+/YzIjVfLYNLP+6f0c=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user78",
+        "first_name": "Казаков Олег Дмитриевич",
+        "last_name": "",
+        "email": "bryansk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:03.390Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$F7AlaiMsrJBZPYZru4Zphy$7zu7bMp+HWxJWFuE2K081FFf68INLRsjkS6URrk61yM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user80",
+        "first_name": "Бережной Антон Константинович",
+        "last_name": "",
+        "email": "magadan@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:03.660Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ZPW9RWMY6Z8QTziHYJPyGU$kTPqal6mDEDWAMVXk1XDSi1avajJozeylh7SLFoFIeA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user81",
+        "first_name": "Небольсин Михаил Юрьевич",
+        "last_name": "",
+        "email": "nizhny-novgorod@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:03.930Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$3od7cO8XkfT7yGhl2ie5SD$VPWONrFmn3JKZP+whcXNajj7jfMxkpa8BIyXjl4qLxQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user82",
+        "first_name": "Буинцев Дмитрий Николаевич",
+        "last_name": "",
+        "email": "tomsk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:04.197Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Lqc1JYwvmdr2NWo8sjxtC4$nh/f/AGinwujmdIFXFCO9iM1DOXzr1rgNqPnc2Ur43U=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user83",
+        "first_name": "Сенкевич Людмила Борисовна",
+        "last_name": "",
+        "email": "tyumen@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:04.460Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$9eDCTPD5Yd5V01glc1C8oH$+XacNLkRzMdNOf/RUiSYV3/mEPZixXnB82FTsyEjJWw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user84",
+        "first_name": "Пешков Григорий Сергеевич",
+        "last_name": "",
+        "email": "jewish@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:04.725Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$YqapajDGoh9opLkhslUBUO$iKnn9OqyUMJMIwiz6Navl2yQ46S/J9u+CShu4Nz7OJU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user85",
+        "first_name": "Гашимова Лариса Павловна",
+        "last_name": "",
+        "email": "yamalo-nenets@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:04.988Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$vHq3sWiAoUKtvY7UfcN4GA$nj9RRnhjJosMOYMOYBYrJC4pZt7Ql/5wKZLfBXz506k=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user86",
+        "first_name": "Пижевский Дмитрий Евгеньевич",
+        "last_name": "",
+        "email": "stavropol@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:05.252Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$gMetFwWpmls8caT1A0cr3G$4K29hlHZhltt6OvYmCxmuhrLp7oPckQ+mx7iy04ESqk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user87",
+        "first_name": "Шляпников Денис Игоревич",
+        "last_name": "",
+        "email": "murmansk@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:05.516Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$WexH8uxAsbjXwqc44Uehza$1AK3wSlrK+nfjJHHIbAd6/Clc+y2zqzJaTj70tvRqyI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user89",
+        "first_name": "Анашкин Евгений Юрьевич",
+        "last_name": "",
+        "email": "moscow-obl@fsp-russia.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T11:56:05.786Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "48b99da0d9ae1cb992cb705d15b616c8f2200d09",
+    "fields": {
+        "user": [
+            "evv"
+        ],
+        "created": "2024-12-07T03:32:04.547Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "7946709b426b90757a66f7ea64cc55260edbbd43",
+    "fields": {
+        "user": [
+            "rs"
+        ],
+        "created": "2024-12-07T03:32:08.749Z"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 1,
+    "fields": {
+        "name": "НР"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 2,
+    "fields": {
+        "name": "ДФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 3,
+    "fields": {
+        "name": "СФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 4,
+    "fields": {
+        "name": "ЦФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 5,
+    "fields": {
+        "name": "СЗФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 6,
+    "fields": {
+        "name": "ЮФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 7,
+    "fields": {
+        "name": "СКФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 8,
+    "fields": {
+        "name": "ПФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 9,
+    "fields": {
+        "name": "УрФО"
+    }
+},
+{
+    "model": "country.region",
+    "pk": 1,
+    "fields": {
+        "district": 1,
+        "name": "Московская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 2,
+    "fields": {
+        "district": 2,
+        "name": "Республика Саха (Якутия)",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 3,
+    "fields": {
+        "district": null,
+        "name": "Донецкая Народная Республика",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 4,
+    "fields": {
+        "district": null,
+        "name": "Пензенская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 5,
+    "fields": {
+        "district": null,
+        "name": "Архангельская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 6,
+    "fields": {
+        "district": null,
+        "name": "Республика Адыгея",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 7,
+    "fields": {
+        "district": null,
+        "name": "Республика Карелия",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 8,
+    "fields": {
+        "district": null,
+        "name": "Смоленская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 9,
+    "fields": {
+        "district": null,
+        "name": "Ленинградская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 10,
+    "fields": {
+        "district": null,
+        "name": "Рязанская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 11,
+    "fields": {
+        "district": null,
+        "name": "Республика Татарстан",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 12,
+    "fields": {
+        "district": null,
+        "name": "город Севастополь",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 13,
+    "fields": {
+        "district": null,
+        "name": "Сахалинская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 14,
+    "fields": {
+        "district": null,
+        "name": "Костромская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 15,
+    "fields": {
+        "district": null,
+        "name": "Астраханская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 16,
+    "fields": {
+        "district": null,
+        "name": "Свердловская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 17,
+    "fields": {
+        "district": null,
+        "name": "Ханты-Мансийский автономный округ – Югра",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 18,
+    "fields": {
+        "district": null,
+        "name": "Тульская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 19,
+    "fields": {
+        "district": null,
+        "name": "Республика Хакасия",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 20,
+    "fields": {
+        "district": null,
+        "name": "Калининградская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 21,
+    "fields": {
+        "district": null,
+        "name": "Иркутская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 22,
+    "fields": {
+        "district": null,
+        "name": "Республика Ингушетия",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 23,
+    "fields": {
+        "district": null,
+        "name": "Алтайский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 24,
+    "fields": {
+        "district": null,
+        "name": "Кемеровская область - Кузбасс",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 25,
+    "fields": {
+        "district": null,
+        "name": "Ивановская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 26,
+    "fields": {
+        "district": null,
+        "name": "Республика Башкортостан",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 27,
+    "fields": {
+        "district": null,
+        "name": "Запорожская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 28,
+    "fields": {
+        "district": null,
+        "name": "Республика Калмыкия",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 29,
+    "fields": {
+        "district": null,
+        "name": "Самарская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 30,
+    "fields": {
+        "district": null,
+        "name": "Орловская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 31,
+    "fields": {
+        "district": null,
+        "name": "Ростовская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 32,
+    "fields": {
+        "district": null,
+        "name": "Камчатский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 33,
+    "fields": {
+        "district": null,
+        "name": "Карачаево-Черкесская Республика",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 34,
+    "fields": {
+        "district": null,
+        "name": "Новгородская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 35,
+    "fields": {
+        "district": null,
+        "name": "Саратовская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 36,
+    "fields": {
+        "district": null,
+        "name": "Забайкальский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 37,
+    "fields": {
+        "district": null,
+        "name": "Владимирская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 38,
+    "fields": {
+        "district": null,
+        "name": "Республика Коми",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 39,
+    "fields": {
+        "district": null,
+        "name": "Белгородская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 40,
+    "fields": {
+        "district": null,
+        "name": "Амурская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 41,
+    "fields": {
+        "district": null,
+        "name": "Краснодарский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 42,
+    "fields": {
+        "district": null,
+        "name": "Республика Мордовия",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 43,
+    "fields": {
+        "district": null,
+        "name": "Республика Алтай",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 44,
+    "fields": {
+        "district": null,
+        "name": "Чукотский АО",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 45,
+    "fields": {
+        "district": null,
+        "name": "Липецкая область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 46,
+    "fields": {
+        "district": null,
+        "name": "Республика Марий Эл",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 47,
+    "fields": {
+        "district": null,
+        "name": "Кировская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 48,
+    "fields": {
+        "district": null,
+        "name": "Удмуртская Республика",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 49,
+    "fields": {
+        "district": null,
+        "name": "г. Санкт Петербург",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 50,
+    "fields": {
+        "district": null,
+        "name": "Курганская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 51,
+    "fields": {
+        "district": null,
+        "name": "Республика Бурятия",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 52,
+    "fields": {
+        "district": null,
+        "name": "Чеченская Республика",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 53,
+    "fields": {
+        "district": null,
+        "name": "Пермский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 54,
+    "fields": {
+        "district": null,
+        "name": "Оренбургская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 55,
+    "fields": {
+        "district": null,
+        "name": "Республика Дагестан",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 56,
+    "fields": {
+        "district": null,
+        "name": "Челябинская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 57,
+    "fields": {
+        "district": null,
+        "name": "Ульяновская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 58,
+    "fields": {
+        "district": null,
+        "name": "Курская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 59,
+    "fields": {
+        "district": null,
+        "name": "Омская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 60,
+    "fields": {
+        "district": null,
+        "name": "Кабардино-Балкарская Республика",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 61,
+    "fields": {
+        "district": 1,
+        "name": "Республика Крым",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 62,
+    "fields": {
+        "district": null,
+        "name": "Луганская Народная Республика",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 64,
+    "fields": {
+        "district": null,
+        "name": "Вологодская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 65,
+    "fields": {
+        "district": null,
+        "name": "Волгоградская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 66,
+    "fields": {
+        "district": null,
+        "name": "Республика Тыва",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 67,
+    "fields": {
+        "district": null,
+        "name": "г. Москва",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 68,
+    "fields": {
+        "district": null,
+        "name": "Ярославская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 69,
+    "fields": {
+        "district": null,
+        "name": "Калужская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 70,
+    "fields": {
+        "district": null,
+        "name": "Приморский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 71,
+    "fields": {
+        "district": null,
+        "name": "Воронежская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 72,
+    "fields": {
+        "district": null,
+        "name": "Псковская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 73,
+    "fields": {
+        "district": null,
+        "name": "Красноярский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 74,
+    "fields": {
+        "district": null,
+        "name": "Чувашская Республика",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 75,
+    "fields": {
+        "district": null,
+        "name": "Тверская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 76,
+    "fields": {
+        "district": null,
+        "name": "Республика Северная Осетия - Алания",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 77,
+    "fields": {
+        "district": null,
+        "name": "Хабаровский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 78,
+    "fields": {
+        "district": null,
+        "name": "Ненецкий автономный округ",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 79,
+    "fields": {
+        "district": null,
+        "name": "Новосибирская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 80,
+    "fields": {
+        "district": null,
+        "name": "Брянская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 81,
+    "fields": {
+        "district": null,
+        "name": "Тамбовская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 82,
+    "fields": {
+        "district": null,
+        "name": "Магаданская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 83,
+    "fields": {
+        "district": null,
+        "name": "Нижегородская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 84,
+    "fields": {
+        "district": null,
+        "name": "Томская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 85,
+    "fields": {
+        "district": null,
+        "name": "Тюменская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 86,
+    "fields": {
+        "district": null,
+        "name": "Еврейский АО",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 87,
+    "fields": {
+        "district": null,
+        "name": "Ямало-Ненецкий АО",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 88,
+    "fields": {
+        "district": null,
+        "name": "Ставропольский край",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 89,
+    "fields": {
+        "district": null,
+        "name": "Мурманская область",
+        "code": null
+    }
+},
+{
+    "model": "country.region",
+    "pk": 90,
+    "fields": {
+        "district": 1,
+        "name": "Херсонская область",
+        "code": "21"
+    }
+},
+{
+    "model": "country.city",
+    "pk": 1,
+    "fields": {
+        "region": 1,
+        "name": "Зеленоград"
+    }
+},
+{
+    "model": "contests.sporttype",
+    "pk": 1,
+    "fields": {
+        "name": "Спортивное программирование"
+    }
+},
+{
+    "model": "contests.discipline",
+    "pk": 1,
+    "fields": {
+        "sport_type": 1,
+        "name": "Алгоритмическое программирование"
+    }
+},
+{
+    "model": "contests.discipline",
+    "pk": 2,
+    "fields": {
+        "sport_type": 1,
+        "name": "Продуктовое программирование"
+    }
+},
+{
+    "model": "contests.discipline",
+    "pk": 3,
+    "fields": {
+        "sport_type": 1,
+        "name": "Безопасность"
+    }
+},
+{
+    "model": "contests.contesttype",
+    "pk": 1,
+    "fields": {
+        "name": "Региональный"
+    }
+},
+{
+    "model": "contests.contesttype",
+    "pk": 2,
+    "fields": {
+        "name": "Межрегиональный"
+    }
+},
+{
+    "model": "contests.contesttype",
+    "pk": 3,
+    "fields": {
+        "name": "Всероссийский"
+    }
+},
+{
+    "model": "contests.contesttype",
+    "pk": 4,
+    "fields": {
+        "name": "Международный"
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 1,
+    "fields": {
+        "gender": 1,
+        "start": 18,
+        "end": null
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 2,
+    "fields": {
+        "gender": 0,
+        "start": 18,
+        "end": null
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 3,
+    "fields": {
+        "gender": 1,
+        "start": 14,
+        "end": 17
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 4,
+    "fields": {
+        "gender": 0,
+        "start": 14,
+        "end": 17
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 5,
+    "fields": {
+        "gender": 1,
+        "start": 17,
+        "end": 25
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 6,
+    "fields": {
+        "gender": 0,
+        "start": 17,
+        "end": 25
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 1,
+    "fields": {
+        "name": "Чемпионат России",
+        "start_time": "2024-12-06T10:00:00Z",
+        "end_time": "2024-12-15T18:00:00Z",
+        "place": "1",
+        "contest_char": "Линчная",
+        "contest_type": 3,
+        "format": "ONLINE",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 2,
+    "fields": {
+        "name": "Первенство России",
+        "start_time": "2024-12-06T10:00:00Z",
+        "end_time": "2024-12-15T18:00:00Z",
+        "place": "1",
+        "contest_char": "Линчная",
+        "contest_type": 3,
+        "format": "ONLINE",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 2,
+    "fields": {
+        "contest": 1,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 3,
+    "fields": {
+        "contest": 2,
+        "discipline": 3
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 4,
+    "fields": {
+        "contest": 2,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 5,
+    "fields": {
+        "contest": 2,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 1,
+    "fields": {
+        "contest": 1,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 2,
+    "fields": {
+        "contest": 1,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 5,
+    "fields": {
+        "contest": 2,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 6,
+    "fields": {
+        "contest": 2,
+        "age_group": 4
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 1,
+    "fields": {
+        "name": "ФСПРСЯ",
+        "email": "fsp@ykt.ru",
+        "phone": "9141234567",
+        "address": "г Якутск",
+        "agent": [
+            "rs"
+        ],
+        "level": "REG",
+        "region": 2,
+        "logo": null
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 2,
+    "fields": {
+        "name": "ФСПДНР",
+        "email": "fsp-dnr@mail.ru",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user1"
+        ],
+        "level": "REG",
+        "region": 3,
+        "logo": "https://fsp-russia.com/upload/iblock/7bd/h5wievsauq2wywbz428cw4hjn9zf84bj.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 3,
+    "fields": {
+        "name": "ФСППо",
+        "email": "penza@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user2"
+        ],
+        "level": "REG",
+        "region": 4,
+        "logo": "https://fsp-russia.com/upload/iblock/c31/oepriibdn4mwosj8w09zssziopov09ca.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 4,
+    "fields": {
+        "name": "ФСПАо",
+        "email": "arkhangelsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user3"
+        ],
+        "level": "REG",
+        "region": 5,
+        "logo": "https://fsp-russia.com/upload/iblock/23c/j8pq20g2g6g0da73djdy7f52vf8nqw69.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 5,
+    "fields": {
+        "name": "ФСПРА",
+        "email": "adygea@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user4"
+        ],
+        "level": "REG",
+        "region": 6,
+        "logo": "https://fsp-russia.com/upload/iblock/18f/0jgklfvu5hyukggqrinirihnyat97rwb.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 6,
+    "fields": {
+        "name": "ФСПРК",
+        "email": "karelia@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user5"
+        ],
+        "level": "REG",
+        "region": 7,
+        "logo": "https://fsp-russia.com/upload/iblock/4e2/23qgas5621kvuw3li7n9kihqlk8bxpqc.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 7,
+    "fields": {
+        "name": "ФСПСо",
+        "email": "smolensk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user6"
+        ],
+        "level": "REG",
+        "region": 8,
+        "logo": "https://fsp-russia.com/upload/iblock/b1d/6zvtdehidc4gww1i0kd4gmuiysuow7n6.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 8,
+    "fields": {
+        "name": "ФСПЛо",
+        "email": "leningrad@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user7"
+        ],
+        "level": "REG",
+        "region": 9,
+        "logo": "https://fsp-russia.com/upload/iblock/bec/xcapgnwi1w2l9uf9nwfji1o7f9wr8blu.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 9,
+    "fields": {
+        "name": "ФСПРо",
+        "email": "ryazan@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user8"
+        ],
+        "level": "REG",
+        "region": 10,
+        "logo": "https://fsp-russia.com/upload/iblock/ce3/6przwt0ypcar93ma7rtv9hy8xov56out.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 10,
+    "fields": {
+        "name": "ФСПРТ",
+        "email": "fsprt@inbox.ru",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user9"
+        ],
+        "level": "REG",
+        "region": 11,
+        "logo": "https://fsp-russia.com/upload/iblock/723/oyrasmt0ad973vrlux489t8yiqyg1djz.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 11,
+    "fields": {
+        "name": "ФСПгС",
+        "email": "sevastopol@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user10"
+        ],
+        "level": "REG",
+        "region": 12,
+        "logo": "https://fsp-russia.com/upload/iblock/892/dijsncgdz5se0xxhu0ozme0x4ghlwomq.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 12,
+    "fields": {
+        "name": "ФСПСо",
+        "email": "sakhalin@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user11"
+        ],
+        "level": "REG",
+        "region": 13,
+        "logo": "https://fsp-russia.com/upload/iblock/01a/cfnrjosbelh201wnkpd9r17tp0ycrcma.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 13,
+    "fields": {
+        "name": "ФСПКо",
+        "email": "kostroma@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user12"
+        ],
+        "level": "REG",
+        "region": 14,
+        "logo": "https://fsp-russia.com/upload/iblock/117/wvcm4npgo9nx3op6ywxo943abgwar8ze.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 14,
+    "fields": {
+        "name": "ФСПАо",
+        "email": "astrakhan@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user13"
+        ],
+        "level": "REG",
+        "region": 15,
+        "logo": "https://fsp-russia.com/upload/iblock/71b/7720gkmxx1k3o36non3b2tck83o3didi.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 15,
+    "fields": {
+        "name": "ФСПСо",
+        "email": "sverdlovsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user14"
+        ],
+        "level": "REG",
+        "region": 16,
+        "logo": "https://fsp-russia.com/upload/iblock/24d/fz65lydsdlmifn2aa7von0aiwjnsqzu1.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 16,
+    "fields": {
+        "name": "ФСПХао–Ю",
+        "email": "hmao@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user15"
+        ],
+        "level": "REG",
+        "region": 17,
+        "logo": "https://fsp-russia.com/upload/iblock/f54/asnvytrv8f5r6v3jbydw17etbujt4ewb.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 17,
+    "fields": {
+        "name": "ФСПТо",
+        "email": "tula@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user16"
+        ],
+        "level": "REG",
+        "region": 18,
+        "logo": "https://fsp-russia.com/upload/iblock/8a2/gvyqx5ib4z474ykva3klyse3idjqlzys.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 18,
+    "fields": {
+        "name": "ФСПРХ",
+        "email": "khakassia@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user17"
+        ],
+        "level": "REG",
+        "region": 19,
+        "logo": "https://fsp-russia.com/upload/iblock/879/htyeaem5o3qs4u93jh1o6qg1iz3af54o.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 19,
+    "fields": {
+        "name": "ФСПКо",
+        "email": "info@fsp-kaliningrad.ru",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user18"
+        ],
+        "level": "REG",
+        "region": 20,
+        "logo": "https://fsp-russia.com/upload/iblock/787/9xxtt1brhrcrznjdvva1yiedgvwxxyyo.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 20,
+    "fields": {
+        "name": "ФСПИо",
+        "email": "irkutsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user19"
+        ],
+        "level": "REG",
+        "region": 21,
+        "logo": "https://fsp-russia.com/upload/iblock/a85/wu1uqone2s27759afdp2j3agd0kexwb1.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 21,
+    "fields": {
+        "name": "ФСПРИ",
+        "email": "lngushetia@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user20"
+        ],
+        "level": "REG",
+        "region": 22,
+        "logo": "https://fsp-russia.com/upload/iblock/deb/2san37ozd2fvt77msovho39ceep399b2.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 22,
+    "fields": {
+        "name": "ФСПАк",
+        "email": "altai-k@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user21"
+        ],
+        "level": "REG",
+        "region": 23,
+        "logo": "https://fsp-russia.com/upload/iblock/822/pm0b2uz13r5nfjantzana1r3j0e36n8i.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 23,
+    "fields": {
+        "name": "ФСПКо-К",
+        "email": "kuzbass@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user22"
+        ],
+        "level": "REG",
+        "region": 24,
+        "logo": "https://fsp-russia.com/upload/iblock/27e/j53vmqf2wajy1vg71doajogw4zjalr6x.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 24,
+    "fields": {
+        "name": "ФСПИо",
+        "email": "lvanovo@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user23"
+        ],
+        "level": "REG",
+        "region": 25,
+        "logo": "https://fsp-russia.com/upload/iblock/3ab/izz9pc2hucrsl11sf4ach6d0p9zahqj1.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 25,
+    "fields": {
+        "name": "ФСПРБ",
+        "email": "bashkortostan@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user24"
+        ],
+        "level": "REG",
+        "region": 26,
+        "logo": "https://fsp-russia.com/upload/iblock/1f9/b8iftevmxqil4dlcm62497jf6usz3mr1.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 26,
+    "fields": {
+        "name": "ФСПЗо",
+        "email": "directum@fsp-zo.ru",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user25"
+        ],
+        "level": "REG",
+        "region": 27,
+        "logo": "https://fsp-russia.com/upload/iblock/043/56ww5rnxbpczl4fgsr51vl31oqw9r8of.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 27,
+    "fields": {
+        "name": "ФСПРК",
+        "email": "kalmykia@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user26"
+        ],
+        "level": "REG",
+        "region": 28,
+        "logo": "https://fsp-russia.com/upload/iblock/0da/yocsbyxohcgsvwz3qbctpr69ibkemvoa.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 28,
+    "fields": {
+        "name": "ФСПСо",
+        "email": "samara@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user27"
+        ],
+        "level": "REG",
+        "region": 29,
+        "logo": "https://fsp-russia.com/upload/iblock/8f2/emw9yyesaqvoiijt8z8702ye6tjfvkig.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 29,
+    "fields": {
+        "name": "ФСПОо",
+        "email": "oryol@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user28"
+        ],
+        "level": "REG",
+        "region": 30,
+        "logo": "https://fsp-russia.com/upload/iblock/b59/07j0o8wrfg4nh8i5wiyncz5p8qw98q0m.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 30,
+    "fields": {
+        "name": "ФСПРо",
+        "email": "rostov@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user29"
+        ],
+        "level": "REG",
+        "region": 31,
+        "logo": "https://fsp-russia.com/upload/iblock/759/61glsmminfhyerkpfrxtfyzk07yrh51r.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 31,
+    "fields": {
+        "name": "ФСПКк",
+        "email": "kamchatka@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user30"
+        ],
+        "level": "REG",
+        "region": 32,
+        "logo": "https://fsp-russia.com/upload/iblock/a14/qcmt7xapkn6o9cvkp30725bzwr455mvx.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 32,
+    "fields": {
+        "name": "ФСПКР",
+        "email": "karachay-cherkessia@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user31"
+        ],
+        "level": "REG",
+        "region": 33,
+        "logo": "https://fsp-russia.com/upload/iblock/29f/24cy7il3hdkv6jxwiw6opovqb7lsa9xm.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 33,
+    "fields": {
+        "name": "ФСПНо",
+        "email": "novgorod@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user32"
+        ],
+        "level": "REG",
+        "region": 34,
+        "logo": "https://fsp-russia.com/upload/iblock/30a/6uhkt0rwlcoo3dzlh3xtgimy3c1cxvo6.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 34,
+    "fields": {
+        "name": "ФСПСо",
+        "email": "saratov@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user33"
+        ],
+        "level": "REG",
+        "region": 35,
+        "logo": "https://fsp-russia.com/upload/iblock/c49/2myab7t585flzrt9mpnwmfpawu57gx74.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 35,
+    "fields": {
+        "name": "ФСПЗк",
+        "email": "zabaykalsky@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user34"
+        ],
+        "level": "REG",
+        "region": 36,
+        "logo": "https://fsp-russia.com/upload/iblock/db5/kw3k1hjlcwk9jt32swi6fwelr7ka2lhu.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 36,
+    "fields": {
+        "name": "ФСПВо",
+        "email": "vladimir@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user35"
+        ],
+        "level": "REG",
+        "region": 37,
+        "logo": "https://fsp-russia.com/upload/iblock/a99/1c7rnluv1hd0l8vt5zxkccrs4kt33wyj.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 37,
+    "fields": {
+        "name": "ФСПРК",
+        "email": "komi@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user36"
+        ],
+        "level": "REG",
+        "region": 38,
+        "logo": "https://fsp-russia.com/upload/iblock/b73/02dee6q1u6vg604a1njjovyom7zhh4o4.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 38,
+    "fields": {
+        "name": "ФСПБо",
+        "email": "belgorod@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": null,
+        "level": "REG",
+        "region": 39,
+        "logo": "https://fsp-russia.com/upload/iblock/90a/zdd6rs7puopkzzq3tng1o2mu8vzxir4y.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 39,
+    "fields": {
+        "name": "ФСПАо",
+        "email": "amur@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user38"
+        ],
+        "level": "REG",
+        "region": 40,
+        "logo": "https://fsp-russia.com/upload/iblock/b70/6gv2x61g21ldww192x8y3xn9qyuhsgs7.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 40,
+    "fields": {
+        "name": "ФСПКк",
+        "email": "krasnodar@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user39"
+        ],
+        "level": "REG",
+        "region": 41,
+        "logo": "https://fsp-russia.com/upload/iblock/820/mcqxi2s5h1dbb1e96r701mbjluzpifs8.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 41,
+    "fields": {
+        "name": "ФСПРМ",
+        "email": "mordovia@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user40"
+        ],
+        "level": "REG",
+        "region": 42,
+        "logo": "https://fsp-russia.com/upload/iblock/9b0/mu6qd5jkr44lvhj9gchl2valy5bp38br.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 42,
+    "fields": {
+        "name": "ФСПРА",
+        "email": "altai@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user41"
+        ],
+        "level": "REG",
+        "region": 43,
+        "logo": "https://fsp-russia.com/upload/iblock/be3/d5ebrd2f329rzjftihgf2z3et70hlbvm.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 43,
+    "fields": {
+        "name": "ФСПЧА",
+        "email": "chukotka@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user42"
+        ],
+        "level": "REG",
+        "region": 44,
+        "logo": "https://fsp-russia.com/upload/iblock/6c3/31aj96q7csh4vgz6wg1el5q4cvqknmxp.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 44,
+    "fields": {
+        "name": "ФСПЛо",
+        "email": "lipetsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user43"
+        ],
+        "level": "REG",
+        "region": 45,
+        "logo": "https://fsp-russia.com/upload/iblock/7a1/f75k17emdbojn6n94lrpadyak9pso032.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 45,
+    "fields": {
+        "name": "ФСПРМЭ",
+        "email": "mari-ei@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user44"
+        ],
+        "level": "REG",
+        "region": 46,
+        "logo": "https://fsp-russia.com/upload/iblock/6c7/7d7t0c5g477xds7nen0vvgl8v0p5wipn.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 46,
+    "fields": {
+        "name": "ФСПКо",
+        "email": "kirov@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user45"
+        ],
+        "level": "REG",
+        "region": 47,
+        "logo": "https://fsp-russia.com/upload/iblock/174/fvnx0cq47qrlsw0ez3tubeakl466tw7x.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 47,
+    "fields": {
+        "name": "ФСПУР",
+        "email": "udmurtia@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user46"
+        ],
+        "level": "REG",
+        "region": 48,
+        "logo": "https://fsp-russia.com/upload/iblock/bad/ysn9b59bwp8njnww9tjen7r2nzpytbgo.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 48,
+    "fields": {
+        "name": "ФСПгСП",
+        "email": "saint-petersburg@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user47"
+        ],
+        "level": "REG",
+        "region": 49,
+        "logo": "https://fsp-russia.com/upload/iblock/635/fgefa46p3zl1hztcx5i14t9f02oq50tt.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 49,
+    "fields": {
+        "name": "ФСПКо",
+        "email": "kurgan@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user48"
+        ],
+        "level": "REG",
+        "region": 50,
+        "logo": "https://fsp-russia.com/upload/iblock/53a/4846rggi947ybs85yli64oyvmd1105qp.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 50,
+    "fields": {
+        "name": "ФСПРБ",
+        "email": "buryatia@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user49"
+        ],
+        "level": "REG",
+        "region": 51,
+        "logo": "https://fsp-russia.com/upload/iblock/c54/29svg226207h8yar0e3nn0zcq4i973r3.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 51,
+    "fields": {
+        "name": "ФСПЧР",
+        "email": "chechnya@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user50"
+        ],
+        "level": "REG",
+        "region": 52,
+        "logo": "https://fsp-russia.com/upload/iblock/bd2/fl839rfcspmfktt7zi5k246862xta7an.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 52,
+    "fields": {
+        "name": "ФСППк",
+        "email": "perm@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user51"
+        ],
+        "level": "REG",
+        "region": 53,
+        "logo": "https://fsp-russia.com/upload/iblock/cb9/7qx2ijea0e8sc5g8d6wepl9aytk3c4qt.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 53,
+    "fields": {
+        "name": "ФСПОо",
+        "email": "orenburg@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user52"
+        ],
+        "level": "REG",
+        "region": 54,
+        "logo": "https://fsp-russia.com/upload/iblock/109/bnini3enbob0k84wiibqgtsnw1yyfx8n.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 54,
+    "fields": {
+        "name": "ФСПРД",
+        "email": "Fsprd@mail.ru",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user53"
+        ],
+        "level": "REG",
+        "region": 55,
+        "logo": "https://fsp-russia.com/upload/iblock/d52/tzl13k7kd06kmv318xx60ju533v0rdz5.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 55,
+    "fields": {
+        "name": "ФСПЧо",
+        "email": "chelyablnsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user54"
+        ],
+        "level": "REG",
+        "region": 56,
+        "logo": "https://fsp-russia.com/upload/iblock/7de/p9sy48aw41v26i1v8twrjxwzmw6863jx.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 56,
+    "fields": {
+        "name": "ФСПУо",
+        "email": "ulyanovsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user55"
+        ],
+        "level": "REG",
+        "region": 57,
+        "logo": "https://fsp-russia.com/upload/iblock/1de/m3etwidocqnhhiz3cl17i68o578763eh.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 57,
+    "fields": {
+        "name": "ФСПКо",
+        "email": "kursk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user56"
+        ],
+        "level": "REG",
+        "region": 58,
+        "logo": "https://fsp-russia.com/upload/iblock/813/dt1qtj0mhez75bkd37cgda5a9tb9b5m8.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 58,
+    "fields": {
+        "name": "ФСПОо",
+        "email": "omsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user57"
+        ],
+        "level": "REG",
+        "region": 59,
+        "logo": "https://fsp-russia.com/upload/iblock/ffd/bkwcs7df10mjam1qm0g5aucrekjpmdfx.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 59,
+    "fields": {
+        "name": "ФСПКР",
+        "email": "kabardino-balkaria@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user58"
+        ],
+        "level": "REG",
+        "region": 60,
+        "logo": "https://fsp-russia.com/upload/iblock/8dc/sc4x0hjgyeddcdphm8p7epwmdu41ug88.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 60,
+    "fields": {
+        "name": "ФСПРК",
+        "email": "crimea@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user59"
+        ],
+        "level": "REG",
+        "region": 61,
+        "logo": "https://fsp-russia.com/upload/iblock/d8f/5a4i80y0t86pa8rwt3c8pfddk7seskgi.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 61,
+    "fields": {
+        "name": "ФСПЛНР",
+        "email": "fsp_lnr@mail.ru сайт: www.fsp-lnr.ru",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user60"
+        ],
+        "level": "REG",
+        "region": 62,
+        "logo": "https://fsp-russia.com/upload/iblock/584/yawii7yzdof959n9lef7oe99ud5g6qow.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 62,
+    "fields": {
+        "name": "ФСПРС",
+        "email": "sakha@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user61"
+        ],
+        "level": "REG",
+        "region": 2,
+        "logo": "https://fsp-russia.com/upload/iblock/ef1/z2dxw8rl2z4wb7iufro5n4uviokrbx1a.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 63,
+    "fields": {
+        "name": "ФСПВо",
+        "email": "vologda@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user62"
+        ],
+        "level": "REG",
+        "region": 64,
+        "logo": "https://fsp-russia.com/upload/iblock/57a/jndiv9yx8odi8hp93qbi88gzngqvf5vx.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 64,
+    "fields": {
+        "name": "ФСПВо",
+        "email": "volgograd@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user63"
+        ],
+        "level": "REG",
+        "region": 65,
+        "logo": "https://fsp-russia.com/upload/iblock/ef0/a4j4cwsj1xerjf3z6938plgpo44115cb.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 65,
+    "fields": {
+        "name": "ФСПРТ",
+        "email": "tuva@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user64"
+        ],
+        "level": "REG",
+        "region": 66,
+        "logo": "https://fsp-russia.com/upload/iblock/e21/bje5xj1bkj84mj1n18kr5voxzmwr1zhb.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 66,
+    "fields": {
+        "name": "ФСПгМ",
+        "email": "fspmsk@mail.ru",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user65"
+        ],
+        "level": "REG",
+        "region": 67,
+        "logo": "https://fsp-russia.com/upload/iblock/7b0/5n5imvtfzfn32tcqsdr2ce5adv7z73qv.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 67,
+    "fields": {
+        "name": "ФСПЯо",
+        "email": "yaroslavl@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user66"
+        ],
+        "level": "REG",
+        "region": 68,
+        "logo": "https://fsp-russia.com/upload/iblock/454/ivnf4abzdjz2mqg22y118ianrhu0dlo3.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 68,
+    "fields": {
+        "name": "ФСПКо",
+        "email": "kaluga@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user67"
+        ],
+        "level": "REG",
+        "region": 69,
+        "logo": "https://fsp-russia.com/upload/iblock/72d/xbtciyatn40joev77bpjk0a22k5ifs67.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 69,
+    "fields": {
+        "name": "ФСППк",
+        "email": "primorsky@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user68"
+        ],
+        "level": "REG",
+        "region": 70,
+        "logo": "https://fsp-russia.com/upload/iblock/4d9/f808pi0klhm1bxkxvmwktlxcagkpi3nz.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 70,
+    "fields": {
+        "name": "ФСПВо",
+        "email": "voronezh@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user69"
+        ],
+        "level": "REG",
+        "region": 71,
+        "logo": "https://fsp-russia.com/upload/iblock/010/77pl2zd2p1268s9k9quh1i66140ojdyl.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 71,
+    "fields": {
+        "name": "ФСППо",
+        "email": "pskov@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user70"
+        ],
+        "level": "REG",
+        "region": 72,
+        "logo": "https://fsp-russia.com/upload/iblock/c66/215ud67l0q5f5ipdwhgrunobi3u16zgk.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 72,
+    "fields": {
+        "name": "ФСПКк",
+        "email": "krasnoyarsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user71"
+        ],
+        "level": "REG",
+        "region": 73,
+        "logo": "https://fsp-russia.com/upload/iblock/98c/8vgrq2qqftck3uqgryscx1x0uib9a8fc.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 73,
+    "fields": {
+        "name": "ФСПЧР",
+        "email": "fspchuv@mail.ru",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user72"
+        ],
+        "level": "REG",
+        "region": 74,
+        "logo": "https://fsp-russia.com/upload/iblock/b2c/i2xdpi4m2drccjnu9v24vmqf80rnty88.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 74,
+    "fields": {
+        "name": "ФСПТо",
+        "email": "tver@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user73"
+        ],
+        "level": "REG",
+        "region": 75,
+        "logo": "https://fsp-russia.com/upload/iblock/176/6ddp6ck2yzara0ytqwrub1k5wh17poy8.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 75,
+    "fields": {
+        "name": "ФСПРСО-А",
+        "email": "ossetia-alania@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user74"
+        ],
+        "level": "REG",
+        "region": 76,
+        "logo": "https://fsp-russia.com/upload/iblock/d4a/iwxdq9zsybtbl25qmq0o8pp4xgyjwtp1.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 76,
+    "fields": {
+        "name": "ФСПХк",
+        "email": "khabarovsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user75"
+        ],
+        "level": "REG",
+        "region": 77,
+        "logo": "https://fsp-russia.com/upload/iblock/ed2/s4ee1n5jroyiu6kbotw1aw3d37lg62nq.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 77,
+    "fields": {
+        "name": "ФСПНао",
+        "email": "nenets@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user76"
+        ],
+        "level": "REG",
+        "region": 78,
+        "logo": "https://fsp-russia.com/upload/iblock/4f8/ft0vr54jb2dtr4oh5ury6o4il5hmmzlo.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 78,
+    "fields": {
+        "name": "ФСПНо",
+        "email": "novosiblrsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user77"
+        ],
+        "level": "REG",
+        "region": 79,
+        "logo": "https://fsp-russia.com/upload/iblock/c7c/5wv1fvut6fpyfwe8gocsrmvonb4i7u7l.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 79,
+    "fields": {
+        "name": "ФСПБо",
+        "email": "bryansk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user78"
+        ],
+        "level": "REG",
+        "region": 80,
+        "logo": "https://fsp-russia.com/upload/iblock/818/8e7wp6rwysn3cix42blhcypyul1r78kd.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 80,
+    "fields": {
+        "name": "ФСПТо",
+        "email": "tambov@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": null,
+        "level": "REG",
+        "region": 81,
+        "logo": "https://fsp-russia.com/upload/iblock/a0d/r028mo90uqrcipec1tkr922yx513reue.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 81,
+    "fields": {
+        "name": "ФСПМо",
+        "email": "magadan@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user80"
+        ],
+        "level": "REG",
+        "region": 82,
+        "logo": "https://fsp-russia.com/upload/iblock/11e/3513yn2otclb02fn8ap77wx8sledoh8k.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 82,
+    "fields": {
+        "name": "ФСПНо",
+        "email": "nizhny-novgorod@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user81"
+        ],
+        "level": "REG",
+        "region": 83,
+        "logo": "https://fsp-russia.com/upload/iblock/a95/u2xh21nx8xjcnaukcjzy6lab0s58e7t2.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 83,
+    "fields": {
+        "name": "ФСПТо",
+        "email": "tomsk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user82"
+        ],
+        "level": "REG",
+        "region": 84,
+        "logo": "https://fsp-russia.com/upload/iblock/3bb/kee5mhggd0p3ssmr6e25mf4ltjyub2f0.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 84,
+    "fields": {
+        "name": "ФСПТо",
+        "email": "tyumen@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user83"
+        ],
+        "level": "REG",
+        "region": 85,
+        "logo": "https://fsp-russia.com/upload/iblock/b74/c5vh3pnyt8t579kl9apx33zv03a7dmjj.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 85,
+    "fields": {
+        "name": "ФСПЕА",
+        "email": "jewish@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user84"
+        ],
+        "level": "REG",
+        "region": 86,
+        "logo": "https://fsp-russia.com/upload/iblock/db6/vsty7gls7vdhdfrtiifsc5m4blhvelyh.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 86,
+    "fields": {
+        "name": "ФСПЯА",
+        "email": "yamalo-nenets@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user85"
+        ],
+        "level": "REG",
+        "region": 87,
+        "logo": "https://fsp-russia.com/upload/iblock/1df/zyw6zhf7hw2p985n6jqsgx3kuahnfztu.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 87,
+    "fields": {
+        "name": "ФСПСк",
+        "email": "stavropol@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user86"
+        ],
+        "level": "REG",
+        "region": 88,
+        "logo": "https://fsp-russia.com/upload/iblock/de6/hsaz5w09zoycm2wt27p1p35ex315c8cf.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 88,
+    "fields": {
+        "name": "ФСПМо",
+        "email": "murmansk@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user87"
+        ],
+        "level": "REG",
+        "region": 89,
+        "logo": "https://fsp-russia.com/upload/iblock/71a/ntlibcnwm53vxreyadwbyg5h0z0cakgo.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 89,
+    "fields": {
+        "name": "ФСПХо",
+        "email": "kherson@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": null,
+        "level": "REG",
+        "region": 90,
+        "logo": "https://fsp-russia.com/upload/iblock/9d4/amc3vbsl5i82sx7labf4j6healv3f9ku.jpg"
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 90,
+    "fields": {
+        "name": "ФСПМо",
+        "email": "moscow-obl@fsp-russia.com",
+        "phone": null,
+        "address": null,
+        "agent": [
+            "user89"
+        ],
+        "level": "REG",
+        "region": 1,
+        "logo": "https://fsp-russia.com/upload/iblock/ed1/g6n33a11szyzcp9slgpqewrgbafl8ds3.jpg"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-12-07T01:22:33.534Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "sporttype"
+        ],
+        "object_id": "1",
+        "object_repr": "Спортивное программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-12-07T01:22:47.457Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "1",
+        "object_repr": "Алгоритмическое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-12-07T01:22:58.033Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "2",
+        "object_repr": "Продуктовое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-12-07T01:23:13.130Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "3",
+        "object_repr": "Безопасность",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-12-07T01:23:31.294Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contesttype"
+        ],
+        "object_id": "1",
+        "object_repr": "Региональный",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-12-07T01:23:37.813Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contesttype"
+        ],
+        "object_id": "2",
+        "object_repr": "Межрегиональный",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-12-07T01:23:42.713Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contesttype"
+        ],
+        "object_id": "3",
+        "object_repr": "Всероссийский",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-12-07T01:23:48.469Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contesttype"
+        ],
+        "object_id": "4",
+        "object_repr": "Международный",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-12-07T01:28:22.802Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "1",
+        "object_repr": "Мужчина 18-None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-12-07T01:28:30.249Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "2",
+        "object_repr": "Женщина 18-None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-12-07T01:28:52.015Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Мужчина 14-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-12-07T01:29:20.606Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "4",
+        "object_repr": "Женщина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-12-07T01:29:27.111Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Мужчина 14-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-12-07T01:29:45.111Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "5",
+        "object_repr": "Мужчина 17-26",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-12-07T01:29:57.254Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "6",
+        "object_repr": "Женщина 17-26",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-12-07T01:31:25.308Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "1",
+        "object_repr": "Центральный федераь",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-12-07T01:31:37.377Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "1",
+        "object_repr": "Центральный федеральный округ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-12-07T01:31:57.909Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "1",
+        "object_repr": "Московская область",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-12-07T01:32:03.994Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "city"
+        ],
+        "object_id": "1",
+        "object_repr": "Зеленоград",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-12-07T01:32:35.239Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contest"
+        ],
+        "object_id": "1",
+        "object_repr": "Чемпионат России",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-12-07T01:32:48.314Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "1",
+        "object_repr": "Чемпионат России Алгоритмическое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-12-07T01:32:51.984Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "2",
+        "object_repr": "Чемпионат России Продуктовое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-12-07T01:33:02.995Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "1",
+        "object_repr": "Чемпионат России Мужчина 18-None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-12-07T01:33:08.937Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "2",
+        "object_repr": "Чемпионат России Женщина 18-None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-12-07T01:33:15.138Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Чемпионат России Мужчина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-12-07T01:33:19.206Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "4",
+        "object_repr": "Чемпионат России Женщина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-12-07T01:33:52.639Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "4",
+        "object_repr": "Чемпионат России Женщина 14-18",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-12-07T01:33:52.639Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Чемпионат России Мужчина 14-18",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-12-07T01:34:50.664Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contest"
+        ],
+        "object_id": "2",
+        "object_repr": "Первенство России",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-12-07T01:35:01.221Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "3",
+        "object_repr": "Первенство России Безопасность",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-12-07T01:35:07.986Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "4",
+        "object_repr": "Первенство России Алгоритмическое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-12-07T01:35:18.790Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "5",
+        "object_repr": "Первенство России Продуктовое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-12-07T01:35:28.205Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "1",
+        "object_repr": "Чемпионат России Алгоритмическое программирование",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-12-07T01:35:39.817Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "5",
+        "object_repr": "Первенство России Мужчина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-12-07T01:35:44.327Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "6",
+        "object_repr": "Первенство России Женщина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-12-07T03:28:02.204Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "rs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-12-07T03:29:03.271Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "2",
+        "object_repr": "ДФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-12-07T03:29:15.283Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "2",
+        "object_repr": "Республика Саха (Якутия)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-12-07T03:29:18.786Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "federations",
+            "federation"
+        ],
+        "object_id": "1",
+        "object_repr": "Federation object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-12-07T03:32:04.548Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "authtoken",
+            "tokenproxy"
+        ],
+        "object_id": "1",
+        "object_repr": "48b99da0d9ae1cb992cb705d15b616c8f2200d09",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-12-07T03:32:08.750Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "authtoken",
+            "tokenproxy"
+        ],
+        "object_id": "2",
+        "object_repr": "7946709b426b90757a66f7ea64cc55260edbbd43",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-12-07T12:00:01.096Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "federations",
+            "federation"
+        ],
+        "object_id": "62",
+        "object_repr": "ФСПРС Республика Саха (Якутия)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0420\\u0435\\u0433\\u0438\\u043e\\u043d\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-12-07T12:01:45.870Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "63",
+        "object_repr": "Республика Саха-Якутия",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-12-07T13:57:52.421Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "6",
+        "object_repr": "Женщина (от 17 до 25)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-12-07T13:57:57.152Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "5",
+        "object_repr": "Мужчина (от 17 до 25)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-12-07T13:58:02.530Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "4",
+        "object_repr": "Женщина (от 14 до 17)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-12-07T13:58:06.657Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Мужчина (от 14 до 17)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-12-07T14:53:38.356Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "1",
+        "object_repr": "ЦФО",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-12-07T14:53:49.530Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "3",
+        "object_repr": "СФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-12-07T14:54:27.939Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "4",
+        "object_repr": "ЦФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-12-07T14:54:38.609Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "5",
+        "object_repr": "СЗФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-12-07T14:54:47.812Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "6",
+        "object_repr": "ЮФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-12-07T14:54:57.941Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "7",
+        "object_repr": "СКФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-12-07T14:55:37.369Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "8",
+        "object_repr": "ПФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-12-07T14:55:53.872Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "9",
+        "object_repr": "УрФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-12-07T14:56:49.566Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "1",
+        "object_repr": "НР",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-12-07T14:56:51.644Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "90",
+        "object_repr": "Херсонская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-12-07T14:57:14.254Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "90",
+        "object_repr": "Херсонская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-12-07T14:58:25.531Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "61",
+        "object_repr": "Республика Крым",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\"]}}]"
+    }
+}
+]
