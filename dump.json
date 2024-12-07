@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$870000$0H0VEAlhDSwt9BXlOjAW29$cLXDkSgcOGYP8kdr4eADzj7St+vreBntVbU+Ol0pHi0=",
-        "last_login": "2024-12-07T11:59:03.511Z",
+        "last_login": "2024-12-07T15:02:43.198Z",
         "is_superuser": true,
         "username": "evv",
         "first_name": "",
@@ -997,7 +997,7 @@
         "email": "kabardino-balkaria@fsp-russia.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2024-12-07T11:55:58.000Z",
+        "date_joined": "2024-12-07T11:55:58Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1579,12 +1579,33 @@
     }
 },
 {
+    "model": "country.district",
+    "pk": 10,
+    "fields": {
+        "name": "СВС"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 11,
+    "fields": {
+        "name": "СПБ"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 12,
+    "fields": {
+        "name": "МСК"
+    }
+},
+{
     "model": "country.region",
     "pk": 1,
     "fields": {
-        "district": 1,
+        "district": 4,
         "name": "Московская область",
-        "code": null
+        "code": "MOS"
     }
 },
 {
@@ -1593,529 +1614,529 @@
     "fields": {
         "district": 2,
         "name": "Республика Саха (Якутия)",
-        "code": null
+        "code": "SAH"
     }
 },
 {
     "model": "country.region",
     "pk": 3,
     "fields": {
-        "district": null,
+        "district": 1,
         "name": "Донецкая Народная Республика",
-        "code": null
+        "code": "21"
     }
 },
 {
     "model": "country.region",
     "pk": 4,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Пензенская область",
-        "code": null
+        "code": "PNZ"
     }
 },
 {
     "model": "country.region",
     "pk": 5,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Архангельская область",
-        "code": null
+        "code": "ARK"
     }
 },
 {
     "model": "country.region",
     "pk": 6,
     "fields": {
-        "district": null,
+        "district": 6,
         "name": "Республика Адыгея",
-        "code": null
+        "code": "ADY"
     }
 },
 {
     "model": "country.region",
     "pk": 7,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Республика Карелия",
-        "code": null
+        "code": "KAR"
     }
 },
 {
     "model": "country.region",
     "pk": 8,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Смоленская область",
-        "code": null
+        "code": "SMO"
     }
 },
 {
     "model": "country.region",
     "pk": 9,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Ленинградская область",
-        "code": null
+        "code": "LEN"
     }
 },
 {
     "model": "country.region",
     "pk": 10,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Рязанская область",
-        "code": null
+        "code": "RYA"
     }
 },
 {
     "model": "country.region",
     "pk": 11,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Республика Татарстан",
-        "code": null
+        "code": "TAT"
     }
 },
 {
     "model": "country.region",
     "pk": 12,
     "fields": {
-        "district": null,
+        "district": 1,
         "name": "город Севастополь",
-        "code": null
+        "code": "67"
     }
 },
 {
     "model": "country.region",
     "pk": 13,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Сахалинская область",
-        "code": null
+        "code": "SAK"
     }
 },
 {
     "model": "country.region",
     "pk": 14,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Костромская область",
-        "code": null
+        "code": "KOS"
     }
 },
 {
     "model": "country.region",
     "pk": 15,
     "fields": {
-        "district": null,
+        "district": 6,
         "name": "Астраханская область",
-        "code": null
+        "code": "AST"
     }
 },
 {
     "model": "country.region",
     "pk": 16,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Свердловская область",
-        "code": null
+        "code": "SVE"
     }
 },
 {
     "model": "country.region",
     "pk": 17,
     "fields": {
-        "district": null,
+        "district": 9,
         "name": "Ханты-Мансийский автономный округ – Югра",
-        "code": null
+        "code": "KHM"
     }
 },
 {
     "model": "country.region",
     "pk": 18,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Тульская область",
-        "code": null
+        "code": "TUL"
     }
 },
 {
     "model": "country.region",
     "pk": 19,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Республика Хакасия",
-        "code": null
+        "code": "KHK"
     }
 },
 {
     "model": "country.region",
     "pk": 20,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Калининградская область",
-        "code": null
+        "code": "KAG"
     }
 },
 {
     "model": "country.region",
     "pk": 21,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Иркутская область",
-        "code": null
+        "code": "IRK"
     }
 },
 {
     "model": "country.region",
     "pk": 22,
     "fields": {
-        "district": null,
+        "district": 7,
         "name": "Республика Ингушетия",
-        "code": null
+        "code": "ING"
     }
 },
 {
     "model": "country.region",
     "pk": 23,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Алтайский край",
-        "code": null
+        "code": "ALT"
     }
 },
 {
     "model": "country.region",
     "pk": 24,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Кемеровская область - Кузбасс",
-        "code": null
+        "code": "KEM"
     }
 },
 {
     "model": "country.region",
     "pk": 25,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Ивановская область",
-        "code": null
+        "code": "IVA"
     }
 },
 {
     "model": "country.region",
     "pk": 26,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Республика Башкортостан",
-        "code": null
+        "code": "BAS"
     }
 },
 {
     "model": "country.region",
     "pk": 27,
     "fields": {
-        "district": null,
+        "district": 1,
         "name": "Запорожская область",
-        "code": null
+        "code": "23"
     }
 },
 {
     "model": "country.region",
     "pk": 28,
     "fields": {
-        "district": null,
+        "district": 6,
         "name": "Республика Калмыкия",
-        "code": null
+        "code": "KAI"
     }
 },
 {
     "model": "country.region",
     "pk": 29,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Самарская область",
-        "code": null
+        "code": "SAM"
     }
 },
 {
     "model": "country.region",
     "pk": 30,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Орловская область",
-        "code": null
+        "code": "ORL"
     }
 },
 {
     "model": "country.region",
     "pk": 31,
     "fields": {
-        "district": null,
+        "district": 6,
         "name": "Ростовская область",
-        "code": null
+        "code": "ROS"
     }
 },
 {
     "model": "country.region",
     "pk": 32,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Камчатский край",
-        "code": null
+        "code": "KAM"
     }
 },
 {
     "model": "country.region",
     "pk": 33,
     "fields": {
-        "district": null,
+        "district": 7,
         "name": "Карачаево-Черкесская Республика",
-        "code": null
+        "code": "KAO"
     }
 },
 {
     "model": "country.region",
     "pk": 34,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Новгородская область",
-        "code": null
+        "code": "NGR"
     }
 },
 {
     "model": "country.region",
     "pk": 35,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Саратовская область",
-        "code": null
+        "code": "SAR"
     }
 },
 {
     "model": "country.region",
     "pk": 36,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Забайкальский край",
-        "code": null
+        "code": "ZAB"
     }
 },
 {
     "model": "country.region",
     "pk": 37,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Владимирская область",
-        "code": null
+        "code": "VLA"
     }
 },
 {
     "model": "country.region",
     "pk": 38,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Республика Коми",
-        "code": null
+        "code": "KOM"
     }
 },
 {
     "model": "country.region",
     "pk": 39,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Белгородская область",
-        "code": null
+        "code": "BEL"
     }
 },
 {
     "model": "country.region",
     "pk": 40,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Амурская область",
-        "code": null
+        "code": "AMU"
     }
 },
 {
     "model": "country.region",
     "pk": 41,
     "fields": {
-        "district": null,
+        "district": 6,
         "name": "Краснодарский край",
-        "code": null
+        "code": "KRA"
     }
 },
 {
     "model": "country.region",
     "pk": 42,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Республика Мордовия",
-        "code": null
+        "code": "MOR"
     }
 },
 {
     "model": "country.region",
     "pk": 43,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Республика Алтай",
-        "code": null
+        "code": "ALI"
     }
 },
 {
     "model": "country.region",
     "pk": 44,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Чукотский АО",
-        "code": null
+        "code": "CHU"
     }
 },
 {
     "model": "country.region",
     "pk": 45,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Липецкая область",
-        "code": null
+        "code": "LIP"
     }
 },
 {
     "model": "country.region",
     "pk": 46,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Республика Марий Эл",
-        "code": null
+        "code": "MAR"
     }
 },
 {
     "model": "country.region",
     "pk": 47,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Кировская область",
-        "code": null
+        "code": "KIR"
     }
 },
 {
     "model": "country.region",
     "pk": 48,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Удмуртская Республика",
-        "code": null
+        "code": "UDM"
     }
 },
 {
     "model": "country.region",
     "pk": 49,
     "fields": {
-        "district": null,
+        "district": 11,
         "name": "г. Санкт Петербург",
-        "code": null
+        "code": "SPB"
     }
 },
 {
     "model": "country.region",
     "pk": 50,
     "fields": {
-        "district": null,
+        "district": 9,
         "name": "Курганская область",
-        "code": null
+        "code": "KUG"
     }
 },
 {
     "model": "country.region",
     "pk": 51,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Республика Бурятия",
-        "code": null
+        "code": "BUR"
     }
 },
 {
     "model": "country.region",
     "pk": 52,
     "fields": {
-        "district": null,
+        "district": 7,
         "name": "Чеченская Республика",
-        "code": null
+        "code": "CHA"
     }
 },
 {
     "model": "country.region",
     "pk": 53,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Пермский край",
-        "code": null
+        "code": "PER"
     }
 },
 {
     "model": "country.region",
     "pk": 54,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Оренбургская область",
-        "code": null
+        "code": "ORE"
     }
 },
 {
     "model": "country.region",
     "pk": 55,
     "fields": {
-        "district": null,
+        "district": 7,
         "name": "Республика Дагестан",
-        "code": null
+        "code": "DAG"
     }
 },
 {
     "model": "country.region",
     "pk": 56,
     "fields": {
-        "district": null,
+        "district": 9,
         "name": "Челябинская область",
-        "code": null
+        "code": "CHE"
     }
 },
 {
     "model": "country.region",
     "pk": 57,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Ульяновская область",
-        "code": null
+        "code": "ULY"
     }
 },
 {
     "model": "country.region",
     "pk": 58,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Курская область",
-        "code": null
+        "code": "KUR"
     }
 },
 {
     "model": "country.region",
     "pk": 59,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Омская область",
-        "code": null
+        "code": "OMS"
     }
 },
 {
     "model": "country.region",
     "pk": 60,
     "fields": {
-        "district": null,
+        "district": 7,
         "name": "Кабардино-Балкарская Республика",
-        "code": null
+        "code": "KAB"
     }
 },
 {
@@ -2124,250 +2145,250 @@
     "fields": {
         "district": 1,
         "name": "Республика Крым",
-        "code": null
+        "code": "35"
     }
 },
 {
     "model": "country.region",
     "pk": 62,
     "fields": {
-        "district": null,
+        "district": 1,
         "name": "Луганская Народная Республика",
-        "code": null
+        "code": "43"
     }
 },
 {
     "model": "country.region",
     "pk": 64,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Вологодская область",
-        "code": null
+        "code": "VLG"
     }
 },
 {
     "model": "country.region",
     "pk": 65,
     "fields": {
-        "district": null,
+        "district": 6,
         "name": "Волгоградская область",
-        "code": null
+        "code": "VGG"
     }
 },
 {
     "model": "country.region",
     "pk": 66,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Республика Тыва",
-        "code": null
+        "code": "TUV"
     }
 },
 {
     "model": "country.region",
     "pk": 67,
     "fields": {
-        "district": null,
+        "district": 12,
         "name": "г. Москва",
-        "code": null
+        "code": "MOW"
     }
 },
 {
     "model": "country.region",
     "pk": 68,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Ярославская область",
-        "code": null
+        "code": "YAR"
     }
 },
 {
     "model": "country.region",
     "pk": 69,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Калужская область",
-        "code": null
+        "code": "KLU"
     }
 },
 {
     "model": "country.region",
     "pk": 70,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Приморский край",
-        "code": null
+        "code": "PRI"
     }
 },
 {
     "model": "country.region",
     "pk": 71,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Воронежская область",
-        "code": null
+        "code": "VOR"
     }
 },
 {
     "model": "country.region",
     "pk": 72,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Псковская область",
-        "code": null
+        "code": "PSK"
     }
 },
 {
     "model": "country.region",
     "pk": 73,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Красноярский край",
-        "code": null
+        "code": "KYA"
     }
 },
 {
     "model": "country.region",
     "pk": 74,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Чувашская Республика",
-        "code": null
+        "code": "CHV"
     }
 },
 {
     "model": "country.region",
     "pk": 75,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Тверская область",
-        "code": null
+        "code": "TVE"
     }
 },
 {
     "model": "country.region",
     "pk": 76,
     "fields": {
-        "district": null,
+        "district": 7,
         "name": "Республика Северная Осетия - Алания",
-        "code": null
+        "code": "NOR"
     }
 },
 {
     "model": "country.region",
     "pk": 77,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Хабаровский край",
-        "code": null
+        "code": "KHA"
     }
 },
 {
     "model": "country.region",
     "pk": 78,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Ненецкий автономный округ",
-        "code": null
+        "code": "NEN"
     }
 },
 {
     "model": "country.region",
     "pk": 79,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Новосибирская область",
-        "code": null
+        "code": "NVS"
     }
 },
 {
     "model": "country.region",
     "pk": 80,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Брянская область",
-        "code": null
+        "code": "BRY"
     }
 },
 {
     "model": "country.region",
     "pk": 81,
     "fields": {
-        "district": null,
+        "district": 4,
         "name": "Тамбовская область",
-        "code": null
+        "code": "TAM"
     }
 },
 {
     "model": "country.region",
     "pk": 82,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Магаданская область",
-        "code": null
+        "code": "MAG"
     }
 },
 {
     "model": "country.region",
     "pk": 83,
     "fields": {
-        "district": null,
+        "district": 8,
         "name": "Нижегородская область",
-        "code": null
+        "code": "NIZ"
     }
 },
 {
     "model": "country.region",
     "pk": 84,
     "fields": {
-        "district": null,
+        "district": 3,
         "name": "Томская область",
-        "code": null
+        "code": "TOM"
     }
 },
 {
     "model": "country.region",
     "pk": 85,
     "fields": {
-        "district": null,
+        "district": 9,
         "name": "Тюменская область",
-        "code": null
+        "code": "TYU"
     }
 },
 {
     "model": "country.region",
     "pk": 86,
     "fields": {
-        "district": null,
+        "district": 2,
         "name": "Еврейский АО",
-        "code": null
+        "code": "YEV"
     }
 },
 {
     "model": "country.region",
     "pk": 87,
     "fields": {
-        "district": null,
+        "district": 9,
         "name": "Ямало-Ненецкий АО",
-        "code": null
+        "code": "YAN"
     }
 },
 {
     "model": "country.region",
     "pk": 88,
     "fields": {
-        "district": null,
+        "district": 7,
         "name": "Ставропольский край",
-        "code": null
+        "code": "STA"
     }
 },
 {
     "model": "country.region",
     "pk": 89,
     "fields": {
-        "district": null,
+        "district": 5,
         "name": "Мурманская область",
-        "code": null
+        "code": "MUR"
     }
 },
 {
@@ -2376,7 +2397,7 @@
     "fields": {
         "district": 1,
         "name": "Херсонская область",
-        "code": "21"
+        "code": "74"
     }
 },
 {
@@ -2399,7 +2420,7 @@
     "pk": 1,
     "fields": {
         "sport_type": 1,
-        "name": "Алгоритмическое программирование"
+        "name": "Программирование алгоритмическое"
     }
 },
 {
@@ -2407,15 +2428,23 @@
     "pk": 2,
     "fields": {
         "sport_type": 1,
-        "name": "Продуктовое программирование"
+        "name": "Программирование продуктовое"
     }
 },
 {
     "model": "contests.discipline",
-    "pk": 3,
+    "pk": 4,
     "fields": {
         "sport_type": 1,
-        "name": "Безопасность"
+        "name": "Программирование"
+    }
+},
+{
+    "model": "contests.discipline",
+    "pk": 7,
+    "fields": {
+        "sport_type": 1,
+        "name": "Программирование робототехники"
     }
 },
 {
@@ -2533,19 +2562,395 @@
     }
 },
 {
+    "model": "contests.contest",
+    "pk": 3,
+    "fields": {
+        "name": "Всероссийские соревнования  по спортивному программированию  Игры будущего. Отборочный раунд",
+        "start_time": "2024-01-28T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 4,
+    "fields": {
+        "name": "Международные соревнования Игры будущего",
+        "start_time": "2024-02-15T00:00:00Z",
+        "end_time": null,
+        "place": "Республика Татарстан",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Международный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 5,
+    "fields": {
+        "name": "Спортивный фестиваль  Техноспорт Первых",
+        "start_time": "2024-02-16T00:00:00Z",
+        "end_time": null,
+        "place": "Чеченская Республика",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Региональный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 6,
+    "fields": {
+        "name": "Всемирный фестиваль молодежи 2024 г.",
+        "start_time": "2024-03-06T00:00:00Z",
+        "end_time": null,
+        "place": "Университет Сириус Олимпийский парк, Дворец спорта Большой",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Международный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 7,
+    "fields": {
+        "name": "Всероссийские соревнования  по спортивному программированию",
+        "start_time": "2024-03-23T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 8,
+    "fields": {
+        "name": "Кубок России по спортивному программированию (1 этап)",
+        "start_time": "2024-04-07T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 9,
+    "fields": {
+        "name": "Всероссийские соревнования  по спортивному программированию  среди студентов, посвященные  Дню Космонавтики",
+        "start_time": "2024-04-11T00:00:00Z",
+        "end_time": null,
+        "place": "Чеченская Республика",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 10,
+    "fields": {
+        "name": "Всероссийские соревнования среди студентов по спортивному программированию  «Код образования»",
+        "start_time": "2024-04-19T00:00:00Z",
+        "end_time": null,
+        "place": "Чеченская Республика",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 11,
+    "fields": {
+        "name": "Кубок России  по спортивному программированию (финал)",
+        "start_time": "2024-04-20T00:00:00Z",
+        "end_time": null,
+        "place": "РЭУ им. Г.В. Плеханова",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 12,
+    "fields": {
+        "name": "Кубок России (финал)",
+        "start_time": "2024-04-21T00:00:00Z",
+        "end_time": null,
+        "place": "Россия",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 13,
+    "fields": {
+        "name": "Международный фестиваль  по спортивному программированию  «Код Мира»",
+        "start_time": "2024-05-29T00:00:00Z",
+        "end_time": null,
+        "place": "Россия",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Международный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 14,
+    "fields": {
+        "name": "Международный фестиваль по спортивному программированию «Код Образования»",
+        "start_time": "2024-06-02T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Международный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 15,
+    "fields": {
+        "name": "Всероссийские соревнования по спортивному программированию «Российская робототехническая олимпиада» ",
+        "start_time": "2024-06-26T00:00:00Z",
+        "end_time": null,
+        "place": "Оренбургская область",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 16,
+    "fields": {
+        "name": "Всероссийские соревнования  по спортивному программированию среди студентов ",
+        "start_time": "2024-08-27T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 17,
+    "fields": {
+        "name": "Всероссийские соревнования  по спортивному программированию беспилотных авиационных систем «Парма-БАС»",
+        "start_time": "2024-09-12T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 18,
+    "fields": {
+        "name": "Всероссийские соревнования  по спортивному программированию, Пермь",
+        "start_time": "2024-09-13T00:00:00Z",
+        "end_time": null,
+        "place": "Пермский край",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 19,
+    "fields": {
+        "name": "Регулярное спортивное соревнование № 13",
+        "start_time": "2024-10-13T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Региональный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 20,
+    "fields": {
+        "name": "Всероссийские соревнования  по спортивному программированию «МФТИ RuCode»",
+        "start_time": "2024-10-19T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 21,
+    "fields": {
+        "name": "Регулярное спортивное соревнование № 14",
+        "start_time": "2024-10-27T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Региональный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 22,
+    "fields": {
+        "name": "Всероссийские соревнования среди студентов по спортивному программированию  «Кубок будущего»",
+        "start_time": "2024-11-01T00:00:00Z",
+        "end_time": null,
+        "place": "Россия",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 23,
+    "fields": {
+        "name": "Окружной этап Первенства и Чемпионата по спортивному программированию",
+        "start_time": "2024-11-22T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Международный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 24,
+    "fields": {
+        "name": "Международный фестиваль  по спортивному программированию",
+        "start_time": "2024-11-29T00:00:00Z",
+        "end_time": null,
+        "place": null,
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Международный",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 25,
+    "fields": {
+        "name": "Чемпионат и Первенство России по спортивному программированию (продуктовое)",
+        "start_time": "2024-12-06T00:00:00Z",
+        "end_time": null,
+        "place": "РЭУ им. Г.В. Плеханова",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 26,
+    "fields": {
+        "name": "Чемпионат и Первенство России по спортивному программированию (алгоритмика)",
+        "start_time": "2024-12-07T00:00:00Z",
+        "end_time": null,
+        "place": "Россия",
+        "contest_char": "Линчная",
+        "contest_type": null,
+        "format": "Всероссийский",
+        "status": "ACTIVE",
+        "organizer": null,
+        "federation": null
+    }
+},
+{
     "model": "contests.contestdiscipline",
     "pk": 2,
     "fields": {
         "contest": 1,
         "discipline": 2
-    }
-},
-{
-    "model": "contests.contestdiscipline",
-    "pk": 3,
-    "fields": {
-        "contest": 2,
-        "discipline": 3
     }
 },
 {
@@ -2562,6 +2967,494 @@
     "fields": {
         "contest": 2,
         "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 6,
+    "fields": {
+        "contest": 3,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 7,
+    "fields": {
+        "contest": 4,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 8,
+    "fields": {
+        "contest": 5,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 9,
+    "fields": {
+        "contest": 6,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 10,
+    "fields": {
+        "contest": 6,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 11,
+    "fields": {
+        "contest": 6,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 12,
+    "fields": {
+        "contest": 7,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 13,
+    "fields": {
+        "contest": 8,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 14,
+    "fields": {
+        "contest": 8,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 15,
+    "fields": {
+        "contest": 8,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 16,
+    "fields": {
+        "contest": 9,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 17,
+    "fields": {
+        "contest": 10,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 18,
+    "fields": {
+        "contest": 11,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 19,
+    "fields": {
+        "contest": 11,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 20,
+    "fields": {
+        "contest": 11,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 21,
+    "fields": {
+        "contest": 11,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 22,
+    "fields": {
+        "contest": 12,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 23,
+    "fields": {
+        "contest": 13,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 24,
+    "fields": {
+        "contest": 14,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 25,
+    "fields": {
+        "contest": 15,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 26,
+    "fields": {
+        "contest": 16,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 27,
+    "fields": {
+        "contest": 17,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 28,
+    "fields": {
+        "contest": 17,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 29,
+    "fields": {
+        "contest": 17,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 30,
+    "fields": {
+        "contest": 17,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 31,
+    "fields": {
+        "contest": 17,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 32,
+    "fields": {
+        "contest": 17,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 33,
+    "fields": {
+        "contest": 18,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 34,
+    "fields": {
+        "contest": 19,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 35,
+    "fields": {
+        "contest": 19,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 36,
+    "fields": {
+        "contest": 19,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 37,
+    "fields": {
+        "contest": 19,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 38,
+    "fields": {
+        "contest": 19,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 39,
+    "fields": {
+        "contest": 19,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 40,
+    "fields": {
+        "contest": 20,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 41,
+    "fields": {
+        "contest": 20,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 42,
+    "fields": {
+        "contest": 20,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 43,
+    "fields": {
+        "contest": 20,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 44,
+    "fields": {
+        "contest": 20,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 45,
+    "fields": {
+        "contest": 20,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 46,
+    "fields": {
+        "contest": 21,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 47,
+    "fields": {
+        "contest": 21,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 48,
+    "fields": {
+        "contest": 21,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 49,
+    "fields": {
+        "contest": 21,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 50,
+    "fields": {
+        "contest": 21,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 51,
+    "fields": {
+        "contest": 21,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 52,
+    "fields": {
+        "contest": 22,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 53,
+    "fields": {
+        "contest": 23,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 54,
+    "fields": {
+        "contest": 23,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 55,
+    "fields": {
+        "contest": 23,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 56,
+    "fields": {
+        "contest": 23,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 57,
+    "fields": {
+        "contest": 23,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 58,
+    "fields": {
+        "contest": 23,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 59,
+    "fields": {
+        "contest": 24,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 60,
+    "fields": {
+        "contest": 24,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 61,
+    "fields": {
+        "contest": 24,
+        "discipline": 4
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 62,
+    "fields": {
+        "contest": 24,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 63,
+    "fields": {
+        "contest": 24,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 64,
+    "fields": {
+        "contest": 24,
+        "discipline": 7
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 65,
+    "fields": {
+        "contest": 25,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 66,
+    "fields": {
+        "contest": 26,
+        "discipline": 1
     }
 },
 {
@@ -2594,6 +3487,774 @@
     "fields": {
         "contest": 2,
         "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 7,
+    "fields": {
+        "contest": 3,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 8,
+    "fields": {
+        "contest": 4,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 9,
+    "fields": {
+        "contest": 4,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 10,
+    "fields": {
+        "contest": 4,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 11,
+    "fields": {
+        "contest": 4,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 12,
+    "fields": {
+        "contest": 4,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 13,
+    "fields": {
+        "contest": 4,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 14,
+    "fields": {
+        "contest": 6,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 15,
+    "fields": {
+        "contest": 6,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 16,
+    "fields": {
+        "contest": 6,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 17,
+    "fields": {
+        "contest": 6,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 18,
+    "fields": {
+        "contest": 6,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 19,
+    "fields": {
+        "contest": 6,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 20,
+    "fields": {
+        "contest": 7,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 21,
+    "fields": {
+        "contest": 7,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 22,
+    "fields": {
+        "contest": 8,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 23,
+    "fields": {
+        "contest": 8,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 24,
+    "fields": {
+        "contest": 8,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 25,
+    "fields": {
+        "contest": 8,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 26,
+    "fields": {
+        "contest": 8,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 27,
+    "fields": {
+        "contest": 8,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 28,
+    "fields": {
+        "contest": 9,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 29,
+    "fields": {
+        "contest": 10,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 30,
+    "fields": {
+        "contest": 11,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 31,
+    "fields": {
+        "contest": 11,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 32,
+    "fields": {
+        "contest": 11,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 33,
+    "fields": {
+        "contest": 11,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 34,
+    "fields": {
+        "contest": 11,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 35,
+    "fields": {
+        "contest": 11,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 36,
+    "fields": {
+        "contest": 12,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 37,
+    "fields": {
+        "contest": 13,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 38,
+    "fields": {
+        "contest": 13,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 39,
+    "fields": {
+        "contest": 14,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 40,
+    "fields": {
+        "contest": 14,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 41,
+    "fields": {
+        "contest": 15,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 42,
+    "fields": {
+        "contest": 15,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 43,
+    "fields": {
+        "contest": 15,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 44,
+    "fields": {
+        "contest": 15,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 45,
+    "fields": {
+        "contest": 15,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 46,
+    "fields": {
+        "contest": 15,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 47,
+    "fields": {
+        "contest": 16,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 48,
+    "fields": {
+        "contest": 17,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 49,
+    "fields": {
+        "contest": 17,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 50,
+    "fields": {
+        "contest": 17,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 51,
+    "fields": {
+        "contest": 17,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 52,
+    "fields": {
+        "contest": 17,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 53,
+    "fields": {
+        "contest": 17,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 54,
+    "fields": {
+        "contest": 18,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 55,
+    "fields": {
+        "contest": 18,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 56,
+    "fields": {
+        "contest": 18,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 57,
+    "fields": {
+        "contest": 18,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 58,
+    "fields": {
+        "contest": 18,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 59,
+    "fields": {
+        "contest": 18,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 60,
+    "fields": {
+        "contest": 19,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 61,
+    "fields": {
+        "contest": 19,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 62,
+    "fields": {
+        "contest": 19,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 63,
+    "fields": {
+        "contest": 19,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 64,
+    "fields": {
+        "contest": 19,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 65,
+    "fields": {
+        "contest": 19,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 66,
+    "fields": {
+        "contest": 20,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 67,
+    "fields": {
+        "contest": 20,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 68,
+    "fields": {
+        "contest": 20,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 69,
+    "fields": {
+        "contest": 20,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 70,
+    "fields": {
+        "contest": 20,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 71,
+    "fields": {
+        "contest": 20,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 72,
+    "fields": {
+        "contest": 21,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 73,
+    "fields": {
+        "contest": 21,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 74,
+    "fields": {
+        "contest": 21,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 75,
+    "fields": {
+        "contest": 21,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 76,
+    "fields": {
+        "contest": 21,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 77,
+    "fields": {
+        "contest": 21,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 78,
+    "fields": {
+        "contest": 22,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 79,
+    "fields": {
+        "contest": 23,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 80,
+    "fields": {
+        "contest": 23,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 81,
+    "fields": {
+        "contest": 23,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 82,
+    "fields": {
+        "contest": 23,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 83,
+    "fields": {
+        "contest": 23,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 84,
+    "fields": {
+        "contest": 23,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 85,
+    "fields": {
+        "contest": 24,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 86,
+    "fields": {
+        "contest": 24,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 87,
+    "fields": {
+        "contest": 24,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 88,
+    "fields": {
+        "contest": 24,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 89,
+    "fields": {
+        "contest": 24,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 90,
+    "fields": {
+        "contest": 24,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 91,
+    "fields": {
+        "contest": 25,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 92,
+    "fields": {
+        "contest": 25,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 93,
+    "fields": {
+        "contest": 25,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 94,
+    "fields": {
+        "contest": 25,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 95,
+    "fields": {
+        "contest": 25,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 96,
+    "fields": {
+        "contest": 25,
+        "age_group": 6
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 97,
+    "fields": {
+        "contest": 26,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 98,
+    "fields": {
+        "contest": 26,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 99,
+    "fields": {
+        "contest": 26,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 100,
+    "fields": {
+        "contest": 26,
+        "age_group": 4
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 101,
+    "fields": {
+        "contest": 26,
+        "age_group": 5
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 102,
+    "fields": {
+        "contest": 26,
+        "age_group": 6
     }
 },
 {
@@ -5090,6 +6751,2148 @@
         "object_repr": "Республика Крым",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2024-12-07T15:22:12.230Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "11",
+        "object_repr": "Республика Татарстан",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2024-12-07T15:22:36.389Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "90",
+        "object_repr": "Херсонская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2024-12-07T15:24:16.816Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "89",
+        "object_repr": "Мурманская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-12-07T15:25:08.031Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "88",
+        "object_repr": "Ставропольский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-12-07T15:27:15.726Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "87",
+        "object_repr": "Ямало-Ненецкий АО",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-12-07T15:28:05.278Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "86",
+        "object_repr": "Еврейский АО",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-12-07T15:28:42.788Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "85",
+        "object_repr": "Тюменская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-12-07T15:29:06.280Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "84",
+        "object_repr": "Томская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2024-12-07T15:29:31.619Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "83",
+        "object_repr": "Нижегородская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2024-12-07T15:29:54.710Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "82",
+        "object_repr": "Магаданская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2024-12-07T15:30:14.376Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "81",
+        "object_repr": "Тамбовская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2024-12-07T15:30:41.236Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "80",
+        "object_repr": "Брянская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2024-12-07T15:31:07.898Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "79",
+        "object_repr": "Новосибирская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2024-12-07T15:31:39.960Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "78",
+        "object_repr": "Ненецкий автономный округ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2024-12-07T15:32:23.963Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "77",
+        "object_repr": "Хабаровский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2024-12-07T15:33:33.039Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "76",
+        "object_repr": "Республика Северная Осетия - Алания",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2024-12-07T15:34:36.017Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "75",
+        "object_repr": "Тверская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2024-12-07T15:36:16.478Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "74",
+        "object_repr": "Чувашская Республика",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2024-12-07T15:36:45.850Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "73",
+        "object_repr": "Красноярский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2024-12-07T15:37:15.288Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "72",
+        "object_repr": "Псковская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2024-12-07T15:45:26.409Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "72",
+        "object_repr": "Псковская область",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2024-12-07T15:45:57.589Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "71",
+        "object_repr": "Воронежская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2024-12-07T15:48:13.285Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "70",
+        "object_repr": "Приморский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2024-12-07T15:51:48.309Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "69",
+        "object_repr": "Калужская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2024-12-07T15:52:06.884Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "68",
+        "object_repr": "Ярославская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2024-12-07T15:58:27.914Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "10",
+        "object_repr": "СВС",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2024-12-07T15:58:31.448Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "11",
+        "object_repr": "СПБ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2024-12-07T15:58:33.876Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "12",
+        "object_repr": "МСК",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2024-12-07T15:58:36.690Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "12",
+        "object_repr": "МСК",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2024-12-07T15:59:03.512Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "67",
+        "object_repr": "г. Москва",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2024-12-07T15:59:27.518Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "66",
+        "object_repr": "Республика Тыва",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2024-12-07T15:59:47.145Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "65",
+        "object_repr": "Волгоградская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2024-12-07T16:00:05.064Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "64",
+        "object_repr": "Вологодская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2024-12-07T16:00:26.356Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "62",
+        "object_repr": "Луганская Народная Республика",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2024-12-07T16:00:32.756Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "61",
+        "object_repr": "Республика Крым",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2024-12-07T16:00:53.709Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "60",
+        "object_repr": "Кабардино-Балкарская Республика",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2024-12-07T16:01:13.275Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "59",
+        "object_repr": "Омская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2024-12-07T16:01:45.481Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "58",
+        "object_repr": "Курская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2024-12-07T16:02:13.842Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "57",
+        "object_repr": "Ульяновская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2024-12-07T16:02:28.870Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "56",
+        "object_repr": "Челябинская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2024-12-07T16:02:48.066Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "55",
+        "object_repr": "Республика Дагестан",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2024-12-07T16:03:05.809Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "54",
+        "object_repr": "Оренбургская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2024-12-07T16:04:20.992Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "53",
+        "object_repr": "Пермский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2024-12-07T16:05:13.392Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "53",
+        "object_repr": "Пермский край",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2024-12-07T16:05:14.624Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "53",
+        "object_repr": "Пермский край",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2024-12-07T16:05:34.613Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "52",
+        "object_repr": "Чеченская Республика",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2024-12-07T16:06:00.931Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "51",
+        "object_repr": "Республика Бурятия",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2024-12-07T16:35:05.257Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "51",
+        "object_repr": "Республика Бурятия",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2024-12-07T16:36:57.456Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "50",
+        "object_repr": "Курганская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2024-12-07T16:37:51.411Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "49",
+        "object_repr": "г. Санкт Петербург",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2024-12-07T16:39:02.011Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "48",
+        "object_repr": "Удмуртская Республика",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2024-12-07T16:39:31.469Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "47",
+        "object_repr": "Кировская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2024-12-07T16:40:04.558Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "46",
+        "object_repr": "Республика Марий Эл",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2024-12-07T16:40:33.072Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "45",
+        "object_repr": "Липецкая область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2024-12-07T16:41:01.749Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "44",
+        "object_repr": "Чукотский АО",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2024-12-07T16:41:37.095Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "43",
+        "object_repr": "Республика Алтай",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2024-12-07T16:41:59.308Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "42",
+        "object_repr": "Республика Мордовия",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2024-12-07T16:42:28.724Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "41",
+        "object_repr": "Краснодарский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2024-12-07T16:42:56.078Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "40",
+        "object_repr": "Амурская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2024-12-07T16:43:17.501Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "39",
+        "object_repr": "Белгородская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2024-12-07T16:43:41.368Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "38",
+        "object_repr": "Республика Коми",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2024-12-07T16:43:58.697Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "37",
+        "object_repr": "Владимирская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2024-12-07T16:44:49.399Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "36",
+        "object_repr": "Забайкальский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2024-12-07T16:45:15.756Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "35",
+        "object_repr": "Саратовская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2024-12-07T16:45:36.060Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "34",
+        "object_repr": "Новгородская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2024-12-07T16:46:12.453Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "33",
+        "object_repr": "Карачаево-Черкесская Республика",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2024-12-07T16:46:31.748Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "32",
+        "object_repr": "Камчатский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2024-12-07T16:47:01.280Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "31",
+        "object_repr": "Ростовская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2024-12-07T16:47:21.467Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "30",
+        "object_repr": "Орловская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2024-12-07T16:47:41.086Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "29",
+        "object_repr": "Самарская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2024-12-07T16:48:14.304Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "28",
+        "object_repr": "Республика Калмыкия",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2024-12-07T16:49:16.281Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "27",
+        "object_repr": "Запорожская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2024-12-07T16:52:13.662Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "26",
+        "object_repr": "Республика Башкортостан",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2024-12-07T16:52:51.375Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "25",
+        "object_repr": "Ивановская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2024-12-07T16:53:12.342Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "24",
+        "object_repr": "Кемеровская область - Кузбасс",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2024-12-07T16:53:38.497Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "23",
+        "object_repr": "Алтайский край",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2024-12-07T16:54:07.599Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "22",
+        "object_repr": "Республика Ингушетия",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2024-12-07T16:54:37.823Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "21",
+        "object_repr": "Иркутская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2024-12-07T16:55:01.266Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "20",
+        "object_repr": "Калининградская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2024-12-07T16:55:21.990Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "19",
+        "object_repr": "Республика Хакасия",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2024-12-07T16:55:43.805Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "18",
+        "object_repr": "Тульская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2024-12-07T16:56:22.330Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "17",
+        "object_repr": "Ханты-Мансийский автономный округ – Югра",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2024-12-07T16:56:45.246Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "16",
+        "object_repr": "Свердловская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2024-12-07T16:57:06.253Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "15",
+        "object_repr": "Астраханская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2024-12-07T16:57:23.436Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "14",
+        "object_repr": "Костромская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2024-12-07T16:57:43.160Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "13",
+        "object_repr": "Сахалинская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2024-12-07T16:58:08.207Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "12",
+        "object_repr": "город Севастополь",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2024-12-07T16:58:51.615Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "11",
+        "object_repr": "Республика Татарстан",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2024-12-07T16:59:21.908Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "10",
+        "object_repr": "Рязанская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2024-12-07T16:59:49.640Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "9",
+        "object_repr": "Ленинградская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2024-12-07T17:00:17.308Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "8",
+        "object_repr": "Смоленская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2024-12-07T17:00:40.563Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "7",
+        "object_repr": "Республика Карелия",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2024-12-07T17:01:08.046Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "6",
+        "object_repr": "Республика Адыгея",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2024-12-07T17:01:29.362Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "5",
+        "object_repr": "Архангельская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2024-12-07T17:01:49.340Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "4",
+        "object_repr": "Пензенская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2024-12-07T17:02:22.857Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "3",
+        "object_repr": "Донецкая Народная Республика",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2024-12-07T17:02:49.858Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "2",
+        "object_repr": "Республика Саха (Якутия)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2024-12-07T17:03:19.282Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "1",
+        "object_repr": "Московская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\", \"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2024-12-07T17:07:18.293Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "1",
+        "object_repr": "Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434 \\u0441\\u043f\\u043e\\u0440\\u0442\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2024-12-07T17:07:33.621Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "2",
+        "object_repr": "Программирование продуктовое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434 \\u0441\\u043f\\u043e\\u0440\\u0442\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2024-12-07T17:07:40.880Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "3",
+        "object_repr": "Безопасность",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2024-12-07T17:07:53.440Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "3",
+        "object_repr": "Первенство России None",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2024-12-07T17:15:53.493Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "6",
+        "object_repr": "Программирование продуктовое, программирование алгоритмическое",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2024-12-07T17:15:53.493Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "5",
+        "object_repr": "Программироваание продуктовое",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2024-12-07T17:16:23.316Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "63",
+        "object_repr": "Международный фестиваль  по спортивному программированию Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2024-12-07T17:16:28.607Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "62",
+        "object_repr": "Международный фестиваль  по спортивному программированию Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2024-12-07T17:16:34.031Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "57",
+        "object_repr": "Окружной этап Первенства и Чемпионата по спортивному программированию Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2024-12-07T17:16:37.295Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "56",
+        "object_repr": "Окружной этап Первенства и Чемпионата по спортивному программированию Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2024-12-07T17:16:42.067Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "50",
+        "object_repr": "Регулярное спортивное соревнование № 14 Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2024-12-07T17:16:45.069Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "49",
+        "object_repr": "Регулярное спортивное соревнование № 14 Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2024-12-07T17:16:58.790Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "44",
+        "object_repr": "Всероссийские соревнования  по спортивному программированию «МФТИ RuCode» Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2024-12-07T17:17:02.256Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "43",
+        "object_repr": "Всероссийские соревнования  по спортивному программированию «МФТИ RuCode» Программирование алгоритмическое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2024-12-07T17:17:15.695Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "38",
+        "object_repr": "Регулярное спортивное соревнование № 13 Программирование продуктовое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2024-12-07T17:17:18.832Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "37",
+        "object_repr": "Регулярное спортивное соревнование № 13 Программирование продуктовое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2024-12-07T17:17:21.769Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "31",
+        "object_repr": "Всероссийские соревнования  по спортивному программированию беспилотных авиационных систем «Парма-БАС» Программирование",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2024-12-07T17:17:24.974Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "30",
+        "object_repr": "Всероссийские соревнования  по спортивному программированию беспилотных авиационных систем «Парма-БАС» Программирование",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2024-12-07T17:17:28.012Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "23",
+        "object_repr": "Международный фестиваль  по спортивному программированию  «Код Мира» Программирование продуктовое",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2024-12-07T17:17:31.442Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "21",
+        "object_repr": "Кубок России  по спортивному программированию (финал) Программирование робототехники",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2024-12-07T17:17:34.583Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "17",
+        "object_repr": "Всероссийские соревнования среди студентов по спортивному программированию  «Код образования» Программирование робототехники",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0438\\u0441\\u0446\\u0438\\u043f\\u043b\\u0438\\u043d\\u0430\"]}}]"
     }
 }
 ]
