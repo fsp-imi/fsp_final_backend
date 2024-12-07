@@ -18,3 +18,4 @@ class Federation(models.Model):
     agent = models.ForeignKey(User, verbose_name="Представитель", db_index=True, null=True, on_delete=models.SET_NULL)
     level = models.CharField("Уровень", max_length=3, choices=Level, default=Level.REG)
     region = models.ForeignKey(Region, verbose_name="Регион", db_index=True, null=True, on_delete=models.SET_NULL)
+    logo = models.CharField("Ссылка на лого", max_length=300, blank=True, null=True)
