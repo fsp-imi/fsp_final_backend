@@ -9,7 +9,9 @@ class ClaimFileSerializers(serializers.ModelSerializer):
 class ClaimSerializer(serializers.ModelSerializer):
     class Meta:
         model = Claim
-        fields = ['id', 'name', 'sender_federation', 'receiver_federation', 'start_time', 'end_time', 'place', 'format', 'status']
+        fields = ['id', 'name', 'sender_federation', 'receiver_federation', 'start_time',
+                  'end_time', 'place', 'format', 'status', 'contest_type', 'contest_char',
+                  'contest_discipline', 'contest_age_group']
         
         def create(self, validated_data):
             claim = Claim.objects.create(
@@ -21,5 +23,9 @@ class ClaimSerializer(serializers.ModelSerializer):
                 place=validated_data['place'],
                 format=validated_data['format'],
                 status=validated_data['status'],
+                contest_type=validated_data['contest_type'],
+                contest_char=validated_data['contest_char'],
+                contest_discipline=validated_data['contest_discipline'],
+                contest_age_group=validated_data['contest_age_group'],
             )
             return claim

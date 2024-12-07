@@ -4,7 +4,7 @@ from rest_framework.permissions import IsAdminUser, AllowAny, IsAuthenticated
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.views import APIView
 from rest_framework.decorators import action
-from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST
+from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST, HTTP_201_CREATED
 from .models import Claim
 from .serializers import ClaimSerializer
 # Create your views here.
@@ -42,10 +42,13 @@ class ClaimView(ModelViewSet):
         return Response(serializer.data, status=HTTP_200_OK)
     
     def post(self, request, *args, **kwargs):
-            serializer = self.get_serializer(data=request.data)
-            if serializer.is_valid():
-                serializer.save()
-                return Response(serializer.data, status=HTTP_200_OK)
-            return Response(serializer.errors, status=HTTP_400_BAD_REQUEST)
+        claim = get_object_or_404(Claim, pk=kwargs['pk'])
+        serializer = ClaimSerializer(claim, data=request.data, partial=True)
+
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=HTTP_200_OK)
+
+        return Response(serializer.errors, status=HTTP_400_BAD_REQUEST)
 
         
