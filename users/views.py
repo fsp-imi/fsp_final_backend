@@ -3,10 +3,11 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAdminUser, AllowAny, IsAuthenticated
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.authtoken.models import Token, default_token_generator
+from rest_framework.authtoken.models import Token
 from rest_framework.status import HTTP_201_CREATED, HTTP_200_OK, HTTP_400_BAD_REQUEST, HTTP_204_NO_CONTENT, HTTP_404_NOT_FOUND, HTTP_500_INTERNAL_SERVER_ERROR
 from django.utils.http import urlsafe_base64_decode
 from django.contrib.auth.models import User
+from django.contrib.auth.tokens import default_token_generator
 from .serializers import UserSerializer
 from fsp.utils.mail_confirm_sender import send_activation_email
 
