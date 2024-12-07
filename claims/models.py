@@ -28,7 +28,7 @@ class Claim(models.Model):
     receiver_federation = models.ForeignKey(Federation, related_name="Приниматель",null=True, on_delete=models.CASCADE)
     start_time = models.DateTimeField(verbose_name="Дата начала", db_index=True, null=True)
     end_time =  models.DateTimeField(verbose_name="Дата окончания", db_index=True, null=True)
-    place = models.CharField(verbose_name="Город", blank=True, null=True)
+    place = models.CharField(verbose_name="Город", max_length=300, blank=True, null=True)
     format = models.CharField(verbose_name="Формат соревнования", max_length=20, db_index=True, default=Contest.ContestFormat.ONL, choices=Contest.ContestFormat)
     status = models.CharField(verbose_name="Статус", max_length=25, db_index=True, default=Status.NEW, choices=Status)
     contest_char = models.CharField("Характер соревнования", max_length=11, db_index=True, default=Contest.ContestCharateristic.PERSONAL, choices=Contest.ContestCharateristic)
