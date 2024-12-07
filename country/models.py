@@ -21,6 +21,7 @@ class District(models.Model):
 class Region(models.Model):
     district = models.ForeignKey(District, verbose_name="Федеральный округ", db_index=True, null=True, on_delete=models.CASCADE)
     name = models.CharField(verbose_name="Наименование", max_length=250)
+    code = models.CharField(verbose_name="Код", max_length=10, null=True, blank=True, db_index=True)
 
     def __str__(self):
         return self.name
