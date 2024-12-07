@@ -31,7 +31,7 @@ apiv1 = [
     path('federations/', include('federations.urls')),
     path('results/', include('results.urls')),
     path("upload/", UploadFileView.as_view(), name="upload_file"),
-    path("upload/", UploadFileView.as_view(), name="upload_file"),
+    path("analytics/", include('analytics.urls')),
 ]
 
 urlpatterns = [
