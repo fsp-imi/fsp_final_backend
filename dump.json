@@ -1519,7 +1519,7 @@
     "model": "country.district",
     "pk": 1,
     "fields": {
-        "name": "Центральный федеральный округ"
+        "name": "НР"
     }
 },
 {
@@ -1527,6 +1527,55 @@
     "pk": 2,
     "fields": {
         "name": "ДФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 3,
+    "fields": {
+        "name": "СФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 4,
+    "fields": {
+        "name": "ЦФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 5,
+    "fields": {
+        "name": "СЗФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 6,
+    "fields": {
+        "name": "ЮФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 7,
+    "fields": {
+        "name": "СКФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 8,
+    "fields": {
+        "name": "ПФО"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 9,
+    "fields": {
+        "name": "УрФО"
     }
 },
 {
@@ -2073,7 +2122,7 @@
     "model": "country.region",
     "pk": 61,
     "fields": {
-        "district": null,
+        "district": 1,
         "name": "Республика Крым",
         "code": null
     }
@@ -2325,9 +2374,9 @@
     "model": "country.region",
     "pk": 90,
     "fields": {
-        "district": null,
+        "district": 1,
         "name": "Херсонская область",
-        "code": null
+        "code": "21"
     }
 },
 {
@@ -2421,7 +2470,7 @@
     "fields": {
         "gender": 1,
         "start": 14,
-        "end": 18
+        "end": 17
     }
 },
 {
@@ -2430,7 +2479,7 @@
     "fields": {
         "gender": 0,
         "start": 14,
-        "end": 18
+        "end": 17
     }
 },
 {
@@ -2439,7 +2488,7 @@
     "fields": {
         "gender": 1,
         "start": 17,
-        "end": 26
+        "end": 25
     }
 },
 {
@@ -2448,7 +2497,7 @@
     "fields": {
         "gender": 0,
         "start": 17,
-        "end": 26
+        "end": 25
     }
 },
 {
@@ -2458,7 +2507,7 @@
         "name": "Чемпионат России",
         "start_time": "2024-12-06T10:00:00Z",
         "end_time": "2024-12-15T18:00:00Z",
-        "place": 1,
+        "place": "1",
         "contest_char": "Линчная",
         "contest_type": 3,
         "format": "ONLINE",
@@ -2474,7 +2523,7 @@
         "name": "Первенство России",
         "start_time": "2024-12-06T10:00:00Z",
         "end_time": "2024-12-15T18:00:00Z",
-        "place": 1,
+        "place": "1",
         "contest_char": "Линчная",
         "contest_type": 3,
         "format": "ONLINE",
@@ -4753,6 +4802,294 @@
         "object_repr": "Республика Саха-Якутия",
         "action_flag": 3,
         "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-12-07T13:57:52.421Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "6",
+        "object_repr": "Женщина (от 17 до 25)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-12-07T13:57:57.152Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "5",
+        "object_repr": "Мужчина (от 17 до 25)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-12-07T13:58:02.530Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "4",
+        "object_repr": "Женщина (от 14 до 17)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-12-07T13:58:06.657Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Мужчина (от 14 до 17)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-12-07T14:53:38.356Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "1",
+        "object_repr": "ЦФО",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-12-07T14:53:49.530Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "3",
+        "object_repr": "СФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-12-07T14:54:27.939Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "4",
+        "object_repr": "ЦФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-12-07T14:54:38.609Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "5",
+        "object_repr": "СЗФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-12-07T14:54:47.812Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "6",
+        "object_repr": "ЮФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-12-07T14:54:57.941Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "7",
+        "object_repr": "СКФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-12-07T14:55:37.369Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "8",
+        "object_repr": "ПФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-12-07T14:55:53.872Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "9",
+        "object_repr": "УрФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-12-07T14:56:49.566Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "1",
+        "object_repr": "НР",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-12-07T14:56:51.644Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "90",
+        "object_repr": "Херсонская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-12-07T14:57:14.254Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "90",
+        "object_repr": "Херсонская область",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u0434\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-12-07T14:58:25.531Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "61",
+        "object_repr": "Республика Крым",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0435\\u0434\\u0435\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u043a\\u0440\\u0443\\u0433\"]}}]"
     }
 }
 ]
