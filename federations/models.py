@@ -11,7 +11,7 @@ class Federation(models.Model):
         REG = "REG", _("Региональный")
         CEN = "CEN", _("Центральный")
         
-    name = models.CharField("Наименование", max_length=300, db_index=True)
+    name = models.CharField("Наименование", max_length=300, db_index=True, null=True)
     email = models.EmailField("Электронная почта", null=True)
     phone = models.CharField("Телефон", max_length=20, blank=True, null=True)
     address = models.CharField("Адрес", max_length=300, blank=True, null=True)
