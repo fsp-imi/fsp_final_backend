@@ -12,7 +12,7 @@ class Federation(models.Model):
         CEN = "CEN", _("Центральный")
         
     name = models.CharField("Наименование", max_length=300, db_index=True)
-    email = models.EmailField("Электронная почта")
+    email = models.EmailField("Электронная почта", null=True)
     phone = models.CharField("Телефон", max_length=20, blank=True, null=True)
     address = models.CharField("Адрес", max_length=300, blank=True, null=True)
     agent = models.ForeignKey(User, verbose_name="Представитель", db_index=True, null=True, on_delete=models.SET_NULL)
