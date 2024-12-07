@@ -2,63 +2,75 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-# URL главной страницы
-url = "https://fsp-russia.com"
-path = "region/regions"
+def regions_parse(count=None):
+    # URL главной страницы
+    url = "https://fsp-russia.com"
+    path = "region/regions"
 
-# Получаем HTML-контент страницы
-response = requests.get(f"{url}/{path}")
-soup = BeautifulSoup(response.text, 'html.parser')
-
-# Список для хранения ссылок на регионы
-region_links_containers = []
-
-# Найдем все элементы с классом 'white_region', обернутые ссылкой
-region_containers = soup.find_all(class_='cont')
-
-for container in region_containers:
-    link = container.find('a', href=True)
-    if link:
-      print(link)
-      region_links_containers.append(link['href'])
-
-region_links_containers = list(set(region_links_containers))
-region_links = []
-
-# Печатаем все ссылки
-print("Найденные ссылки на регионы:")
-for link in region_links_containers:
-    region_links.append(f"{url}{link}")
-print(f"Всего регионов: {len(region_links)}")
-
-regions = {}
-
-for link in region_links:
-    response = requests.get(link)
+    # Получаем HTML-контент страницы
+    response = requests.get(f"{url}/{path}")
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    region = {}
+    # Список для хранения ссылок на регионы
+    region_links_containers = []
 
-    image = f"{url}{soup.find(class_='flag').find('img')['src']}"
+    # Найдем все элементы с классом 'cont', обернутые ссылкой
+    region_containers = soup.find_all(class_='cont')
 
-    region_name = soup.find(class_='location').find('a', href=True).text
+    for container in region_containers:
+        link = container.find('a', href=True)
+        if link:
+            region_links_containers.append(link['href'])
 
-    agent_name = soup.find(class_='name').find('p').text
+    # Удаляем дубликаты ссылок
+    region_links_containers = list(set(region_links_containers))
+    region_links = [f"{url}{link}" for link in region_links_containers]
 
-    contact = soup.find(class_='phone').find('a').text
+    print(f"Найденные ссылки на регионы (всего {len(region_links)}):")
+    for link in region_links:
+        print(link)
 
-    region['image'] = image
-    region['agent_name'] = agent_name
-    region['contact'] = contact
+    # Словарь для хранения информации о регионах
+    regions = {}
 
-    print(region)
-    regions[f"{region_name}"] = region
+    n = 0  # Счетчик для ограничения количества регионов
 
+    for link in region_links:
+        if count and n >= count:
+            break
 
-# Если нужно сохранить ссылки в JSON
-with open('region_links.json', 'w', encoding='utf-8') as json_file:
-    json.dump(region_links, json_file, ensure_ascii=False, indent=4)
+        # Получаем HTML-контент страницы региона
+        response = requests.get(link)
+        soup = BeautifulSoup(response.text, 'html.parser')
 
+        region = {}
 
+        # Извлечение данных о регионе
+        image_container = soup.find(class_='flag')
+        image = f"{url}{image_container.find('img')['src']}" if image_container else None
 
-print("Ссылки успешно сохранены в region_links.json")
+        region_container = soup.find(class_='location')
+        region_name = region_container.find('a', href=True).text if region_container else None
+
+        agent_name_container = soup.find(class_='name')
+        agent_name = agent_name_container.find('p').text if agent_name_container else None
+
+        contact_container = soup.find(class_='phone')
+        contact = contact_container.find('a').text if contact_container else None
+
+        # Сохраняем данные в словарь
+        if image:
+            region['image'] = image
+        region['agent_name'] = agent_name
+        region['contact'] = contact
+
+        regions[region_name] = region
+        print(f"Собраны данные для региона: {region_name}")
+        n += 1
+
+    # Сохранение данных в JSON
+    with open('regions.json', 'w', encoding='utf-8') as json_file:
+        json.dump(regions, json_file, ensure_ascii=False, indent=4)
+
+    print("Данные успешно сохранены в regions.json")
+
