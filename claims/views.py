@@ -4,7 +4,7 @@ from rest_framework.permissions import IsAdminUser, AllowAny, IsAuthenticated
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.views import APIView
 from rest_framework.decorators import action
-from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST, HTTP_201_CREATED
+from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST, HTTP_201_CREATED, HTTP_404_NOT_FOUND
 from .models import Claim
 from .serializers import ClaimSerializer
 # Create your views here.
@@ -12,7 +12,7 @@ from .serializers import ClaimSerializer
 class ClaimView(ModelViewSet):
     queryset = Claim.objects.all()
     serializer_class = ClaimSerializer
-    permission_classes = [IsAdminUser]
+    # permission_classes = [IsAdminUser]
     
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
@@ -27,13 +27,16 @@ class ClaimView(ModelViewSet):
 
         if new_status not in Claim.Status.values:
             return Response(status=HTTP_400_BAD_REQUEST)
-
-        claim.status = new_status
-        claim.save()
-        
-        serializer = self.get_serializer(claim)
-
-        return Response(serializer.data, status=HTTP_200_OK)
+        can_update = (
+            (not request.user.is_staff and claim.status in ["NEW", "MODERATE"] and new_status == "ONPROGRESS") or
+            (request.user.is_staff and claim.status == "ONPROGRESS" and new_status != "NEW")
+            )
+        if can_update:
+            claim.status = new_status
+            claim.save()
+            serializer = self.get_serializer(claim)
+            return Response(serializer.data, status=HTTP_200_OK)
+        return Response({"detail": "Нет доступа"},status=HTTP_404_NOT_FOUND)
         
     def get_by_id(self, request, *args, **kwargs):
         claim_id = kwargs.get('pk')
@@ -43,8 +46,14 @@ class ClaimView(ModelViewSet):
     
     def post(self, request, *args, **kwargs):
         claim = get_object_or_404(Claim, pk=kwargs['pk'])
+        
+        if  not request.user.is_staff:
+            if claim.sender_federation is None or \
+               claim.sender_federation.agent is None or \
+               request.user.id != claim.sender_federation.agent.id:
+               Response({"detail": "Нет доступа"},status=HTTP_404_NOT_FOUND)
+           
         serializer = ClaimSerializer(claim, data=request.data, partial=True)
-
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=HTTP_200_OK)

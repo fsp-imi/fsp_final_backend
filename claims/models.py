@@ -7,6 +7,12 @@ from contests.models import Contest, ContestType, AgeGroup, Discipline
 from federations.models import Federation
 # Create your models here.
 
+#new to onprogress
+#moderate to onprogress
+
+#na rasmot to moderate
+#raassmot to otlk
+
 
 class Claim(models.Model):
     class Status(models.TextChoices):
