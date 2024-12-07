@@ -37,10 +37,10 @@ class Gender(models.IntegerChoices):
 class AgeGroup(models.Model):
     gender = models.IntegerField('Пол', default=Gender.MALE, choices=Gender.choices)
     start = models.IntegerField(verbose_name="Нижний порог")
-    end = models.IntegerField(verbose_name="Верхний порог")
+    end = models.IntegerField(verbose_name="Верхний порог", null=True, blank=True)
 
     def __str__(self):
-        return self.contest.program + ' ' + ("Мужчина" if self.gender == 1 else "Женщина") + ' ' + str(self.start) + '-' + str(self.end)
+        return ("Мужчина" if self.gender == 1 else "Женщина") + ' ' + str(self.start) + '-' + str(self.end)
 
 
 class Contest(models.Model):
@@ -70,7 +70,7 @@ class Contest(models.Model):
         super(Contest, self).save(*args, **kwargs)
 
     def __str__(self):
-        return self.program
+        return self.name
 
 
 class ContestDiscipline(models.Model):
