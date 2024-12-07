@@ -37,6 +37,8 @@ CORS_ALLOW_METHODS = [
     'GET',
     'POST',
     'DELETE',
+    'PUT',
+    'PATCH',
 ]
 
 # Application definition
@@ -61,6 +63,7 @@ INSTALLED_APPS = [
     'contestant',
     'results',
     'storages',
+    's3',
 ]
 
 REST_FRAMEWORK = {
