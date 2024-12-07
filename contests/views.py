@@ -3,12 +3,9 @@ from django.core.paginator import Paginator
 from .models import SportType, Discipline, ContestType, AgeGroup, Contest, ContestDiscipline, ContestAgeGroup
 from .serializers import SportTypeSerializer, DisciplineSerializer, ContestTypeSerializer, AgeGroupSerializer, ContestSerializer, ContestDisciplineSerializer, ContestAgeGroupSerializer
 from rest_framework.viewsets import ModelViewSet
-from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from rest_framework.parsers import FileUploadParser
 from utils import get_page_object
-from .parse_file import parse_file
 
 
 # Create your views here.
@@ -137,17 +134,3 @@ class ContestAgeGroupView(ModelViewSet):
     
     queryset = ContestAgeGroup.objects.all()
     serializer_class = ContestAgeGroupSerializer
-
-
-class FileUploadView(APIView):
-    parser_classes = [FileUploadParser]
-    permission_classes = [IsAuthenticated]
-
-    def post(self, request, format=None):
-        dir = '/upload/'
-        for filename, file_obj in request.FILES.items():
-            with open(dir + filename, 'wb') as f:
-                f.write(file_obj.read())
-            parse_file(dir + filename)
-        # do some stuff with uploaded file
-        return Response(status=204)
