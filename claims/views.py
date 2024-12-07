@@ -1,6 +1,10 @@
-from django.shortcuts import render
-from rest_framework import response
+from django.shortcuts import render, get_object_or_404
+from rest_framework.response import Response
+from rest_framework.permissions import IsAdminUser, AllowAny, IsAuthenticated
 from rest_framework.viewsets import ModelViewSet
+from rest_framework.views import APIView
+from rest_framework.decorators import action
+from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST
 from .models import Claim
 from .serializers import ClaimSerializer
 # Create your views here.
@@ -8,3 +12,24 @@ from .serializers import ClaimSerializer
 class ClaimView(ModelViewSet):
     queryset = Claim.objects.all()
     serializer_class = ClaimSerializer
+    permission_classes = [IsAdminUser]
+    
+    def post(self, request, *args, **kwargs):
+        claim = get_object_or_404(Claim, id=kwargs['pk'])
+        new_status = request.data.get("status")
+
+        if new_status not in Claim.Status.values:
+            return Response(status=HTTP_400_BAD_REQUEST)
+
+        claim.status = new_status
+        claim.save()
+        
+        ser = self.get_serializer(claim)
+
+        return Response(ser.data, status=HTTP_200_OK)
+        
+    def get_by_id(self, request, *args, **kwargs):
+        claim_id = kwargs.get('pk')
+        claim = get_object_or_404(Claim, pk=claim_id)
+        serializer = self.get_serializer(claim)
+        return Response(serializer.data, status=HTTP_200_OK)
