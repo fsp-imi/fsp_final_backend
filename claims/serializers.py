@@ -9,4 +9,4 @@ class ClaimFileSerializers(serializers.ModelSerializer):
 class ClaimSerializer(serializers.ModelSerializer):
     class Meta:
         model = Claim
-        fields = ['id', 'name', 'start_time', 'end_time', 'place', 'format', 'status']
+        fields = ['id', 'name', 'federation_sender', 'federation_receiver', 'start_time', 'end_time', 'place', 'format', 'status']
