@@ -8,6 +8,7 @@ from rest_framework.status import HTTP_201_CREATED, HTTP_200_OK, HTTP_400_BAD_RE
 from django.utils.http import urlsafe_base64_decode
 from django.contrib.auth.models import User
 from .serializers import UserSerializer
+from fsp.utils.mail_confirm_sender import send_activation_email
 
 # Create your views here.
 
@@ -24,7 +25,6 @@ class UserViewSet(ModelViewSet):
         user.is_active=False
         user.save()
         token, created = Token.objects.get_or_create(user=user)
-        from fsp.utils.mail_confirm_sender import send_activation_email
         send_activation_email(user, request)
         return Response({'detail': 'Проверьте почту для активации аккаунта.'}, status=HTTP_201_CREATED)
  
