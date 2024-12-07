@@ -55,7 +55,7 @@ def regions_parse(count=None):
         agent_name_container = soup.find(class_='name')
         agent_name = agent_name_container.find('p').text if agent_name_container else None
 
-        contact_container = soup.find(class_='phone')
+        contact_container = soup.find(class_='name_phone').find(class_='phone')
         contact = contact_container.find('a').text if contact_container else None
 
         # Сохраняем данные в словарь

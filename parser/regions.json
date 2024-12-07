@@ -1,447 +1,447 @@
 {
-    "Ямало-Ненецкий АО": {
-        "image": "https://fsp-russia.com/upload/iblock/1df/zyw6zhf7hw2p985n6jqsgx3kuahnfztu.jpg",
-        "agent_name": "Гашимова Лариса Павловна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Кировская область": {
-        "image": "https://fsp-russia.com/upload/iblock/174/fvnx0cq47qrlsw0ez3tubeakl466tw7x.jpg",
-        "agent_name": "Кокарев Дмитрий Михайлович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Ленинградская область": {
-        "image": "https://fsp-russia.com/upload/iblock/bec/xcapgnwi1w2l9uf9nwfji1o7f9wr8blu.jpg",
-        "agent_name": "Корф Виктор Сергеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Самарская область": {
-        "image": "https://fsp-russia.com/upload/iblock/8f2/emw9yyesaqvoiijt8z8702ye6tjfvkig.jpg",
-        "agent_name": "Бабенко Михаил Владимирович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Ростовская область": {
-        "image": "https://fsp-russia.com/upload/iblock/759/61glsmminfhyerkpfrxtfyzk07yrh51r.jpg",
-        "agent_name": "Савва Станислав Анатольевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Владимирская область": {
-        "image": "https://fsp-russia.com/upload/iblock/a99/1c7rnluv1hd0l8vt5zxkccrs4kt33wyj.jpg",
-        "agent_name": "Лисова Анастасия Андреевна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "г. Санкт Петербург": {
-        "image": "https://fsp-russia.com/upload/iblock/635/fgefa46p3zl1hztcx5i14t9f02oq50tt.jpg",
-        "agent_name": "Кувиков Денис",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Красноярский край": {
-        "image": "https://fsp-russia.com/upload/iblock/98c/8vgrq2qqftck3uqgryscx1x0uib9a8fc.jpg",
-        "agent_name": "Капулин Денис Владимирович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Карелия": {
-        "image": "https://fsp-russia.com/upload/iblock/4e2/23qgas5621kvuw3li7n9kihqlk8bxpqc.jpg",
-        "agent_name": "Каширин Александр Алексеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Приморский край": {
-        "image": "https://fsp-russia.com/upload/iblock/4d9/f808pi0klhm1bxkxvmwktlxcagkpi3nz.jpg",
-        "agent_name": "Снитко Владимир Алексеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Тверская область": {
-        "image": "https://fsp-russia.com/upload/iblock/176/6ddp6ck2yzara0ytqwrub1k5wh17poy8.jpg",
-        "agent_name": "Пожидаев Петр Вячеславович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Саратовская область": {
-        "image": "https://fsp-russia.com/upload/iblock/c49/2myab7t585flzrt9mpnwmfpawu57gx74.jpg",
-        "agent_name": "Федорова Антонина Гавриловна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Краснодарский край": {
-        "image": "https://fsp-russia.com/upload/iblock/820/mcqxi2s5h1dbb1e96r701mbjluzpifs8.jpg",
-        "agent_name": "Алферов Сергей Сергеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Челябинская область": {
-        "image": "https://fsp-russia.com/upload/iblock/7de/p9sy48aw41v26i1v8twrjxwzmw6863jx.jpg",
-        "agent_name": "Нечет Сергей Геннадьевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Волгоградская область": {
-        "image": "https://fsp-russia.com/upload/iblock/ef0/a4j4cwsj1xerjf3z6938plgpo44115cb.jpg",
-        "agent_name": "Попова Елена Владимировна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Еврейский АО": {
-        "image": "https://fsp-russia.com/upload/iblock/db6/vsty7gls7vdhdfrtiifsc5m4blhvelyh.jpg",
-        "agent_name": "Пешков Григорий Сергеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Томская область": {
-        "image": "https://fsp-russia.com/upload/iblock/3bb/kee5mhggd0p3ssmr6e25mf4ltjyub2f0.jpg",
-        "agent_name": "Буинцев Дмитрий Николаевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Удмуртская Республика": {
-        "image": "https://fsp-russia.com/upload/iblock/bad/ysn9b59bwp8njnww9tjen7r2nzpytbgo.jpg",
-        "agent_name": "Пигалев Сергей Александрович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Саха-Якутия": {
-        "image": "https://fsp-russia.com/upload/iblock/ef1/z2dxw8rl2z4wb7iufro5n4uviokrbx1a.jpg",
-        "agent_name": "Николаев Николай Борисович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Хакасия": {
-        "image": "https://fsp-russia.com/upload/iblock/879/htyeaem5o3qs4u93jh1o6qg1iz3af54o.jpg",
-        "agent_name": "Шпигальский Денис Олегович\t",
-        "contact": "+7 (499) 678-03-05"
-    },
     "Донецкая Народная Республика": {
         "image": "https://fsp-russia.com/upload/iblock/7bd/h5wievsauq2wywbz428cw4hjn9zf84bj.jpg",
         "agent_name": "Станков Игорь Валентинович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Луганская Народная Республика": {
-        "image": "https://fsp-russia.com/upload/iblock/584/yawii7yzdof959n9lef7oe99ud5g6qow.jpg",
-        "agent_name": "Мальцева-Светличная Ольга Валерьевна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Воронежская область": {
-        "image": "https://fsp-russia.com/upload/iblock/010/77pl2zd2p1268s9k9quh1i66140ojdyl.jpg",
-        "agent_name": "Ульянов Владимир",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Чувашская Республика": {
-        "image": "https://fsp-russia.com/upload/iblock/b2c/i2xdpi4m2drccjnu9v24vmqf80rnty88.jpg",
-        "agent_name": "Набиев Александр Эльдарович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Калининградская область": {
-        "image": "https://fsp-russia.com/upload/iblock/787/9xxtt1brhrcrznjdvva1yiedgvwxxyyo.jpg",
-        "agent_name": "Дубинин Иван Витальевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Мордовия": {
-        "image": "https://fsp-russia.com/upload/iblock/9b0/mu6qd5jkr44lvhj9gchl2valy5bp38br.jpg",
-        "agent_name": "Бекшаев Дмитрий Александрович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Рязанская область": {
-        "image": "https://fsp-russia.com/upload/iblock/ce3/6przwt0ypcar93ma7rtv9hy8xov56out.jpg",
-        "agent_name": "Халамцева Евгения Милмировна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Архангельская область": {
-        "image": "https://fsp-russia.com/upload/iblock/23c/j8pq20g2g6g0da73djdy7f52vf8nqw69.jpg",
-        "agent_name": "Алексей Алескандрович Лисьев",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Забайкальский край": {
-        "image": "https://fsp-russia.com/upload/iblock/db5/kw3k1hjlcwk9jt32swi6fwelr7ka2lhu.jpg",
-        "agent_name": "Метельский Тарас Леонидович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Северная Осетия - Алания": {
-        "image": "https://fsp-russia.com/upload/iblock/d4a/iwxdq9zsybtbl25qmq0o8pp4xgyjwtp1.jpg",
-        "agent_name": "Нартиков Александр Георгиевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "г. Москва": {
-        "image": "https://fsp-russia.com/upload/iblock/7b0/5n5imvtfzfn32tcqsdr2ce5adv7z73qv.jpg",
-        "agent_name": "Анашкин Евгений Юрьевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Чукотский АО": {
-        "image": "https://fsp-russia.com/upload/iblock/6c3/31aj96q7csh4vgz6wg1el5q4cvqknmxp.jpg",
-        "agent_name": "Косов Георгий Александрович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Ханты-Мансийский автономный округ – Югра": {
-        "image": "https://fsp-russia.com/upload/iblock/f54/asnvytrv8f5r6v3jbydw17etbujt4ewb.jpg",
-        "agent_name": "Давлетшин Родион Айратович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Пермский край": {
-        "image": "https://fsp-russia.com/upload/iblock/cb9/7qx2ijea0e8sc5g8d6wepl9aytk3c4qt.jpg",
-        "agent_name": "Ягофаров Оскар Фаитович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Сахалинская область": {
-        "image": "https://fsp-russia.com/upload/iblock/01a/cfnrjosbelh201wnkpd9r17tp0ycrcma.jpg",
-        "agent_name": "Соболев Евгений Игоревич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Новосибирская область": {
-        "image": "https://fsp-russia.com/upload/iblock/c7c/5wv1fvut6fpyfwe8gocsrmvonb4i7u7l.jpg",
-        "agent_name": "Данилов Максим Олегович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Нижегородская область": {
-        "image": "https://fsp-russia.com/upload/iblock/a95/u2xh21nx8xjcnaukcjzy6lab0s58e7t2.jpg",
-        "agent_name": "Небольсин Михаил Юрьевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Башкортостан": {
-        "image": "https://fsp-russia.com/upload/iblock/1f9/b8iftevmxqil4dlcm62497jf6usz3mr1.jpg",
-        "agent_name": "Юлия Валиахметова",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Запорожская область": {
-        "image": "https://fsp-russia.com/upload/iblock/043/56ww5rnxbpczl4fgsr51vl31oqw9r8of.jpg",
-        "agent_name": "Букреев Дмитрий",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Белгородская область": {
-        "image": "https://fsp-russia.com/upload/iblock/90a/zdd6rs7puopkzzq3tng1o2mu8vzxir4y.jpg",
-        "agent_name": "",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Хабаровский край": {
-        "image": "https://fsp-russia.com/upload/iblock/ed2/s4ee1n5jroyiu6kbotw1aw3d37lg62nq.jpg",
-        "agent_name": "Бородинов Николай Александрович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Тульская область": {
-        "image": "https://fsp-russia.com/upload/iblock/8a2/gvyqx5ib4z474ykva3klyse3idjqlzys.jpg",
-        "agent_name": "Сычугов Алексей Алексеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Новгородская область": {
-        "image": "https://fsp-russia.com/upload/iblock/30a/6uhkt0rwlcoo3dzlh3xtgimy3c1cxvo6.jpg",
-        "agent_name": "Богданов Михаил Михайлович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Ставропольский край": {
-        "image": "https://fsp-russia.com/upload/iblock/de6/hsaz5w09zoycm2wt27p1p35ex315c8cf.jpg",
-        "agent_name": "Пижевский Дмитрий Евгеньевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Магаданская область": {
-        "image": "https://fsp-russia.com/upload/iblock/11e/3513yn2otclb02fn8ap77wx8sledoh8k.jpg",
-        "agent_name": "Бережной Антон Константинович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Орловская область": {
-        "image": "https://fsp-russia.com/upload/iblock/b59/07j0o8wrfg4nh8i5wiyncz5p8qw98q0m.jpg",
-        "agent_name": "Семкин Александр Николаевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Чеченская Республика": {
-        "image": "https://fsp-russia.com/upload/iblock/bd2/fl839rfcspmfktt7zi5k246862xta7an.jpg",
-        "agent_name": "Саидов Зубайр Ахмедович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Алтайский край": {
-        "image": "https://fsp-russia.com/upload/iblock/822/pm0b2uz13r5nfjantzana1r3j0e36n8i.jpg",
-        "agent_name": "Егораев Алексей Анатольевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Дагестан": {
-        "image": "https://fsp-russia.com/upload/iblock/d52/tzl13k7kd06kmv318xx60ju533v0rdz5.jpg",
-        "agent_name": "Абдулаев Магомед Магомедгаджиевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Алтай": {
-        "image": "https://fsp-russia.com/upload/iblock/be3/d5ebrd2f329rzjftihgf2z3et70hlbvm.jpg",
-        "agent_name": "Шило Светлана Анатольевна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Псковская область": {
-        "image": "https://fsp-russia.com/upload/iblock/c66/215ud67l0q5f5ipdwhgrunobi3u16zgk.jpg",
-        "agent_name": "Степаненков Марк Валерьевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Амурская область": {
-        "image": "https://fsp-russia.com/upload/iblock/b70/6gv2x61g21ldww192x8y3xn9qyuhsgs7.jpg",
-        "agent_name": "Попов Руслан Игоревич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Липецкая область": {
-        "image": "https://fsp-russia.com/upload/iblock/7a1/f75k17emdbojn6n94lrpadyak9pso032.jpg",
-        "agent_name": "Даниил Сапронов",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Ярославская область": {
-        "image": "https://fsp-russia.com/upload/iblock/454/ivnf4abzdjz2mqg22y118ianrhu0dlo3.jpg",
-        "agent_name": "Чалый Дмитрий Юрьевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Калужская область": {
-        "image": "https://fsp-russia.com/upload/iblock/72d/xbtciyatn40joev77bpjk0a22k5ifs67.jpg",
-        "agent_name": "Колесников Алексей",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Вологодская область": {
-        "image": "https://fsp-russia.com/upload/iblock/57a/jndiv9yx8odi8hp93qbi88gzngqvf5vx.jpg",
-        "agent_name": "Мельников Олег Николаевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Астраханская область": {
-        "image": "https://fsp-russia.com/upload/iblock/71b/7720gkmxx1k3o36non3b2tck83o3didi.jpg",
-        "agent_name": "Асадуллина Юлия Альбертовна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Омская область": {
-        "image": "https://fsp-russia.com/upload/iblock/ffd/bkwcs7df10mjam1qm0g5aucrekjpmdfx.jpg",
-        "agent_name": "Иванищев Юрий Ильич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Татарстан": {
-        "image": "https://fsp-russia.com/upload/iblock/723/oyrasmt0ad973vrlux489t8yiqyg1djz.jpg",
-        "agent_name": "Серочудинов Евгений Сергеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Херсонская область": {
-        "image": "https://fsp-russia.com/upload/iblock/9d4/amc3vbsl5i82sx7labf4j6healv3f9ku.jpg",
-        "agent_name": "",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Иркутская область": {
-        "image": "https://fsp-russia.com/upload/iblock/a85/wu1uqone2s27759afdp2j3agd0kexwb1.jpg",
-        "agent_name": "Ищенко Роман",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Ингушетия": {
-        "image": "https://fsp-russia.com/upload/iblock/deb/2san37ozd2fvt77msovho39ceep399b2.jpg",
-        "agent_name": "Найденко Роман Анатольевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Курская область": {
-        "image": "https://fsp-russia.com/upload/iblock/813/dt1qtj0mhez75bkd37cgda5a9tb9b5m8.jpg",
-        "agent_name": "Журавлев Владимир Борисович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Кемеровская область - Кузбасс": {
-        "image": "https://fsp-russia.com/upload/iblock/27e/j53vmqf2wajy1vg71doajogw4zjalr6x.jpg",
-        "agent_name": "Попов Александр Сергеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Кабардино-Балкарская Республика": {
-        "image": "https://fsp-russia.com/upload/iblock/8dc/sc4x0hjgyeddcdphm8p7epwmdu41ug88.jpg",
-        "agent_name": "Тюбеев Мурат Абдуллахович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Тамбовская область": {
-        "image": "https://fsp-russia.com/upload/iblock/a0d/r028mo90uqrcipec1tkr922yx513reue.jpg",
-        "agent_name": "",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "город Севастополь": {
-        "image": "https://fsp-russia.com/upload/iblock/892/dijsncgdz5se0xxhu0ozme0x4ghlwomq.jpg",
-        "agent_name": "Царенко Михаил Геннадьевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Марий Эл": {
-        "image": "https://fsp-russia.com/upload/iblock/6c7/7d7t0c5g477xds7nen0vvgl8v0p5wipn.jpg",
-        "agent_name": "Куликова Екатерина Ивановна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Бурятия": {
-        "image": "https://fsp-russia.com/upload/iblock/c54/29svg226207h8yar0e3nn0zcq4i973r3.jpg",
-        "agent_name": "Пьянников Владимир Сергеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Курганская область": {
-        "image": "https://fsp-russia.com/upload/iblock/53a/4846rggi947ybs85yli64oyvmd1105qp.jpg",
-        "agent_name": "Белоусов Михаил Александрович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Адыгея": {
-        "image": "https://fsp-russia.com/upload/iblock/18f/0jgklfvu5hyukggqrinirihnyat97rwb.jpg",
-        "agent_name": "Алиев Марат Вячеславович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Крым": {
-        "image": "https://fsp-russia.com/upload/iblock/d8f/5a4i80y0t86pa8rwt3c8pfddk7seskgi.jpg",
-        "agent_name": "Зырянов Сергей Геннадиевич\t",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Карачаево-Черкесская Республика": {
-        "image": "https://fsp-russia.com/upload/iblock/29f/24cy7il3hdkv6jxwiw6opovqb7lsa9xm.jpg",
-        "agent_name": "Андропов Константин Сергеевич",
-        "contact": "+7 (499) 678-03-05"
+        "contact": "fsp-dnr@mail.ru"
     },
     "Пензенская область": {
         "image": "https://fsp-russia.com/upload/iblock/c31/oepriibdn4mwosj8w09zssziopov09ca.jpg",
         "agent_name": "Строителева Алина Андреевна",
-        "contact": "+7 (499) 678-03-05"
+        "contact": "penza@fsp-russia.com"
     },
-    "Свердловская область": {
-        "image": "https://fsp-russia.com/upload/iblock/24d/fz65lydsdlmifn2aa7von0aiwjnsqzu1.jpg",
-        "agent_name": "Обабков Илья Николаевич",
-        "contact": "+7 (499) 678-03-05"
+    "Архангельская область": {
+        "image": "https://fsp-russia.com/upload/iblock/23c/j8pq20g2g6g0da73djdy7f52vf8nqw69.jpg",
+        "agent_name": "Алексей Алескандрович Лисьев",
+        "contact": "arkhangelsk@fsp-russia.com"
     },
-    "Мурманская область": {
-        "image": "https://fsp-russia.com/upload/iblock/71a/ntlibcnwm53vxreyadwbyg5h0z0cakgo.jpg",
-        "agent_name": "Шляпников Денис Игоревич",
-        "contact": "+7 (499) 678-03-05"
+    "Республика Адыгея": {
+        "image": "https://fsp-russia.com/upload/iblock/18f/0jgklfvu5hyukggqrinirihnyat97rwb.jpg",
+        "agent_name": "Алиев Марат Вячеславович",
+        "contact": "adygea@fsp-russia.com"
     },
-    "Республика Тыва": {
-        "image": "https://fsp-russia.com/upload/iblock/e21/bje5xj1bkj84mj1n18kr5voxzmwr1zhb.jpg",
-        "agent_name": "Оюн Субудай Викторович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Коми": {
-        "image": "https://fsp-russia.com/upload/iblock/b73/02dee6q1u6vg604a1njjovyom7zhh4o4.jpg",
-        "agent_name": "Некрасов Александр Николаевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Ивановская область": {
-        "image": "https://fsp-russia.com/upload/iblock/3ab/izz9pc2hucrsl11sf4ach6d0p9zahqj1.jpg",
-        "agent_name": "Уралов Сергей Дмитриевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Республика Калмыкия": {
-        "image": "https://fsp-russia.com/upload/iblock/0da/yocsbyxohcgsvwz3qbctpr69ibkemvoa.jpg",
-        "agent_name": "Муниев Аркадий Михайлович",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Камчатский край": {
-        "image": "https://fsp-russia.com/upload/iblock/a14/qcmt7xapkn6o9cvkp30725bzwr455mvx.jpg",
-        "agent_name": "Дресвянский Владимир Сергеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Тюменская область": {
-        "image": "https://fsp-russia.com/upload/iblock/b74/c5vh3pnyt8t579kl9apx33zv03a7dmjj.jpg",
-        "agent_name": "Сенкевич Людмила Борисовна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Оренбургская область": {
-        "image": "https://fsp-russia.com/upload/iblock/109/bnini3enbob0k84wiibqgtsnw1yyfx8n.jpg",
-        "agent_name": "Вечеренко Дмитрий Сергеевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Ненецкий автономный округ": {
-        "image": "https://fsp-russia.com/upload/iblock/4f8/ft0vr54jb2dtr4oh5ury6o4il5hmmzlo.jpg",
-        "agent_name": "Демчик Ирина Игоревна",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Костромская область": {
-        "image": "https://fsp-russia.com/upload/iblock/117/wvcm4npgo9nx3op6ywxo943abgwar8ze.jpg",
-        "agent_name": "Диденко Дмитрий Николаевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Московская область": {
-        "image": "https://fsp-russia.com/upload/iblock/ed1/g6n33a11szyzcp9slgpqewrgbafl8ds3.jpg",
-        "agent_name": "Анашкин Евгений Юрьевич",
-        "contact": "+7 (499) 678-03-05"
-    },
-    "Брянская область": {
-        "image": "https://fsp-russia.com/upload/iblock/818/8e7wp6rwysn3cix42blhcypyul1r78kd.jpg",
-        "agent_name": "Казаков Олег Дмитриевич",
-        "contact": "+7 (499) 678-03-05"
+    "Республика Карелия": {
+        "image": "https://fsp-russia.com/upload/iblock/4e2/23qgas5621kvuw3li7n9kihqlk8bxpqc.jpg",
+        "agent_name": "Каширин Александр Алексеевич",
+        "contact": "karelia@fsp-russia.com"
     },
     "Смоленская область": {
         "image": "https://fsp-russia.com/upload/iblock/b1d/6zvtdehidc4gww1i0kd4gmuiysuow7n6.jpg",
         "agent_name": "Образцов Сергей Александрович",
-        "contact": "+7 (499) 678-03-05"
+        "contact": "smolensk@fsp-russia.com"
+    },
+    "Ленинградская область": {
+        "image": "https://fsp-russia.com/upload/iblock/bec/xcapgnwi1w2l9uf9nwfji1o7f9wr8blu.jpg",
+        "agent_name": "Корф Виктор Сергеевич",
+        "contact": "leningrad@fsp-russia.com"
+    },
+    "Рязанская область": {
+        "image": "https://fsp-russia.com/upload/iblock/ce3/6przwt0ypcar93ma7rtv9hy8xov56out.jpg",
+        "agent_name": "Халамцева Евгения Милмировна",
+        "contact": "ryazan@fsp-russia.com"
+    },
+    "Республика Татарстан": {
+        "image": "https://fsp-russia.com/upload/iblock/723/oyrasmt0ad973vrlux489t8yiqyg1djz.jpg",
+        "agent_name": "Серочудинов Евгений Сергеевич",
+        "contact": "fsprt@inbox.ru"
+    },
+    "город Севастополь": {
+        "image": "https://fsp-russia.com/upload/iblock/892/dijsncgdz5se0xxhu0ozme0x4ghlwomq.jpg",
+        "agent_name": "Царенко Михаил Геннадьевич",
+        "contact": "sevastopol@fsp-russia.com"
+    },
+    "Сахалинская область": {
+        "image": "https://fsp-russia.com/upload/iblock/01a/cfnrjosbelh201wnkpd9r17tp0ycrcma.jpg",
+        "agent_name": "Соболев Евгений Игоревич",
+        "contact": "sakhalin@fsp-russia.com"
+    },
+    "Костромская область": {
+        "image": "https://fsp-russia.com/upload/iblock/117/wvcm4npgo9nx3op6ywxo943abgwar8ze.jpg",
+        "agent_name": "Диденко Дмитрий Николаевич",
+        "contact": "kostroma@fsp-russia.com"
+    },
+    "Астраханская область": {
+        "image": "https://fsp-russia.com/upload/iblock/71b/7720gkmxx1k3o36non3b2tck83o3didi.jpg",
+        "agent_name": "Асадуллина Юлия Альбертовна",
+        "contact": "astrakhan@fsp-russia.com"
+    },
+    "Свердловская область": {
+        "image": "https://fsp-russia.com/upload/iblock/24d/fz65lydsdlmifn2aa7von0aiwjnsqzu1.jpg",
+        "agent_name": "Обабков Илья Николаевич",
+        "contact": "sverdlovsk@fsp-russia.com"
+    },
+    "Ханты-Мансийский автономный округ – Югра": {
+        "image": "https://fsp-russia.com/upload/iblock/f54/asnvytrv8f5r6v3jbydw17etbujt4ewb.jpg",
+        "agent_name": "Давлетшин Родион Айратович",
+        "contact": "hmao@fsp-russia.com"
+    },
+    "Тульская область": {
+        "image": "https://fsp-russia.com/upload/iblock/8a2/gvyqx5ib4z474ykva3klyse3idjqlzys.jpg",
+        "agent_name": "Сычугов Алексей Алексеевич",
+        "contact": "tula@fsp-russia.com"
+    },
+    "Республика Хакасия": {
+        "image": "https://fsp-russia.com/upload/iblock/879/htyeaem5o3qs4u93jh1o6qg1iz3af54o.jpg",
+        "agent_name": "Шпигальский Денис Олегович\t",
+        "contact": "khakassia@fsp-russia.com"
+    },
+    "Калининградская область": {
+        "image": "https://fsp-russia.com/upload/iblock/787/9xxtt1brhrcrznjdvva1yiedgvwxxyyo.jpg",
+        "agent_name": "Дубинин Иван Витальевич",
+        "contact": "info@fsp-kaliningrad.ru"
+    },
+    "Иркутская область": {
+        "image": "https://fsp-russia.com/upload/iblock/a85/wu1uqone2s27759afdp2j3agd0kexwb1.jpg",
+        "agent_name": "Ищенко Роман",
+        "contact": "irkutsk@fsp-russia.com"
+    },
+    "Республика Ингушетия": {
+        "image": "https://fsp-russia.com/upload/iblock/deb/2san37ozd2fvt77msovho39ceep399b2.jpg",
+        "agent_name": "Найденко Роман Анатольевич",
+        "contact": "lngushetia@fsp-russia.com"
+    },
+    "Алтайский край": {
+        "image": "https://fsp-russia.com/upload/iblock/822/pm0b2uz13r5nfjantzana1r3j0e36n8i.jpg",
+        "agent_name": "Егораев Алексей Анатольевич",
+        "contact": "altai-k@fsp-russia.com"
+    },
+    "Кемеровская область - Кузбасс": {
+        "image": "https://fsp-russia.com/upload/iblock/27e/j53vmqf2wajy1vg71doajogw4zjalr6x.jpg",
+        "agent_name": "Попов Александр Сергеевич",
+        "contact": "kuzbass@fsp-russia.com"
+    },
+    "Ивановская область": {
+        "image": "https://fsp-russia.com/upload/iblock/3ab/izz9pc2hucrsl11sf4ach6d0p9zahqj1.jpg",
+        "agent_name": "Уралов Сергей Дмитриевич",
+        "contact": "lvanovo@fsp-russia.com"
+    },
+    "Республика Башкортостан": {
+        "image": "https://fsp-russia.com/upload/iblock/1f9/b8iftevmxqil4dlcm62497jf6usz3mr1.jpg",
+        "agent_name": "Юлия Валиахметова",
+        "contact": "bashkortostan@fsp-russia.com"
+    },
+    "Запорожская область": {
+        "image": "https://fsp-russia.com/upload/iblock/043/56ww5rnxbpczl4fgsr51vl31oqw9r8of.jpg",
+        "agent_name": "Букреев Дмитрий",
+        "contact": "directum@fsp-zo.ru"
+    },
+    "Республика Калмыкия": {
+        "image": "https://fsp-russia.com/upload/iblock/0da/yocsbyxohcgsvwz3qbctpr69ibkemvoa.jpg",
+        "agent_name": "Муниев Аркадий Михайлович",
+        "contact": "kalmykia@fsp-russia.com"
+    },
+    "Самарская область": {
+        "image": "https://fsp-russia.com/upload/iblock/8f2/emw9yyesaqvoiijt8z8702ye6tjfvkig.jpg",
+        "agent_name": "Бабенко Михаил Владимирович",
+        "contact": "samara@fsp-russia.com"
+    },
+    "Орловская область": {
+        "image": "https://fsp-russia.com/upload/iblock/b59/07j0o8wrfg4nh8i5wiyncz5p8qw98q0m.jpg",
+        "agent_name": "Семкин Александр Николаевич",
+        "contact": "oryol@fsp-russia.com"
+    },
+    "Ростовская область": {
+        "image": "https://fsp-russia.com/upload/iblock/759/61glsmminfhyerkpfrxtfyzk07yrh51r.jpg",
+        "agent_name": "Савва Станислав Анатольевич",
+        "contact": "rostov@fsp-russia.com"
+    },
+    "Камчатский край": {
+        "image": "https://fsp-russia.com/upload/iblock/a14/qcmt7xapkn6o9cvkp30725bzwr455mvx.jpg",
+        "agent_name": "Дресвянский Владимир Сергеевич",
+        "contact": "kamchatka@fsp-russia.com"
+    },
+    "Карачаево-Черкесская Республика": {
+        "image": "https://fsp-russia.com/upload/iblock/29f/24cy7il3hdkv6jxwiw6opovqb7lsa9xm.jpg",
+        "agent_name": "Андропов Константин Сергеевич",
+        "contact": "karachay-cherkessia@fsp-russia.com"
+    },
+    "Новгородская область": {
+        "image": "https://fsp-russia.com/upload/iblock/30a/6uhkt0rwlcoo3dzlh3xtgimy3c1cxvo6.jpg",
+        "agent_name": "Богданов Михаил Михайлович",
+        "contact": "novgorod@fsp-russia.com"
+    },
+    "Саратовская область": {
+        "image": "https://fsp-russia.com/upload/iblock/c49/2myab7t585flzrt9mpnwmfpawu57gx74.jpg",
+        "agent_name": "Федорова Антонина Гавриловна",
+        "contact": "saratov@fsp-russia.com"
+    },
+    "Забайкальский край": {
+        "image": "https://fsp-russia.com/upload/iblock/db5/kw3k1hjlcwk9jt32swi6fwelr7ka2lhu.jpg",
+        "agent_name": "Метельский Тарас Леонидович",
+        "contact": "zabaykalsky@fsp-russia.com"
+    },
+    "Владимирская область": {
+        "image": "https://fsp-russia.com/upload/iblock/a99/1c7rnluv1hd0l8vt5zxkccrs4kt33wyj.jpg",
+        "agent_name": "Лисова Анастасия Андреевна",
+        "contact": "vladimir@fsp-russia.com"
+    },
+    "Республика Коми": {
+        "image": "https://fsp-russia.com/upload/iblock/b73/02dee6q1u6vg604a1njjovyom7zhh4o4.jpg",
+        "agent_name": "Некрасов Александр Николаевич",
+        "contact": "komi@fsp-russia.com"
+    },
+    "Белгородская область": {
+        "image": "https://fsp-russia.com/upload/iblock/90a/zdd6rs7puopkzzq3tng1o2mu8vzxir4y.jpg",
+        "agent_name": "",
+        "contact": "belgorod@fsp-russia.com"
+    },
+    "Амурская область": {
+        "image": "https://fsp-russia.com/upload/iblock/b70/6gv2x61g21ldww192x8y3xn9qyuhsgs7.jpg",
+        "agent_name": "Попов Руслан Игоревич",
+        "contact": "amur@fsp-russia.com"
+    },
+    "Краснодарский край": {
+        "image": "https://fsp-russia.com/upload/iblock/820/mcqxi2s5h1dbb1e96r701mbjluzpifs8.jpg",
+        "agent_name": "Алферов Сергей Сергеевич",
+        "contact": "krasnodar@fsp-russia.com"
+    },
+    "Республика Мордовия": {
+        "image": "https://fsp-russia.com/upload/iblock/9b0/mu6qd5jkr44lvhj9gchl2valy5bp38br.jpg",
+        "agent_name": "Бекшаев Дмитрий Александрович",
+        "contact": "mordovia@fsp-russia.com"
+    },
+    "Республика Алтай": {
+        "image": "https://fsp-russia.com/upload/iblock/be3/d5ebrd2f329rzjftihgf2z3et70hlbvm.jpg",
+        "agent_name": "Шило Светлана Анатольевна",
+        "contact": "altai@fsp-russia.com"
+    },
+    "Чукотский АО": {
+        "image": "https://fsp-russia.com/upload/iblock/6c3/31aj96q7csh4vgz6wg1el5q4cvqknmxp.jpg",
+        "agent_name": "Косов Георгий Александрович",
+        "contact": "chukotka@fsp-russia.com"
+    },
+    "Липецкая область": {
+        "image": "https://fsp-russia.com/upload/iblock/7a1/f75k17emdbojn6n94lrpadyak9pso032.jpg",
+        "agent_name": "Даниил Сапронов",
+        "contact": "lipetsk@fsp-russia.com"
+    },
+    "Республика Марий Эл": {
+        "image": "https://fsp-russia.com/upload/iblock/6c7/7d7t0c5g477xds7nen0vvgl8v0p5wipn.jpg",
+        "agent_name": "Куликова Екатерина Ивановна",
+        "contact": "mari-ei@fsp-russia.com"
+    },
+    "Кировская область": {
+        "image": "https://fsp-russia.com/upload/iblock/174/fvnx0cq47qrlsw0ez3tubeakl466tw7x.jpg",
+        "agent_name": "Кокарев Дмитрий Михайлович",
+        "contact": "kirov@fsp-russia.com"
+    },
+    "Удмуртская Республика": {
+        "image": "https://fsp-russia.com/upload/iblock/bad/ysn9b59bwp8njnww9tjen7r2nzpytbgo.jpg",
+        "agent_name": "Пигалев Сергей Александрович",
+        "contact": "udmurtia@fsp-russia.com"
+    },
+    "г. Санкт Петербург": {
+        "image": "https://fsp-russia.com/upload/iblock/635/fgefa46p3zl1hztcx5i14t9f02oq50tt.jpg",
+        "agent_name": "Кувиков Денис",
+        "contact": "saint-petersburg@fsp-russia.com"
+    },
+    "Курганская область": {
+        "image": "https://fsp-russia.com/upload/iblock/53a/4846rggi947ybs85yli64oyvmd1105qp.jpg",
+        "agent_name": "Белоусов Михаил Александрович",
+        "contact": "kurgan@fsp-russia.com"
+    },
+    "Республика Бурятия": {
+        "image": "https://fsp-russia.com/upload/iblock/c54/29svg226207h8yar0e3nn0zcq4i973r3.jpg",
+        "agent_name": "Пьянников Владимир Сергеевич",
+        "contact": "buryatia@fsp-russia.com"
+    },
+    "Чеченская Республика": {
+        "image": "https://fsp-russia.com/upload/iblock/bd2/fl839rfcspmfktt7zi5k246862xta7an.jpg",
+        "agent_name": "Саидов Зубайр Ахмедович",
+        "contact": "chechnya@fsp-russia.com"
+    },
+    "Пермский край": {
+        "image": "https://fsp-russia.com/upload/iblock/cb9/7qx2ijea0e8sc5g8d6wepl9aytk3c4qt.jpg",
+        "agent_name": "Ягофаров Оскар Фаитович",
+        "contact": "perm@fsp-russia.com"
+    },
+    "Оренбургская область": {
+        "image": "https://fsp-russia.com/upload/iblock/109/bnini3enbob0k84wiibqgtsnw1yyfx8n.jpg",
+        "agent_name": "Вечеренко Дмитрий Сергеевич",
+        "contact": "orenburg@fsp-russia.com"
+    },
+    "Республика Дагестан": {
+        "image": "https://fsp-russia.com/upload/iblock/d52/tzl13k7kd06kmv318xx60ju533v0rdz5.jpg",
+        "agent_name": "Абдулаев Магомед Магомедгаджиевич",
+        "contact": "Fsprd@mail.ru"
+    },
+    "Челябинская область": {
+        "image": "https://fsp-russia.com/upload/iblock/7de/p9sy48aw41v26i1v8twrjxwzmw6863jx.jpg",
+        "agent_name": "Нечет Сергей Геннадьевич",
+        "contact": "chelyablnsk@fsp-russia.com"
     },
     "Ульяновская область": {
         "image": "https://fsp-russia.com/upload/iblock/1de/m3etwidocqnhhiz3cl17i68o578763eh.jpg",
         "agent_name": "Павлов Вадим Вячеславович",
-        "contact": "+7 (499) 678-03-05"
+        "contact": "ulyanovsk@fsp-russia.com"
+    },
+    "Курская область": {
+        "image": "https://fsp-russia.com/upload/iblock/813/dt1qtj0mhez75bkd37cgda5a9tb9b5m8.jpg",
+        "agent_name": "Журавлев Владимир Борисович",
+        "contact": "kursk@fsp-russia.com"
+    },
+    "Омская область": {
+        "image": "https://fsp-russia.com/upload/iblock/ffd/bkwcs7df10mjam1qm0g5aucrekjpmdfx.jpg",
+        "agent_name": "Иванищев Юрий Ильич",
+        "contact": "omsk@fsp-russia.com"
+    },
+    "Кабардино-Балкарская Республика": {
+        "image": "https://fsp-russia.com/upload/iblock/8dc/sc4x0hjgyeddcdphm8p7epwmdu41ug88.jpg",
+        "agent_name": "Тюбеев Мурат Абдуллахович",
+        "contact": "kabardino-balkaria@fsp-russia.com"
+    },
+    "Республика Крым": {
+        "image": "https://fsp-russia.com/upload/iblock/d8f/5a4i80y0t86pa8rwt3c8pfddk7seskgi.jpg",
+        "agent_name": "Зырянов Сергей Геннадиевич\t",
+        "contact": "crimea@fsp-russia.com"
+    },
+    "Луганская Народная Республика": {
+        "image": "https://fsp-russia.com/upload/iblock/584/yawii7yzdof959n9lef7oe99ud5g6qow.jpg",
+        "agent_name": "Мальцева-Светличная Ольга Валерьевна",
+        "contact": "fsp_lnr@mail.ru сайт: www.fsp-lnr.ru"
+    },
+    "Республика Саха-Якутия": {
+        "image": "https://fsp-russia.com/upload/iblock/ef1/z2dxw8rl2z4wb7iufro5n4uviokrbx1a.jpg",
+        "agent_name": "Николаев Николай Борисович",
+        "contact": "sakha@fsp-russia.com"
+    },
+    "Вологодская область": {
+        "image": "https://fsp-russia.com/upload/iblock/57a/jndiv9yx8odi8hp93qbi88gzngqvf5vx.jpg",
+        "agent_name": "Мельников Олег Николаевич",
+        "contact": "vologda@fsp-russia.com"
+    },
+    "Волгоградская область": {
+        "image": "https://fsp-russia.com/upload/iblock/ef0/a4j4cwsj1xerjf3z6938plgpo44115cb.jpg",
+        "agent_name": "Попова Елена Владимировна",
+        "contact": "volgograd@fsp-russia.com"
+    },
+    "Республика Тыва": {
+        "image": "https://fsp-russia.com/upload/iblock/e21/bje5xj1bkj84mj1n18kr5voxzmwr1zhb.jpg",
+        "agent_name": "Оюн Субудай Викторович",
+        "contact": "tuva@fsp-russia.com"
+    },
+    "г. Москва": {
+        "image": "https://fsp-russia.com/upload/iblock/7b0/5n5imvtfzfn32tcqsdr2ce5adv7z73qv.jpg",
+        "agent_name": "Анашкин Евгений Юрьевич",
+        "contact": "fspmsk@mail.ru"
+    },
+    "Ярославская область": {
+        "image": "https://fsp-russia.com/upload/iblock/454/ivnf4abzdjz2mqg22y118ianrhu0dlo3.jpg",
+        "agent_name": "Чалый Дмитрий Юрьевич",
+        "contact": "yaroslavl@fsp-russia.com"
+    },
+    "Калужская область": {
+        "image": "https://fsp-russia.com/upload/iblock/72d/xbtciyatn40joev77bpjk0a22k5ifs67.jpg",
+        "agent_name": "Колесников Алексей",
+        "contact": "kaluga@fsp-russia.com"
+    },
+    "Приморский край": {
+        "image": "https://fsp-russia.com/upload/iblock/4d9/f808pi0klhm1bxkxvmwktlxcagkpi3nz.jpg",
+        "agent_name": "Снитко Владимир Алексеевич",
+        "contact": "primorsky@fsp-russia.com"
+    },
+    "Воронежская область": {
+        "image": "https://fsp-russia.com/upload/iblock/010/77pl2zd2p1268s9k9quh1i66140ojdyl.jpg",
+        "agent_name": "Ульянов Владимир",
+        "contact": "voronezh@fsp-russia.com"
+    },
+    "Псковская область": {
+        "image": "https://fsp-russia.com/upload/iblock/c66/215ud67l0q5f5ipdwhgrunobi3u16zgk.jpg",
+        "agent_name": "Степаненков Марк Валерьевич",
+        "contact": "pskov@fsp-russia.com"
+    },
+    "Красноярский край": {
+        "image": "https://fsp-russia.com/upload/iblock/98c/8vgrq2qqftck3uqgryscx1x0uib9a8fc.jpg",
+        "agent_name": "Капулин Денис Владимирович",
+        "contact": "krasnoyarsk@fsp-russia.com"
+    },
+    "Чувашская Республика": {
+        "image": "https://fsp-russia.com/upload/iblock/b2c/i2xdpi4m2drccjnu9v24vmqf80rnty88.jpg",
+        "agent_name": "Набиев Александр Эльдарович",
+        "contact": "fspchuv@mail.ru"
+    },
+    "Тверская область": {
+        "image": "https://fsp-russia.com/upload/iblock/176/6ddp6ck2yzara0ytqwrub1k5wh17poy8.jpg",
+        "agent_name": "Пожидаев Петр Вячеславович",
+        "contact": "tver@fsp-russia.com"
+    },
+    "Республика Северная Осетия - Алания": {
+        "image": "https://fsp-russia.com/upload/iblock/d4a/iwxdq9zsybtbl25qmq0o8pp4xgyjwtp1.jpg",
+        "agent_name": "Нартиков Александр Георгиевич",
+        "contact": "ossetia-alania@fsp-russia.com"
+    },
+    "Хабаровский край": {
+        "image": "https://fsp-russia.com/upload/iblock/ed2/s4ee1n5jroyiu6kbotw1aw3d37lg62nq.jpg",
+        "agent_name": "Бородинов Николай Александрович",
+        "contact": "khabarovsk@fsp-russia.com"
+    },
+    "Ненецкий автономный округ": {
+        "image": "https://fsp-russia.com/upload/iblock/4f8/ft0vr54jb2dtr4oh5ury6o4il5hmmzlo.jpg",
+        "agent_name": "Демчик Ирина Игоревна",
+        "contact": "nenets@fsp-russia.com"
+    },
+    "Новосибирская область": {
+        "image": "https://fsp-russia.com/upload/iblock/c7c/5wv1fvut6fpyfwe8gocsrmvonb4i7u7l.jpg",
+        "agent_name": "Данилов Максим Олегович",
+        "contact": "novosiblrsk@fsp-russia.com"
+    },
+    "Брянская область": {
+        "image": "https://fsp-russia.com/upload/iblock/818/8e7wp6rwysn3cix42blhcypyul1r78kd.jpg",
+        "agent_name": "Казаков Олег Дмитриевич",
+        "contact": "bryansk@fsp-russia.com"
+    },
+    "Тамбовская область": {
+        "image": "https://fsp-russia.com/upload/iblock/a0d/r028mo90uqrcipec1tkr922yx513reue.jpg",
+        "agent_name": "",
+        "contact": "tambov@fsp-russia.com"
+    },
+    "Магаданская область": {
+        "image": "https://fsp-russia.com/upload/iblock/11e/3513yn2otclb02fn8ap77wx8sledoh8k.jpg",
+        "agent_name": "Бережной Антон Константинович",
+        "contact": "magadan@fsp-russia.com"
+    },
+    "Нижегородская область": {
+        "image": "https://fsp-russia.com/upload/iblock/a95/u2xh21nx8xjcnaukcjzy6lab0s58e7t2.jpg",
+        "agent_name": "Небольсин Михаил Юрьевич",
+        "contact": "nizhny-novgorod@fsp-russia.com"
+    },
+    "Томская область": {
+        "image": "https://fsp-russia.com/upload/iblock/3bb/kee5mhggd0p3ssmr6e25mf4ltjyub2f0.jpg",
+        "agent_name": "Буинцев Дмитрий Николаевич",
+        "contact": "tomsk@fsp-russia.com"
+    },
+    "Тюменская область": {
+        "image": "https://fsp-russia.com/upload/iblock/b74/c5vh3pnyt8t579kl9apx33zv03a7dmjj.jpg",
+        "agent_name": "Сенкевич Людмила Борисовна",
+        "contact": "tyumen@fsp-russia.com"
+    },
+    "Еврейский АО": {
+        "image": "https://fsp-russia.com/upload/iblock/db6/vsty7gls7vdhdfrtiifsc5m4blhvelyh.jpg",
+        "agent_name": "Пешков Григорий Сергеевич",
+        "contact": "jewish@fsp-russia.com"
+    },
+    "Ямало-Ненецкий АО": {
+        "image": "https://fsp-russia.com/upload/iblock/1df/zyw6zhf7hw2p985n6jqsgx3kuahnfztu.jpg",
+        "agent_name": "Гашимова Лариса Павловна",
+        "contact": "yamalo-nenets@fsp-russia.com"
+    },
+    "Ставропольский край": {
+        "image": "https://fsp-russia.com/upload/iblock/de6/hsaz5w09zoycm2wt27p1p35ex315c8cf.jpg",
+        "agent_name": "Пижевский Дмитрий Евгеньевич",
+        "contact": "stavropol@fsp-russia.com"
+    },
+    "Мурманская область": {
+        "image": "https://fsp-russia.com/upload/iblock/71a/ntlibcnwm53vxreyadwbyg5h0z0cakgo.jpg",
+        "agent_name": "Шляпников Денис Игоревич",
+        "contact": "murmansk@fsp-russia.com"
+    },
+    "Херсонская область": {
+        "image": "https://fsp-russia.com/upload/iblock/9d4/amc3vbsl5i82sx7labf4j6healv3f9ku.jpg",
+        "agent_name": "",
+        "contact": "kherson@fsp-russia.com"
+    },
+    "Московская область": {
+        "image": "https://fsp-russia.com/upload/iblock/ed1/g6n33a11szyzcp9slgpqewrgbafl8ds3.jpg",
+        "agent_name": "Анашкин Евгений Юрьевич",
+        "contact": "moscow-obl@fsp-russia.com"
     }
 }
