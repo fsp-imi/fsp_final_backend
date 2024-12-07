@@ -1,6 +1,6 @@
 
 from django.urls import path
-from .views import SportTypeView, DisciplineView, ContestTypeView, AgeGroupView,ContestView, ContestDisciplineView, ContestAgeGroupView
+from .views import SportTypeView, DisciplineView, ContestTypeView, AgeGroupView,ContestView, ContestDisciplineView, ContestAgeGroupView, FileUploadView
 
 urlpatterns = [
     path('sporttypes/', SportTypeView.as_view({'get': 'list'})),
@@ -19,4 +19,5 @@ urlpatterns = [
     path('contestdisciplines/<int:pk>', ContestDisciplineView.as_view({'get': 'retrieve'})),
     path('contestagegroups/', ContestAgeGroupView.as_view({'get': 'list'})),
     path('contestagegroups/<int:pk>', ContestAgeGroupView.as_view({'get': 'retrieve'})),
+    path('uploadresults/', FileUploadView.as_view()),
 ]
