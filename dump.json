@@ -57,14 +57,14 @@
     "model": "country.district",
     "pk": 1,
     "fields": {
-        "name": "Центральный федеральный округ"
+        "name": "Р¦РµРЅС‚СЂР°Р»СЊРЅС‹Р№ С„РµРґРµСЂР°Р»СЊРЅС‹Р№ РѕРєСЂСѓРі"
     }
 },
 {
     "model": "country.district",
     "pk": 2,
     "fields": {
-        "name": "ДФО"
+        "name": "Р”Р¤Рћ"
     }
 },
 {
@@ -72,7 +72,7 @@
     "pk": 1,
     "fields": {
         "district": 1,
-        "name": "Московская область"
+        "name": "РњРѕСЃРєРѕРІСЃРєР°СЏ РѕР±Р»Р°СЃС‚СЊ"
     }
 },
 {
@@ -80,7 +80,7 @@
     "pk": 2,
     "fields": {
         "district": 2,
-        "name": "Республика Саха (Якутия)"
+        "name": "Р РµСЃРїСѓР±Р»РёРєР° РЎР°С…Р° (РЇРєСѓС‚РёСЏ)"
     }
 },
 {
@@ -88,14 +88,14 @@
     "pk": 1,
     "fields": {
         "region": 1,
-        "name": "Зеленоград"
+        "name": "Р—РµР»РµРЅРѕРіСЂР°Рґ"
     }
 },
 {
     "model": "contests.sporttype",
     "pk": 1,
     "fields": {
-        "name": "Спортивное программирование"
+        "name": "РЎРїРѕСЂС‚РёРІРЅРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ"
     }
 },
 {
@@ -103,7 +103,7 @@
     "pk": 1,
     "fields": {
         "sport_type": 1,
-        "name": "Алгоритмическое программирование"
+        "name": "РђР»РіРѕСЂРёС‚РјРёС‡РµСЃРєРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ"
     }
 },
 {
@@ -111,7 +111,7 @@
     "pk": 2,
     "fields": {
         "sport_type": 1,
-        "name": "Продуктовое программирование"
+        "name": "РџСЂРѕРґСѓРєС‚РѕРІРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ"
     }
 },
 {
@@ -119,35 +119,35 @@
     "pk": 3,
     "fields": {
         "sport_type": 1,
-        "name": "Безопасность"
+        "name": "Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ"
     }
 },
 {
     "model": "contests.contesttype",
     "pk": 1,
     "fields": {
-        "name": "Региональный"
+        "name": "Р РµРіРёРѕРЅР°Р»СЊРЅС‹Р№"
     }
 },
 {
     "model": "contests.contesttype",
     "pk": 2,
     "fields": {
-        "name": "Межрегиональный"
+        "name": "РњРµР¶СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Р№"
     }
 },
 {
     "model": "contests.contesttype",
     "pk": 3,
     "fields": {
-        "name": "Всероссийский"
+        "name": "Р’СЃРµСЂРѕСЃСЃРёР№СЃРєРёР№"
     }
 },
 {
     "model": "contests.contesttype",
     "pk": 4,
     "fields": {
-        "name": "Международный"
+        "name": "РњРµР¶РґСѓРЅР°СЂРѕРґРЅС‹Р№"
     }
 },
 {
@@ -208,7 +208,7 @@
     "model": "contests.contest",
     "pk": 1,
     "fields": {
-        "name": "Чемпионат России",
+        "name": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё",
         "start_time": "2024-12-06T10:00:00Z",
         "end_time": "2024-12-15T18:00:00Z",
         "place": 1,
@@ -221,7 +221,7 @@
     "model": "contests.contest",
     "pk": 2,
     "fields": {
-        "name": "Первенство России",
+        "name": "РџРµСЂРІРµРЅСЃС‚РІРѕ Р РѕСЃСЃРёРё",
         "start_time": "2024-12-06T10:00:00Z",
         "end_time": "2024-12-15T18:00:00Z",
         "place": 1,
@@ -298,10 +298,10 @@
     "model": "federations.federation",
     "pk": 1,
     "fields": {
-        "name": "ФСПРСЯ",
+        "name": "Р¤РЎРџР РЎРЇ",
         "email": "fsp@ykt.ru",
         "phone": "9141234567",
-        "address": "г Якутск",
+        "address": "Рі РЇРєСѓС‚СЃРє",
         "agent": [
             "rs"
         ],
@@ -322,7 +322,7 @@
             "sporttype"
         ],
         "object_id": "1",
-        "object_repr": "Спортивное программирование",
+        "object_repr": "РЎРїРѕСЂС‚РёРІРЅРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -340,7 +340,7 @@
             "discipline"
         ],
         "object_id": "1",
-        "object_repr": "Алгоритмическое программирование",
+        "object_repr": "РђР»РіРѕСЂРёС‚РјРёС‡РµСЃРєРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -358,7 +358,7 @@
             "discipline"
         ],
         "object_id": "2",
-        "object_repr": "Продуктовое программирование",
+        "object_repr": "РџСЂРѕРґСѓРєС‚РѕРІРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -376,7 +376,7 @@
             "discipline"
         ],
         "object_id": "3",
-        "object_repr": "Безопасность",
+        "object_repr": "Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -394,7 +394,7 @@
             "contesttype"
         ],
         "object_id": "1",
-        "object_repr": "Региональный",
+        "object_repr": "Р РµРіРёРѕРЅР°Р»СЊРЅС‹Р№",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -412,7 +412,7 @@
             "contesttype"
         ],
         "object_id": "2",
-        "object_repr": "Межрегиональный",
+        "object_repr": "РњРµР¶СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Р№",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -430,7 +430,7 @@
             "contesttype"
         ],
         "object_id": "3",
-        "object_repr": "Всероссийский",
+        "object_repr": "Р’СЃРµСЂРѕСЃСЃРёР№СЃРєРёР№",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -448,7 +448,7 @@
             "contesttype"
         ],
         "object_id": "4",
-        "object_repr": "Международный",
+        "object_repr": "РњРµР¶РґСѓРЅР°СЂРѕРґРЅС‹Р№",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -466,7 +466,7 @@
             "agegroup"
         ],
         "object_id": "1",
-        "object_repr": "Мужчина 18-None",
+        "object_repr": "РњСѓР¶С‡РёРЅР° 18-None",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -484,7 +484,7 @@
             "agegroup"
         ],
         "object_id": "2",
-        "object_repr": "Женщина 18-None",
+        "object_repr": "Р–РµРЅС‰РёРЅР° 18-None",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -502,7 +502,7 @@
             "agegroup"
         ],
         "object_id": "3",
-        "object_repr": "Мужчина 14-17",
+        "object_repr": "РњСѓР¶С‡РёРЅР° 14-17",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -520,7 +520,7 @@
             "agegroup"
         ],
         "object_id": "4",
-        "object_repr": "Женщина 14-18",
+        "object_repr": "Р–РµРЅС‰РёРЅР° 14-18",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -538,7 +538,7 @@
             "agegroup"
         ],
         "object_id": "3",
-        "object_repr": "Мужчина 14-18",
+        "object_repr": "РњСѓР¶С‡РёРЅР° 14-18",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
     }
@@ -556,7 +556,7 @@
             "agegroup"
         ],
         "object_id": "5",
-        "object_repr": "Мужчина 17-26",
+        "object_repr": "РњСѓР¶С‡РёРЅР° 17-26",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -574,7 +574,7 @@
             "agegroup"
         ],
         "object_id": "6",
-        "object_repr": "Женщина 17-26",
+        "object_repr": "Р–РµРЅС‰РёРЅР° 17-26",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -592,7 +592,7 @@
             "district"
         ],
         "object_id": "1",
-        "object_repr": "Центральный федераь",
+        "object_repr": "Р¦РµРЅС‚СЂР°Р»СЊРЅС‹Р№ С„РµРґРµСЂР°СЊ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -610,7 +610,7 @@
             "district"
         ],
         "object_id": "1",
-        "object_repr": "Центральный федеральный округ",
+        "object_repr": "Р¦РµРЅС‚СЂР°Р»СЊРЅС‹Р№ С„РµРґРµСЂР°Р»СЊРЅС‹Р№ РѕРєСЂСѓРі",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
     }
@@ -628,7 +628,7 @@
             "region"
         ],
         "object_id": "1",
-        "object_repr": "Московская область",
+        "object_repr": "РњРѕСЃРєРѕРІСЃРєР°СЏ РѕР±Р»Р°СЃС‚СЊ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -646,7 +646,7 @@
             "city"
         ],
         "object_id": "1",
-        "object_repr": "Зеленоград",
+        "object_repr": "Р—РµР»РµРЅРѕРіСЂР°Рґ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -664,7 +664,7 @@
             "contest"
         ],
         "object_id": "1",
-        "object_repr": "Чемпионат России",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -682,7 +682,7 @@
             "contestdiscipline"
         ],
         "object_id": "1",
-        "object_repr": "Чемпионат России Алгоритмическое программирование",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё РђР»РіРѕСЂРёС‚РјРёС‡РµСЃРєРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -700,7 +700,7 @@
             "contestdiscipline"
         ],
         "object_id": "2",
-        "object_repr": "Чемпионат России Продуктовое программирование",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё РџСЂРѕРґСѓРєС‚РѕРІРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -718,7 +718,7 @@
             "contestagegroup"
         ],
         "object_id": "1",
-        "object_repr": "Чемпионат России Мужчина 18-None",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё РњСѓР¶С‡РёРЅР° 18-None",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -736,7 +736,7 @@
             "contestagegroup"
         ],
         "object_id": "2",
-        "object_repr": "Чемпионат России Женщина 18-None",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё Р–РµРЅС‰РёРЅР° 18-None",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -754,7 +754,7 @@
             "contestagegroup"
         ],
         "object_id": "3",
-        "object_repr": "Чемпионат России Мужчина 14-18",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё РњСѓР¶С‡РёРЅР° 14-18",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -772,7 +772,7 @@
             "contestagegroup"
         ],
         "object_id": "4",
-        "object_repr": "Чемпионат России Женщина 14-18",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё Р–РµРЅС‰РёРЅР° 14-18",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -790,7 +790,7 @@
             "contestagegroup"
         ],
         "object_id": "4",
-        "object_repr": "Чемпионат России Женщина 14-18",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё Р–РµРЅС‰РёРЅР° 14-18",
         "action_flag": 3,
         "change_message": ""
     }
@@ -808,7 +808,7 @@
             "contestagegroup"
         ],
         "object_id": "3",
-        "object_repr": "Чемпионат России Мужчина 14-18",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё РњСѓР¶С‡РёРЅР° 14-18",
         "action_flag": 3,
         "change_message": ""
     }
@@ -826,7 +826,7 @@
             "contest"
         ],
         "object_id": "2",
-        "object_repr": "Первенство России",
+        "object_repr": "РџРµСЂРІРµРЅСЃС‚РІРѕ Р РѕСЃСЃРёРё",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -844,7 +844,7 @@
             "contestdiscipline"
         ],
         "object_id": "3",
-        "object_repr": "Первенство России Безопасность",
+        "object_repr": "РџРµСЂРІРµРЅСЃС‚РІРѕ Р РѕСЃСЃРёРё Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -862,7 +862,7 @@
             "contestdiscipline"
         ],
         "object_id": "4",
-        "object_repr": "Первенство России Алгоритмическое программирование",
+        "object_repr": "РџРµСЂРІРµРЅСЃС‚РІРѕ Р РѕСЃСЃРёРё РђР»РіРѕСЂРёС‚РјРёС‡РµСЃРєРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -880,7 +880,7 @@
             "contestdiscipline"
         ],
         "object_id": "5",
-        "object_repr": "Первенство России Продуктовое программирование",
+        "object_repr": "РџРµСЂРІРµРЅСЃС‚РІРѕ Р РѕСЃСЃРёРё РџСЂРѕРґСѓРєС‚РѕРІРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -898,7 +898,7 @@
             "contestdiscipline"
         ],
         "object_id": "1",
-        "object_repr": "Чемпионат России Алгоритмическое программирование",
+        "object_repr": "Р§РµРјРїРёРѕРЅР°С‚ Р РѕСЃСЃРёРё РђР»РіРѕСЂРёС‚РјРёС‡РµСЃРєРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ",
         "action_flag": 3,
         "change_message": ""
     }
@@ -916,7 +916,7 @@
             "contestagegroup"
         ],
         "object_id": "5",
-        "object_repr": "Первенство России Мужчина 14-18",
+        "object_repr": "РџРµСЂРІРµРЅСЃС‚РІРѕ Р РѕСЃСЃРёРё РњСѓР¶С‡РёРЅР° 14-18",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -934,7 +934,7 @@
             "contestagegroup"
         ],
         "object_id": "6",
-        "object_repr": "Первенство России Женщина 14-18",
+        "object_repr": "РџРµСЂРІРµРЅСЃС‚РІРѕ Р РѕСЃСЃРёРё Р–РµРЅС‰РёРЅР° 14-18",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -970,7 +970,7 @@
             "district"
         ],
         "object_id": "2",
-        "object_repr": "ДФО",
+        "object_repr": "Р”Р¤Рћ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -988,7 +988,7 @@
             "region"
         ],
         "object_id": "2",
-        "object_repr": "Республика Саха (Якутия)",
+        "object_repr": "Р РµСЃРїСѓР±Р»РёРєР° РЎР°С…Р° (РЇРєСѓС‚РёСЏ)",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
