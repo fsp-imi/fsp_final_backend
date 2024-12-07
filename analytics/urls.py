@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import FilterView
+from .views import AnalyticsResultsView, AnalyticsClaimsView
 
 urlpatterns = [
-    path('', FilterView.as_view({'get': 'list'})),
+    path('results/', AnalyticsResultsView.as_view({'get': 'list', 'post':'search'})),
+    path('claims/', AnalyticsClaimsView.as_view({'get': 'list', 'post':'search'})),
 ]
