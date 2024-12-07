@@ -1,7 +1,6 @@
-
 from django.urls import path
-from .views import SportTypeView, DisciplineView, ContestTypeView, AgeGroupView,ContestView, ContestDisciplineView, ContestAgeGroupView
+from .views import FilterView
 
 urlpatterns = [
-    path('result/filter/', SportTypeView.as_view({'get': 'filter'})),
+    path('', FilterView.as_view({'get': 'list'})),
 ]
