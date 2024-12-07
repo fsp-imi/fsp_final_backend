@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 parser/*.json
+parser/*.xlsx
 
 # Distribution / packaging
 .Python

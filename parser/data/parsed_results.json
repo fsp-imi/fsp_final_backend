@@ -1,0 +1,416 @@
+[
+    {
+        "District": "ПФО",
+        "Region": "TA",
+        "Commands": "one-zero-eight (Булгаков, Авхадеев, Бельков, Дерябкин, Полин)",
+        "Results": 186
+    },
+    {
+        "District": "НР",
+        "Region": 21,
+        "Commands": "E-notGPT (Сыгинь, Сыгинь, Киселёв, Вавилин, Руднев)",
+        "Results": 172
+    },
+    {
+        "District": "НР",
+        "Region": 21,
+        "Commands": "Код 418 (Зозуля, Рустамов, Коржов, Евтушенко, Николаенко)",
+        "Results": 162
+    },
+    {
+        "District": "НР",
+        "Region": 21,
+        "Commands": "mzhn-team (Рязанов, Шмураков, Слипенко, Евтеев, Первий)",
+        "Results": 160
+    },
+    {
+        "District": "ЦФО",
+        "Region": "TUL",
+        "Commands": "BRATIKI (Фесунов, Поярков, Шуверов, Пешехонов, Багдасарян)",
+        "Results": 158
+    },
+    {
+        "District": "МСК",
+        "Region": "MOW",
+        "Commands": "МоскоуВенчурс (Соловьёв, Идрисов, Идрисова)",
+        "Results": 152
+    },
+    {
+        "District": "ПФО",
+        "Region": "ORE",
+        "Commands": "СТАС (Черняков, Гнездилов, Бачковская, Веремеенко, Акладский)",
+        "Results": 144
+    },
+    {
+        "District": "ЦФО",
+        "Region": "BRY",
+        "Commands": "Брянск-3 (Шунелько, Ялоза, Степин, Евгения)",
+        "Results": 143
+    },
+    {
+        "District": "ДФО",
+        "Region": "KHA",
+        "Commands": "ДВГУПС Хаб.край 2 (Кирилл, Рощупкин, Утляков, Рощупкин, Тимошенко)",
+        "Results": 141
+    },
+    {
+        "District": "СЗФО",
+        "Region": "KGD",
+        "Commands": "Центрифуга (Бевз, Герман, Гилевский, Прижигалинская, Яременко)",
+        "Results": 139
+    },
+    {
+        "District": "ЦФО",
+        "Region": "RYA",
+        "Commands": "Поликек  (Бородин, Коршенюк, Галахов, Кулькова, Рожков)",
+        "Results": 138
+    },
+    {
+        "District": "СКФО",
+        "Region": "STA",
+        "Commands": "ЛегасиТим (Дибров, Панкин, Сергей, Хлебнов, Сластёнов)",
+        "Results": 134
+    },
+    {
+        "District": "ПФО",
+        "Region": "KIR",
+        "Commands": "Vyatka_Owls (Саракеев, Суровцев, Королев, Зараменских, Решетников)",
+        "Results": 133
+    },
+    {
+        "District": "ЦФО",
+        "Region": "LIP",
+        "Commands": "notFive (Липецкая область) (Игорь, Киселев, Толстунов, Целищев, Даниил)",
+        "Results": 132
+    },
+    {
+        "District": "СЗФО",
+        "Region": "KO",
+        "Commands": "Digital Rover (Галкина, Бурылов, Кормин, Дмитриев, Галкин)",
+        "Results": 131
+    },
+    {
+        "District": "ЦФО",
+        "Region": "RYA",
+        "Commands": "Просто команда (Никита, Щербинин, Кожанов, Тюменев)",
+        "Results": 130
+    },
+    {
+        "District": "ЮФО",
+        "Region": 35,
+        "Commands": "Идман (Сейдаметов, Джапаров, Николаенко, Ибрагимов)",
+        "Results": 130
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "EasyRevenge (Шишко, Антонов, Бережнов, Морозов, Смирнов)",
+        "Results": 128
+    },
+    {
+        "District": "ЦФО",
+        "Region": "RYA",
+        "Commands": "BiTech (Сермягин, Трепалин, Воронин, Соколов, Федосов)",
+        "Results": 127
+    },
+    {
+        "District": "СКФО",
+        "Region": "CE",
+        "Commands": "ХАХАТОН (Мусостов, Карнукаев, Дашуев, Сусуев, Ахмадов)",
+        "Results": 125
+    },
+    {
+        "District": "ЦФО",
+        "Region": "RYA",
+        "Commands": "PEP8 (Назарцев, Фёдор, Владимир, Бакулин, Горетов)",
+        "Results": 120
+    },
+    {
+        "District": "ДФО",
+        "Region": "SA",
+        "Commands": "Бииркут (Эверстов, Оконешников, Чичигинаров, Балакшин, Аргунов)",
+        "Results": 120
+    },
+    {
+        "District": "СКФО",
+        "Region": "SE",
+        "Commands": "Команда номер 7++ (Кудзаев, Тебиев, Бичилов, Сикоев, Alina)",
+        "Results": 119
+    },
+    {
+        "District": "ЦФО",
+        "Region": "ORL",
+        "Commands": "Гарант (Завацкий, Лосяков, Шалькин)",
+        "Results": 118
+    },
+    {
+        "District": "СПБ",
+        "Region": "SPE",
+        "Commands": "S&kittens (Зарипов, Данилова, Гербылев, Рыбаков, Звездаков)",
+        "Results": 117
+    },
+    {
+        "District": "ПФО",
+        "Region": "UD",
+        "Commands": "Бравлики. Финал (Волков, Cawa, Богдан, Палабугин, Ибрагимов)",
+        "Results": 114
+    },
+    {
+        "District": "ПФО",
+        "Region": "ORE",
+        "Commands": "Red Hot ОГУ Peppers (Венюков, Георг, Перов, Федоров)",
+        "Results": 111
+    },
+    {
+        "District": "СКФО",
+        "Region": "CE",
+        "Commands": "Дек-ИТ (Чажаев, Хамзатов, Батаев, Мунаев, Дикилиев)",
+        "Results": 109
+    },
+    {
+        "District": "ЦФО",
+        "Region": "BRY",
+        "Commands": "Брянск-2 (Жирнов, Шмычков, Мехедов, Прокошин, Владислав)",
+        "Results": 107
+    },
+    {
+        "District": "ПФО",
+        "Region": "ORE",
+        "Commands": "МИР (Григорьев, Адамович, Ткаченко)",
+        "Results": 104
+    },
+    {
+        "District": "ПФО",
+        "Region": "UD",
+        "Commands": "Рожденные кодить (Карпов, Чикуров, Костяев)",
+        "Results": 104
+    },
+    {
+        "District": "НР",
+        "Region": 23,
+        "Commands": "Fork_IT (Гончаров, Гурина, Виктория, Рязанов)",
+        "Results": 104
+    },
+    {
+        "District": "ЦФО",
+        "Region": "ORL",
+        "Commands": "42Flags (Хабибрахманов, Зацепин, Романенко)",
+        "Results": 102
+    },
+    {
+        "District": "СЗФО",
+        "Region": "KGD",
+        "Commands": "Мираж (Казанцев, Фомин, Круглик, Пермяков, Иншина)",
+        "Results": 94
+    },
+    {
+        "District": "ЦФО",
+        "Region": "BRY",
+        "Commands": "Брянск-1 (Казаков, Григорьев, Шипик, Рябцев, Веревкин)",
+        "Results": 91
+    },
+    {
+        "District": "СКФО",
+        "Region": "DA",
+        "Commands": "ООН с изюминкой (Хидиров, Сайпулаев, Шанавазов, Минатуллаев)",
+        "Results": 90
+    },
+    {
+        "District": "ПФО",
+        "Region": "SAR",
+        "Commands": "./сгу/хакатон (Рудяк, Толстов, Григорьев, Кудяков)",
+        "Results": 89
+    },
+    {
+        "District": "ЦФО",
+        "Region": "TVE",
+        "Commands": "AnyRAD (Мельников, Конькова, Пучков, Матвей, Кучумов)",
+        "Results": 88
+    },
+    {
+        "District": "НР",
+        "Region": 23,
+        "Commands": "Кибер Чокопай (Туманов, Адаменко, Куликов, Коваленко)",
+        "Results": 86
+    },
+    {
+        "District": "СЗФО",
+        "Region": "KGD",
+        "Commands": "await_docx (Савран, Бунякова, Степуро)",
+        "Results": 81
+    },
+    {
+        "District": "ПФО",
+        "Region": "ORE",
+        "Commands": "Debug Divas (Деркач, Серов, Севрюков, Соболев, Амерханов)",
+        "Results": 81
+    },
+    {
+        "District": "СКФО",
+        "Region": "CE",
+        "Commands": "ИТ-Тоба (Уматкереев, Гучиев, Кадиев, Адымханов, Алаудинов)",
+        "Results": 80
+    },
+    {
+        "District": "СКФО",
+        "Region": "CE",
+        "Commands": "Team Script (Цуев, Болтиев, Дасаев, Мансур)",
+        "Results": 78
+    },
+    {
+        "District": "ЦФО",
+        "Region": "ORL",
+        "Commands": "PRO_TEAM (Гурьев, Голубинец, Петров, Pavel)",
+        "Results": 75
+    },
+    {
+        "District": "МСК",
+        "Region": "MOW",
+        "Commands": "Смекубики (Нестюркин, Соколов, Меликсетян, Гришин)",
+        "Results": 74
+    },
+    {
+        "District": "НР",
+        "Region": 23,
+        "Commands": "MAY.ME (Темиров, , , Чепурной, Никулин)",
+        "Results": 73
+    },
+    {
+        "District": "ПФО",
+        "Region": "PER",
+        "Commands": "product_team (Агишин, Епишин, Сергеев, Федосеев, Салищева)",
+        "Results": 72
+    },
+    {
+        "District": "ПФО",
+        "Region": "CU",
+        "Commands": "Alt+F4 (Лаврентьев, Чирцков, Константинов, Сабитов, Павлов)",
+        "Results": 67
+    },
+    {
+        "District": "СКФО",
+        "Region": "STA",
+        "Commands": "ИП (Пономарёв, Илья, Хоменко, Садовников, Усиков)",
+        "Results": 64
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "ВГТУ (Мизерий, Кукушкин, Алексашин, Здоровцов, Забигин)",
+        "Results": 59
+    },
+    {
+        "District": "СКФО",
+        "Region": "DA",
+        "Commands": "DSTU Team (Гарун, Шамиль, Абдулхалик, Магомедова, Абасова)",
+        "Results": 57
+    },
+    {
+        "District": "ПФО",
+        "Region": "TA",
+        "Commands": "pip remove (Шумский, Аминов, Ростов, Чистяков)",
+        "Results": 55
+    },
+    {
+        "District": "ПФО",
+        "Region": "UD",
+        "Commands": "БУДУЩЕЕ РОССИИ (Александров, Чикуров, Савин)",
+        "Results": 49
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "ВГТУ3 (Жданкин, Щелкушкин, Ушаков, Ростошинский)",
+        "Results": 46
+    },
+    {
+        "District": "ЦФО",
+        "Region": "RYA",
+        "Commands": "Advent (Кливиткин, Федина, Линт)",
+        "Results": 43
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "ВГТУ5 (Максим, Александр, Мамедов, Шиндяпин, Туркин)",
+        "Results": 40
+    },
+    {
+        "District": "ПФО",
+        "Region": "UD",
+        "Commands": "А 33 I (Афанасьев, Антон, Овчинников, Котов)",
+        "Results": 39
+    },
+    {
+        "District": "ЦФО",
+        "Region": "RYA",
+        "Commands": "Смартфон_Vivo (Артём, Огаркова, Морозов)",
+        "Results": 38
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "ОАО Хахатон (Попов, Денис, Евгений)",
+        "Results": 36
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "Стас и его друзья (Киселев, Пеньков, , Пуговкина)",
+        "Results": 36
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "ВГТУ4 (Сердюков, Сапов, Дмитриев, Тюрин, Ковалева)",
+        "Results": 36
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "ВГТУ2 (Швец, Трунин, Решетников, Дежина, Рогачев)",
+        "Results": 36
+    },
+    {
+        "District": "СФО",
+        "Region": "KEM",
+        "Commands": "Webra (Есаулов, Речкунов, Хандрамай, Таранов, Тюнин)",
+        "Results": 36
+    },
+    {
+        "District": "ПФО",
+        "Region": "TA",
+        "Commands": "Команда хайпа (Мельников, Фомин, Кузьмичёва, Геворгян, Просвиркин)",
+        "Results": 36
+    },
+    {
+        "District": "ПФО",
+        "Region": "TA",
+        "Commands": "AllStack Alliance (Шафеев, Мелисов, Ховалыг, Новиков, Мухин)",
+        "Results": 36
+    },
+    {
+        "District": "ПФО",
+        "Region": "UD",
+        "Commands": "Уральские Пельмени (Бусыгин, Силуянов)",
+        "Results": 36
+    },
+    {
+        "District": "ПФО",
+        "Region": "TA",
+        "Commands": "Татарстан-1 (Набиуллин, )",
+        "Results": 36
+    },
+    {
+        "District": "ЦФО",
+        "Region": "VOR",
+        "Commands": "ВГТУ1 (Голованева, Стадник, Ледовской, Валентин, Ульянов)",
+        "Results": 36
+    },
+    {
+        "District": "ПФО",
+        "Region": "SAR",
+        "Commands": "zero-cost разработчики (Гущин, Рыданов, Чернигин, Мангасарян)",
+        "Results": 0
+    }
+]
