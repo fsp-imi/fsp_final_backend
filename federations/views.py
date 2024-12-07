@@ -20,3 +20,14 @@ class FederationViewSet(ModelViewSet):
             raise Http404
         ser = self.get_serializer(federation)
         return Response(ser.data, status=200)
+    
+    def update(self, request, *args, **kwargs):
+        federation = Federation.objects.filter(agent__id=request.user.id).first()
+        if federation is None:
+            raise Http404
+        if federation.id == kwargs['pk'] or request.user.is_staff:
+            super().update(request, *args, **kwargs)
+            instance = self.get_object()
+            ser = ser = self.get_serializer(instance)
+            return Response(ser.data, status=200)
+        return Response({'details': 'Вы не можете редактировать этот запись'}, status=403)
