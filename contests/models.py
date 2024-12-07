@@ -44,6 +44,10 @@ class AgeGroup(models.Model):
 
 
 class Contest(models.Model):
+
+    class ContestCharateristic(models.TextChoices):
+        PERSONAL = "Линчная", _("Личная")
+        TEAM = "Командная", _("Командная")
     
     class ContestFormat(models.TextChoices):
         ONL = "ONLINE", _("Онлайн")
@@ -59,9 +63,10 @@ class Contest(models.Model):
     start_time = models.DateTimeField(verbose_name="Дата начала")
     end_time = models.DateTimeField(verbose_name="Дата окончания")
     place = models.ForeignKey(City, verbose_name="Город проведения", db_index=True, null=True, on_delete=models.SET_NULL)
+    contest_char = models.CharField("Характер соревнования", max_length=11, db_index=True, default=ContestCharateristic.PERSONAL, choices=ContestCharateristic)
     contest_type = models.ForeignKey(ContestType, verbose_name="Уровень соревнования", db_index=True, null=True, on_delete=models.SET_NULL)
-    format = models.CharField("Формат соревнования", max_length=20, default=ContestFormat.ONL, choices=ContestFormat)
-    status = models.CharField("Статус", max_length=10, default=Status.ACTIVE, choices=Status)
+    format = models.CharField("Формат соревнования", max_length=20, db_index=True, default=ContestFormat.ONL, choices=ContestFormat)
+    status = models.CharField("Статус", max_length=10, db_index=True, default=Status.ACTIVE, choices=Status)
 
     def save(self, *args, **kwargs):
         if self.pk is not None:
