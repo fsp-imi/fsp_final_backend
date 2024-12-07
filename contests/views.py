@@ -49,7 +49,27 @@ class ContestView(ModelViewSet):
     queryset = Contest.objects.all()
     serializer_class = ContestSerializer
 
+    def get_contest_discpilines_ages(self, contests):
+        disciplines = {}
+        age_group = {}
+        for contest in contests:
+            disciplines[contest.id] = []
+            age_group[contest.id] = []
+            ds = ContestDiscipline.objects.filter(contest__id=contest.id)
+            for d in ds:
+                disciplines[contest.id].append(d.discipline.name)
+            ages = ContestAgeGroup.objects.filter(contest__id=contest.id)
+            for a in ages:
+                age_group[contest.id].append(str(a.age_group))
+        return disciplines, age_group
 
+    def retrieve(self, request, *args, **kwargs):
+        # do your customization here
+        instance = self.get_object()
+        serializer = self.get_serializer(instance)
+        disciplines, age_group = self.get_contest_discpilines_ages([instance])
+        return Response({'data': {'contest': serializer.data, 'disciplines': disciplines, 'age_group': age_group}}, status=200)
+    
     def list(self, request, *args, **kwargs):
         try:
             page = int(request.GET['page'])
@@ -59,8 +79,10 @@ class ContestView(ModelViewSet):
             per_page = 10
         objs, page, per_page, total = get_page_object(self.queryset.order_by('id'), page, per_page)
 
+        disciplines, ages = self.get_contest_discpilines_ages(objs)
+
         ser = self.get_serializer(objs, many=True)
-        return Response({'data': ser.data, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
+        return Response({'data': {'contests': ser.data, 'disciplines':disciplines, 'ages':ages}, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
 
     def get_filter_data(self, request):
         
@@ -97,8 +119,10 @@ class ContestView(ModelViewSet):
             per_page = 10
         objs, page, per_page, total = get_page_object(self.queryset.order_by('id'), page, per_page)
         
-        ser = ContestSerializer(objs, many=True)
-        return Response({'data': ser.data, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
+        disciplines, ages = self.get_contest_discpilines_ages(objs)
+
+        ser = self.get_serializer(objs, many=True)
+        return Response({'data': {'contests': ser.data, 'disciplines':disciplines, 'ages':ages}, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
 
 
 class ContestDisciplineView(ModelViewSet):

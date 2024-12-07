@@ -40,7 +40,7 @@ class AgeGroup(models.Model):
     end = models.IntegerField(verbose_name="Верхний порог", null=True, blank=True)
 
     def __str__(self):
-        return ("Мужчина" if self.gender == 1 else "Женщина") + ' ' + str(self.start) + '-' + str(self.end)
+        return ("Мужчина" if self.gender == 1 else "Женщина") + ' >=' + str(self.start) + (' <=' + str(self.end) if self.end is not None else '')
 
 
 class Contest(models.Model):
