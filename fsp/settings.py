@@ -37,6 +37,8 @@ CORS_ALLOW_METHODS = [
     'GET',
     'POST',
     'DELETE',
+    'PUT',
+    'PATCH',
 ]
 
 # Application definition
@@ -57,7 +59,11 @@ INSTALLED_APPS = [
     'notifications',
     'subscription',
     'federations',
-    'claims'
+    'claims',
+    'contestant',
+    'results',
+    'storages',
+    's3',
 ]
 
 REST_FRAMEWORK = {
@@ -151,9 +157,42 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'static/'  
+MEDIA_URL = 'media/'
+
+# S3 Config
+
+AWS_ACCESS_KEY_ID = "G61YKZWAGWETW1943815"
+AWS_SECRET_ACCESS_KEY = "B0BxNcwkCTRzPGgDOa8hSSAnB1tD7r8Pjp5Kj1vn"
+AWS_STORAGE_BUCKET_NAME = "594bf291-b139f3af-5d47-443a-84d1-f756636511a8"
+AWS_S3_ENDPOINT_URL = "https://s3.timeweb.cloud"  # URL вашего S3-хранилища
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+AWS_QUERYSTRING_AUTH = False
+
+STORAGES = {
+
+    # Media file (image) management  
+    "default": {
+        "BACKEND": "storages.backends.s3boto3.S3StaticStorage",
+    },
+   
+    # CSS and JS file management
+    "staticfiles": {
+        "BACKEND": "storages.backends.s3boto3.S3StaticStorage",
+    },
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Confirm reg mail
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'your_email@example.com'
+EMAIL_HOST_PASSWORD = 'your_password'

@@ -18,6 +18,9 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.authtoken import views
 
+from s3.views import UploadFileView
+
+
 apiv1 = [
     path('users/', include('users.urls')),
     path('contests/', include('contests.urls')),
@@ -25,6 +28,9 @@ apiv1 = [
     path('notifications/', include('notifications.urls')),
     path('subscriptions/', include('subscription.urls')),
     path('claims/', include('claims.urls')),
+    path('federations/', include('federations.urls')),
+    path('results/', include('results.urls')),
+    path("upload/", UploadFileView.as_view(), name="upload_file"),
 ]
 
 urlpatterns = [

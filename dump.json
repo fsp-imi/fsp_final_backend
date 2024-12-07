@@ -1,0 +1,1050 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$0H0VEAlhDSwt9BXlOjAW29$cLXDkSgcOGYP8kdr4eADzj7St+vreBntVbU+Ol0pHi0=",
+        "last_login": "2024-12-07T01:22:16.427Z",
+        "is_superuser": true,
+        "username": "evv",
+        "first_name": "",
+        "last_name": "",
+        "email": "evv@ykt.ru",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-12-05T21:18:39.225Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Wr4gel4rFvbgMAnEjeE3Ul$jf98I5DDPPuyhE1lUUg1SdOrEOA6Uom6C8r5a5KBPTo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "rs",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-07T03:28:01.914Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "48b99da0d9ae1cb992cb705d15b616c8f2200d09",
+    "fields": {
+        "user": [
+            "evv"
+        ],
+        "created": "2024-12-07T03:32:04.547Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "7946709b426b90757a66f7ea64cc55260edbbd43",
+    "fields": {
+        "user": [
+            "rs"
+        ],
+        "created": "2024-12-07T03:32:08.749Z"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 1,
+    "fields": {
+        "name": "Центральный федеральный округ"
+    }
+},
+{
+    "model": "country.district",
+    "pk": 2,
+    "fields": {
+        "name": "ДФО"
+    }
+},
+{
+    "model": "country.region",
+    "pk": 1,
+    "fields": {
+        "district": 1,
+        "name": "Московская область"
+    }
+},
+{
+    "model": "country.region",
+    "pk": 2,
+    "fields": {
+        "district": 2,
+        "name": "Республика Саха (Якутия)"
+    }
+},
+{
+    "model": "country.city",
+    "pk": 1,
+    "fields": {
+        "region": 1,
+        "name": "Зеленоград"
+    }
+},
+{
+    "model": "contests.sporttype",
+    "pk": 1,
+    "fields": {
+        "name": "Спортивное программирование"
+    }
+},
+{
+    "model": "contests.discipline",
+    "pk": 1,
+    "fields": {
+        "sport_type": 1,
+        "name": "Алгоритмическое программирование"
+    }
+},
+{
+    "model": "contests.discipline",
+    "pk": 2,
+    "fields": {
+        "sport_type": 1,
+        "name": "Продуктовое программирование"
+    }
+},
+{
+    "model": "contests.discipline",
+    "pk": 3,
+    "fields": {
+        "sport_type": 1,
+        "name": "Безопасность"
+    }
+},
+{
+    "model": "contests.contesttype",
+    "pk": 1,
+    "fields": {
+        "name": "Региональный"
+    }
+},
+{
+    "model": "contests.contesttype",
+    "pk": 2,
+    "fields": {
+        "name": "Межрегиональный"
+    }
+},
+{
+    "model": "contests.contesttype",
+    "pk": 3,
+    "fields": {
+        "name": "Всероссийский"
+    }
+},
+{
+    "model": "contests.contesttype",
+    "pk": 4,
+    "fields": {
+        "name": "Международный"
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 1,
+    "fields": {
+        "gender": 1,
+        "start": 18,
+        "end": null
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 2,
+    "fields": {
+        "gender": 0,
+        "start": 18,
+        "end": null
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 3,
+    "fields": {
+        "gender": 1,
+        "start": 14,
+        "end": 18
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 4,
+    "fields": {
+        "gender": 0,
+        "start": 14,
+        "end": 18
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 5,
+    "fields": {
+        "gender": 1,
+        "start": 17,
+        "end": 26
+    }
+},
+{
+    "model": "contests.agegroup",
+    "pk": 6,
+    "fields": {
+        "gender": 0,
+        "start": 17,
+        "end": 26
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 1,
+    "fields": {
+        "name": "Чемпионат России",
+        "start_time": "2024-12-06T10:00:00Z",
+        "end_time": "2024-12-15T18:00:00Z",
+        "place": 1,
+        "contest_type": 3,
+        "format": "ONLINE",
+        "status": "ACTIVE"
+    }
+},
+{
+    "model": "contests.contest",
+    "pk": 2,
+    "fields": {
+        "name": "Первенство России",
+        "start_time": "2024-12-06T10:00:00Z",
+        "end_time": "2024-12-15T18:00:00Z",
+        "place": 1,
+        "contest_type": 3,
+        "format": "ONLINE",
+        "status": "ACTIVE"
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 2,
+    "fields": {
+        "contest": 1,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 3,
+    "fields": {
+        "contest": 2,
+        "discipline": 3
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 4,
+    "fields": {
+        "contest": 2,
+        "discipline": 1
+    }
+},
+{
+    "model": "contests.contestdiscipline",
+    "pk": 5,
+    "fields": {
+        "contest": 2,
+        "discipline": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 1,
+    "fields": {
+        "contest": 1,
+        "age_group": 1
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 2,
+    "fields": {
+        "contest": 1,
+        "age_group": 2
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 5,
+    "fields": {
+        "contest": 2,
+        "age_group": 3
+    }
+},
+{
+    "model": "contests.contestagegroup",
+    "pk": 6,
+    "fields": {
+        "contest": 2,
+        "age_group": 4
+    }
+},
+{
+    "model": "federations.federation",
+    "pk": 1,
+    "fields": {
+        "name": "ФСПРСЯ",
+        "email": "fsp@ykt.ru",
+        "phone": "9141234567",
+        "address": "г Якутск",
+        "agent": [
+            "rs"
+        ],
+        "level": "REG",
+        "region": 2
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-12-07T01:22:33.534Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "sporttype"
+        ],
+        "object_id": "1",
+        "object_repr": "Спортивное программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-12-07T01:22:47.457Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "1",
+        "object_repr": "Алгоритмическое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-12-07T01:22:58.033Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "2",
+        "object_repr": "Продуктовое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-12-07T01:23:13.130Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "discipline"
+        ],
+        "object_id": "3",
+        "object_repr": "Безопасность",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-12-07T01:23:31.294Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contesttype"
+        ],
+        "object_id": "1",
+        "object_repr": "Региональный",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-12-07T01:23:37.813Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contesttype"
+        ],
+        "object_id": "2",
+        "object_repr": "Межрегиональный",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-12-07T01:23:42.713Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contesttype"
+        ],
+        "object_id": "3",
+        "object_repr": "Всероссийский",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-12-07T01:23:48.469Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contesttype"
+        ],
+        "object_id": "4",
+        "object_repr": "Международный",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-12-07T01:28:22.802Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "1",
+        "object_repr": "Мужчина 18-None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-12-07T01:28:30.249Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "2",
+        "object_repr": "Женщина 18-None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-12-07T01:28:52.015Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Мужчина 14-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-12-07T01:29:20.606Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "4",
+        "object_repr": "Женщина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-12-07T01:29:27.111Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Мужчина 14-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0440\\u0445\\u043d\\u0438\\u0439 \\u043f\\u043e\\u0440\\u043e\\u0433\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-12-07T01:29:45.111Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "5",
+        "object_repr": "Мужчина 17-26",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-12-07T01:29:57.254Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "agegroup"
+        ],
+        "object_id": "6",
+        "object_repr": "Женщина 17-26",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-12-07T01:31:25.308Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "1",
+        "object_repr": "Центральный федераь",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-12-07T01:31:37.377Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "1",
+        "object_repr": "Центральный федеральный округ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-12-07T01:31:57.909Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "1",
+        "object_repr": "Московская область",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-12-07T01:32:03.994Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "city"
+        ],
+        "object_id": "1",
+        "object_repr": "Зеленоград",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-12-07T01:32:35.239Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contest"
+        ],
+        "object_id": "1",
+        "object_repr": "Чемпионат России",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-12-07T01:32:48.314Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "1",
+        "object_repr": "Чемпионат России Алгоритмическое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-12-07T01:32:51.984Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "2",
+        "object_repr": "Чемпионат России Продуктовое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-12-07T01:33:02.995Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "1",
+        "object_repr": "Чемпионат России Мужчина 18-None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-12-07T01:33:08.937Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "2",
+        "object_repr": "Чемпионат России Женщина 18-None",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-12-07T01:33:15.138Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Чемпионат России Мужчина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-12-07T01:33:19.206Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "4",
+        "object_repr": "Чемпионат России Женщина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-12-07T01:33:52.639Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "4",
+        "object_repr": "Чемпионат России Женщина 14-18",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-12-07T01:33:52.639Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "3",
+        "object_repr": "Чемпионат России Мужчина 14-18",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-12-07T01:34:50.664Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contest"
+        ],
+        "object_id": "2",
+        "object_repr": "Первенство России",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-12-07T01:35:01.221Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "3",
+        "object_repr": "Первенство России Безопасность",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-12-07T01:35:07.986Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "4",
+        "object_repr": "Первенство России Алгоритмическое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-12-07T01:35:18.790Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "5",
+        "object_repr": "Первенство России Продуктовое программирование",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-12-07T01:35:28.205Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestdiscipline"
+        ],
+        "object_id": "1",
+        "object_repr": "Чемпионат России Алгоритмическое программирование",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-12-07T01:35:39.817Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "5",
+        "object_repr": "Первенство России Мужчина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-12-07T01:35:44.327Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "contests",
+            "contestagegroup"
+        ],
+        "object_id": "6",
+        "object_repr": "Первенство России Женщина 14-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-12-07T03:28:02.204Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "rs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-12-07T03:29:03.271Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "district"
+        ],
+        "object_id": "2",
+        "object_repr": "ДФО",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-12-07T03:29:15.283Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "country",
+            "region"
+        ],
+        "object_id": "2",
+        "object_repr": "Республика Саха (Якутия)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-12-07T03:29:18.786Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "federations",
+            "federation"
+        ],
+        "object_id": "1",
+        "object_repr": "Federation object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-12-07T03:32:04.548Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "authtoken",
+            "tokenproxy"
+        ],
+        "object_id": "1",
+        "object_repr": "48b99da0d9ae1cb992cb705d15b616c8f2200d09",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-12-07T03:32:08.750Z",
+        "user": [
+            "evv"
+        ],
+        "content_type": [
+            "authtoken",
+            "tokenproxy"
+        ],
+        "object_id": "2",
+        "object_repr": "7946709b426b90757a66f7ea64cc55260edbbd43",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
