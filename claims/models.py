@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils.translation import gettext_lazy as _
 from country.models import City
+
 from contests.models import Contest, ContestType, AgeGroup, Discipline
 from federations.models import Federation
 # Create your models here.
@@ -28,6 +29,7 @@ class Claim(models.Model):
     contest_char = models.CharField("Характер соревнования", max_length=11, db_index=True, default=Contest.ContestCharateristic.PERSONAL, choices=Contest.ContestCharateristic)
     contest_discipline = models.ManyToManyField(Discipline, verbose_name="Дисциплина соревнования")
     contest_age_group = models.ManyToManyField(AgeGroup, verbose_name="Возрастная группа")
+
 
 class ClaimFile(models.Model):
     claim = models.ForeignKey(Claim, verbose_name="Заявка", on_delete=models.CASCADE)
