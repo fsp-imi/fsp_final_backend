@@ -19,3 +19,6 @@ class Federation(models.Model):
     level = models.CharField("Уровень", max_length=3, choices=Level, default=Level.REG)
     region = models.ForeignKey(Region, verbose_name="Регион", db_index=True, null=True, on_delete=models.SET_NULL)
     logo = models.CharField("Ссылка на лого", max_length=300, blank=True, null=True)
+
+    def __str__(self):
+        return self.name + ' ' + self.region.name
