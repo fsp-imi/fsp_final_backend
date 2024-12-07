@@ -4,11 +4,11 @@ from django.db import transaction
 from contests.models import Contest, ContestType, Discipline, SportType, ContestDiscipline, ContestAgeGroup, AgeGroup, Gender
 from load_fed import get_json_data
 
-types = ContestType.objects.all()
-regional = 1
-interregional = 2
+types = ContestType.objects.all().order_by('id')
+regional = 0
+interregional = 1
 allrussia = 2
-international = 4
+international = 3
 sport_type = SportType.objects.filter(id=1).first()
 
 def load_contests(file_name):
@@ -45,6 +45,7 @@ def load_contests(file_name):
 def get_disciplines(discipline_names):
     result = []
     for discipline in discipline_names:
+        discipline = discipline.lower().capitalize()
         d = Discipline.objects.filter(name=discipline).first()
         if d is None:
             d = Discipline()
@@ -52,7 +53,7 @@ def get_disciplines(discipline_names):
             d.name = discipline
             d.save()
         result.append(d)
-    return d
+    return result
             
                 
 def add_disciplines(contest, disciplines):
@@ -76,8 +77,8 @@ def get_age_groups(ages):
         elif age == 'женщины':
             result.extend(AgeGroup.objects.filter(start__gte=18, gender=Gender.FEMALE))
         else:
-            gender, g_age = age.split()
-            if '(' in g_age:
+            if '(' in age:
+                gender, g_age = age.split()
                 g_age = g_age[1:-1]
                 start, end = map(int, g_age.split('-'))
                 if gender == 'юниоры':
@@ -87,7 +88,13 @@ def get_age_groups(ages):
                 else:
                     result.extend(AgeGroup.objects.filter(start__gte=start, end__lte=end))
             else:
-                result.extend(AgeGroup.objects.filter(start__gte=start))
+                if '-' in age:
+                    start, end = age.split('-')
+                    result.extend(AgeGroup.objects.filter(start__gte=start, end__lte=end))
+                else:
+                    start = age.split()[1]
+                    result.extend(AgeGroup.objects.filter(start__gte=14, end__lte=17))
+    return result
 
 
 
