@@ -30,10 +30,10 @@ class FederationViewSet(ModelViewSet):
         return Response(ser.data, status=200)
     
     def update(self, request, *args, **kwargs):
-        federation = Federation.objects.filter(agent__id=request.user.id).first()
+        federation = Federation.objects.filter(id=kwargs['pk']).first()
         if federation is None:
             raise Http404
-        if federation.id == kwargs['pk'] or request.user.is_staff:
+        if (federation.agent is not None and federation.agent.id == request.user.id) or request.user.is_staff:
             super().update(request, *args, **kwargs)
             instance = self.get_object()
             ser = self.get_serializer(instance)
