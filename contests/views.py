@@ -1,5 +1,4 @@
 import datetime
-from django.shortcuts import render
 from django.core.paginator import Paginator
 from .models import SportType, Discipline, ContestType, AgeGroup, Contest, ContestDiscipline, ContestAgeGroup
 from .serializers import SportTypeSerializer, DisciplineSerializer, ContestTypeSerializer, AgeGroupSerializer, ContestSerializer, ContestDisciplineSerializer, ContestAgeGroupSerializer

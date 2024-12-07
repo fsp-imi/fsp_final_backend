@@ -4,6 +4,7 @@ from notifications.models import Notification
 from django.utils.translation import gettext_lazy as _
 #from subscription.models import Subscrip
 from notifications.NotificationsFuncs import sendNotification
+from federations.models import Federation
 
 # Create your models here.
 
@@ -67,6 +68,8 @@ class Contest(models.Model):
     contest_type = models.ForeignKey(ContestType, verbose_name="Уровень соревнования", db_index=True, null=True, on_delete=models.SET_NULL)
     format = models.CharField("Формат соревнования", max_length=20, db_index=True, default=ContestFormat.ONL, choices=ContestFormat)
     status = models.CharField("Статус", max_length=10, db_index=True, default=Status.ACTIVE, choices=Status)
+    organizer = models.ForeignKey(Federation, verbose_name="Организатор",null=True, on_delete=models.CASCADE, related_name='organizer_set')
+    federation = models.ForeignKey(Federation, verbose_name="Федерация",null=True, on_delete=models.CASCADE, related_name='fedration_set')
 
     def save(self, *args, **kwargs):
         if self.pk is not None:
