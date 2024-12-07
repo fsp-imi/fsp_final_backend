@@ -6,3 +6,5 @@ class FederationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Federation
         fields = [ 'id', 'name', 'email', 'phone', 'agent', 'level']
+        
+        
