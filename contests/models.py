@@ -47,7 +47,7 @@ class AgeGroup(models.Model):
 class Contest(models.Model):
 
     class ContestCharateristic(models.TextChoices):
-        PERSONAL = "Линчная", _("Личная")
+        PERSONAL = "Личная", _("Личная")
         TEAM = "Командная", _("Командная")
     
     class ContestFormat(models.TextChoices):
