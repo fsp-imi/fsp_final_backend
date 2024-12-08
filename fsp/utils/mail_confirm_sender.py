@@ -8,9 +8,10 @@ from django.urls import reverse
 def send_activation_email(user, request):
     token = default_token_generator.make_token(user)
     uid = urlsafe_base64_encode(force_bytes(user.pk))
+    print(reverse('activate', kwargs={'uid': uid, 'token': token}))
     activation_link = request.build_absolute_uri(
-        reverse('activate', kwargs={'uidb64': uid, 'token': token})
-    )
+    reverse('activate', kwargs={'uid': uid, 'token': token})
+)
 
     subject = 'Подтверждение регистрации'
     message = render_to_string('registration/activation_email.html', {
@@ -21,7 +22,7 @@ def send_activation_email(user, request):
     send_mail(
         subject,
         message,
-        'noreply@example.com',  # От кого
-        [user.email],  # Кому
+        'info@beercut.ru',
+        [user.email],
         fail_silently=False,
     )

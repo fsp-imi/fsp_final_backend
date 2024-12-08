@@ -41,6 +41,6 @@ class ContestDisciplineSerializer(serializers.ModelSerializer):
 class ContestSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contest
-        fields = ['id', 'name', 'start_time', 'end_time', 'place', 'contest_type', 'format', 'status']
+        fields = ['id', 'name', 'start_time', 'end_time', 'place', 'file', 'contest_type', 'format', 'status']
 
         
