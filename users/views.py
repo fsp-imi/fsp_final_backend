@@ -23,7 +23,7 @@ class UserViewSet(ModelViewSet):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
-        user.is_active=False
+        user.is_active=True
         user.save()
         token, created = Token.objects.get_or_create(user=user)
         # send_activation_email(user, request)
