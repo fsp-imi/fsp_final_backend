@@ -191,8 +191,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Confirm reg mail
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'your_email@example.com'
-EMAIL_HOST_PASSWORD = 'your_password'
+EMAIL_HOST = 'smtp.timeweb.ru'
+EMAIL_PORT = 2525  # Если используется SSL
+EMAIL_USE_SSL = False  # Используем SSL
+# EMAIL_USE_TLS = True  # Если используется TLS (и тогда порт 587)
+EMAIL_HOST_USER = 'info@beercut.ru'  # Ваш email-адрес
+EMAIL_HOST_PASSWORD = 'iefyewbxp5'  # Пароль от email
+DEFAULT_FROM_EMAIL = 'info@beercut.ru'
