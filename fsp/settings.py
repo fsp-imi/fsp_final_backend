@@ -97,7 +97,7 @@ ROOT_URLCONF = 'fsp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -196,6 +196,18 @@ EMAIL_HOST = 'smtp.timeweb.ru'
 EMAIL_PORT = 2525  # Если используется SSL
 EMAIL_USE_SSL = False  # Используем SSL
 # EMAIL_USE_TLS = True  # Если используется TLS (и тогда порт 587)
+EMAIL_USE_LOCALTIME = True
 EMAIL_HOST_USER = 'info@beercut.ru'  # Ваш email-адрес
 EMAIL_HOST_PASSWORD = 'iefyewbxp5'  # Пароль от email
 DEFAULT_FROM_EMAIL = 'info@beercut.ru'
+
+LOGIN_REDIRECT_URL = '/login/'
+
+LOGIN_URL = '/login/'
+
+LOGIN_EXEMPT_URLS = (
+    r'^auth/password_reset',
+    r'^auth/password_reset/done',
+    r'^auth/reset/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})',
+    r'^auth/reset/complete',
+)
