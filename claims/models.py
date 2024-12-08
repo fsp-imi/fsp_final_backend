@@ -3,8 +3,9 @@ from django.contrib.auth.models import User
 from django.utils.translation import gettext_lazy as _
 from country.models import City
 
-from contests.models import Contest, ContestType, AgeGroup, Discipline
+from contests.models import Contest, ContestType, AgeGroup, Discipline, ContestDiscipline, ContestAgeGroup
 from federations.models import Federation
+from notifications.NotificationsFuncs import sendClaimNotification
 # Create your models here.
 
 #new to onprogress
@@ -35,6 +36,33 @@ class Claim(models.Model):
     contest_type = models.ForeignKey(ContestType, verbose_name="Уровень соревнования", db_index=True, null=True, on_delete=models.SET_NULL)
     contest_discipline = models.ManyToManyField(Discipline, verbose_name="Дисциплина соревнования")
     contest_age_group = models.ManyToManyField(AgeGroup, verbose_name="Возрастная группа")
+
+    def save(self, *args, **kwargs):
+        if self.status == self.Status.ACCEPTED:
+            #create contest
+            c = Contest()
+            c.name = self.name
+            c.organizer = self.sender_federation
+            c.federation = self.receiver_federation
+            c.start_time = self.start_time
+            c.end_time = self.end_time
+            c.place = self.place
+            c.format = self.format
+            c.contest_char = self.contest_char
+            c.contest_type = c.contest_type
+            for d in self.contest_discipline:
+                cd = ContestAgeGroup(contest=c, discipline=d)
+                cd.save()
+            for ag in self.contest_age_group:
+                ca = ContestAgeGroup(contest=c, age_group=ag)
+                ca.save()
+            c.save()
+            sendClaimNotification(self, f'Обратите внимание! Информация по заявлению \"{self.name}\" изменилась!')
+            pass
+        super(Contest, self).save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name
 
 
 class ClaimFile(models.Model):
