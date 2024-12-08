@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     'results',
     'storages',
     's3',
+    'analytics',
 ]
 
 REST_FRAMEWORK = {
