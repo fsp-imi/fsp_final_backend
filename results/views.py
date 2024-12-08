@@ -1,4 +1,7 @@
-from .models import Result
+from .models import Result, ResultFile
+from country.models import Region
+from contests.models import Contest
+from contestant.models import Team
 from .serializers import ResultSerializer
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.views import APIView
@@ -14,6 +17,8 @@ from .parse_file import parse_file
 
 import pandas as pd
 import numpy as np
+from fsp.settings import *
+import boto3
 
 # Create your views here.
 
@@ -60,6 +65,7 @@ class ColumnPreviewAPIView(APIView):
         """
         Парсит строку с диапазонами столбцов и возвращает список индексов.
         Пример входных данных: "3, 5, 6-12, , 312"
+        Индексация столбцов в пользовательском вводе начинается с 1, а в DataFrame — с 0.
         """
         indices = []
         try:
@@ -67,12 +73,12 @@ class ColumnPreviewAPIView(APIView):
                 part = part.strip()
                 if '-' in part:  # Если это диапазон
                     start, end = map(int, part.split('-'))
-                    indices.extend(range(start, end + 1))
+                    indices.extend(range(start - 1, end))  # Преобразуем в 0-based индексы
                 elif part:  # Если это одиночный индекс
-                    indices.append(int(part))
+                    indices.append(int(part) - 1)  # Преобразуем в 0-based индекс
         except ValueError:
             raise ValueError("Некорректный формат диапазонов столбцов.")
-        return list(dict.fromkeys(indices))  # Убираем дубликаты и сортируем
+        return list(dict.fromkeys(indices))  # Убираем дубликаты, сохраняя порядок
 
     def post(self, request, *args, **kwargs):
         # Получаем параметры из запроса
@@ -125,6 +131,129 @@ class ColumnPreviewAPIView(APIView):
 
 
             return Response(result, status=200)
+
+        except Exception as e:
+            return Response({"error": str(e)}, status=500)
+        
+class ResultUploadAPIView(APIView):
+    parser_classes = (MultiPartParser, FormParser)
+
+    def parse_range(self, range_str: str) -> list:
+        """
+        Парсит строку диапазонов в список индексов.
+        Пример: "4-5" -> [4, 5]
+        """
+        indices = []
+        for part in range_str.split(','):
+            part = part.strip()
+            if '-' in part:
+                start, end = map(int, part.split('-'))
+                indices.extend(range(start, end + 1))
+            elif part.isdigit():
+                indices.append(int(part))
+        return indices
+
+    def post(self, request, *args, **kwargs):
+        # Получаем файл и данные из запроса
+        file = request.FILES.get("file")
+        contest_id = request.data.get("contest_id")
+        district_col = request.data.get("district", "").strip()
+        region_col = request.data.get("region", "").strip()
+        participants_col = request.data.get("participants", "").strip()
+        points_col = request.data.get("points", "").strip()
+        place_col = request.data.get("place", "").strip()
+
+        if not file:
+            return Response({"error": "Файл не предоставлен."}, status=400)
+
+        if not contest_id:
+            return Response({"error": "ID соревнования не предоставлен."}, status=400)
+
+        try:
+            # Получаем конкурс
+            contest = Contest.objects.get(id=contest_id)
+
+            # Определяем тип файла и читаем его
+            file_extension = file.name.split('.')[-1].lower()
+            if file_extension in ['xls', 'xlsx']:
+                df = pd.read_excel(file)
+            elif file_extension == 'csv':
+                df = pd.read_csv(file)
+            else:
+                return Response({"error": "Неподдерживаемый тип файла."}, status=400)
+
+            # Парсинг столбцов
+            contest = Contest.objects.filter(id=contest_id).first()
+
+            parsed_data = {}
+            for i, row in df.iterrows():
+                # Используем iloc для доступа по позиции
+                district = row.iloc[int(district_col)] if district_col.isdigit() else None
+                region = row.iloc[int(region_col)] if region_col.isdigit() else None
+                participants_indices = self.parse_range(participants_col)
+                participants = " ".join([str(row.iloc[idx]) for idx in participants_indices if idx < len(row)])
+
+                # Проверка и обработка points
+                points = row.iloc[int(points_col)] if points_col.isdigit() else None
+                if points is not None and not pd.isna(points):
+                    try:
+                        points = int(float(points))  # Обрабатываем, если это строка с числом
+                    except ValueError:
+                        points = None  # Если значение не числовое, заменяем его на None
+
+                # Проверка и обработка place
+                place = row.iloc[int(place_col)] if place_col.isdigit() else None
+                if place is not None and not pd.isna(place):
+                    try:
+                        place = int(float(place))  # Обрабатываем, если это строка с числом
+                    except ValueError:
+                        place = None  # Если значение не числовое, заменяем его на None
+
+                # Сохраняем результат только если points и place валидны
+                if points is not None and participants is not None:
+                    parsed_data['name'] = 'Команда1'
+                    parsed_data['team'] = participants
+                    parsed_data['score'] = points
+
+                    r = Region.objects.get(id=1)
+                    t = Team.objects.create(name=participants, members=participants, region=r)
+                    r = Result.objects.create(contest=contest, team=t, score=points)
+                    print(r)
+
+            # Сохраняем все результаты через bulk_create
+            # Result.objects.bulk_create(parsed_data)
+
+            # Загружаем файл в S3
+            s3 = boto3.client(
+                's3',
+                aws_access_key_id=AWS_ACCESS_KEY_ID,
+                aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
+                endpoint_url=AWS_S3_ENDPOINT_URL
+            )
+
+            s3_file_name = f"results/{file.name}"
+            s3.upload_fileobj(file, AWS_STORAGE_BUCKET_NAME, s3_file_name)
+
+            # Сохраняем информацию о загруженном файле
+            # result_file = ResultFile.objects.create(
+            #     contest=contest,
+            #     file=f"https://{AWS_S3_ENDPOINT_URL}/{s3_file_name}",
+            #     results_protocol=True
+            # )
+
+            contest.file = f"{AWS_S3_ENDPOINT_URL}/{AWS_STORAGE_BUCKET_NAME}/{s3_file_name}"
+            contest.save()
+
+            return Response(
+                {
+                    "message": "Результаты успешно обработаны.",
+                    "file_url": contest.file,
+                },
+                status=200,
+            )
+
+        except Contest.DoesNotExist:
+            return Response({"error": "Соревнование не найдено."}, status=404)
 
         except Exception as e:
             return Response({"error": str(e)}, status=500)
