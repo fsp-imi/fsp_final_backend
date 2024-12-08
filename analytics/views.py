@@ -7,10 +7,12 @@ from results.models import Result
 from results.serializers import ResultSerializer
 from claims.models import Claim
 from claims.serializers import ClaimSerializer
+from country.models import Region
 # Create your views here.
 
 class AnalyticsResultsView(ModelViewSet):  
     queryset = Result.objects.all()
+    regions = Region.objects.all()
     serializer_class = ResultSerializer
     
     def get_queryset(self):
@@ -55,6 +57,24 @@ class AnalyticsResultsView(ModelViewSet):
         serializer = self.get_serializer(search_result, many=True)
         return Response(serializer.data, status=HTTP_200_OK)
         
+    def avg_scores(self, request):
+        regions = self.regions
+        avg_scores = {}
+        
+        for reg in regions:
+            reg_score = 0
+            count = 0
+            for res in Result.objects.filter(team__region__id=reg.id):
+                reg_score += res.score
+                count += 1
+            
+            if count > 0:
+                avg_scores[reg.name] = reg_score / count
+            else:
+                avg_scores[reg.name] = 0
+        
+        return Response(avg_scores, status=HTTP_200_OK)
+            
 
 
     
