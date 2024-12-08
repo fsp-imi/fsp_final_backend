@@ -49,7 +49,7 @@ class Claim(models.Model):
             c.place = self.place
             c.format = self.format
             c.contest_char = self.contest_char
-            c.contest_type = c.contest_type
+            c.contest_type = self.contest_type
             c.save()
             for d in self.contest_discipline.all():
                 cd = ContestDiscipline(contest=c, discipline=d)
