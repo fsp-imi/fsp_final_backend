@@ -79,6 +79,7 @@ class ColumnPreviewAPIView(APIView):
         file = request.FILES.get("file")
         column_range = request.data.get("column_range", "")
         num_rows = int(request.data.get("num_rows", 5))  # Количество строк (по умолчанию 5)
+        header = request.data.get("header", "Column")
 
         if not file:
             return Response({"error": "Файл не предоставлен."}, status=400)
@@ -108,7 +109,7 @@ class ColumnPreviewAPIView(APIView):
 
             # Извлекаем и соединяем данные из указанных столбцов
             selected_columns = df.iloc[:, column_indices]
-            result = (
+            selected_columns = (
                 selected_columns
                 .head(num_rows)
                 .replace({np.nan: None})
@@ -117,7 +118,13 @@ class ColumnPreviewAPIView(APIView):
                 .tolist()
             )
 
-            return Response({"result": result}, status=200)
+            result = {
+                header: selected_columns
+            }
+
+
+
+            return Response(result, status=200)
 
         except Exception as e:
             return Response({"error": str(e)}, status=500)
