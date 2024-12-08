@@ -74,9 +74,7 @@ class AnalyticsResultsView(ModelViewSet):
                 avg_scores[reg.name] = 0
         
         return Response(avg_scores, status=HTTP_200_OK)
-            
-
-
+      
     
 class AnalyticsClaimsView(ModelViewSet):  
     queryset = Claim.objects.all()
