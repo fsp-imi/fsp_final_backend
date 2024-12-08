@@ -70,6 +70,8 @@ class Contest(models.Model):
     status = models.CharField("Статус", max_length=10, db_index=True, default=Status.ACTIVE, choices=Status)
     organizer = models.ForeignKey(Federation, verbose_name="Организатор",null=True, on_delete=models.CASCADE, related_name='organizer_set')
     federation = models.ForeignKey(Federation, verbose_name="Федерация",null=True, on_delete=models.CASCADE, related_name='fedration_set')
+    file = models.CharField('Ссылка на файл', max_length=300, null=True, blank=True)
+
 
     def save(self, *args, **kwargs):
         if self.pk is not None:
