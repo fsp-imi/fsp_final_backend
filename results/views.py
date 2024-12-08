@@ -72,7 +72,7 @@ class ColumnPreviewAPIView(APIView):
                     indices.append(int(part))
         except ValueError:
             raise ValueError("Некорректный формат диапазонов столбцов.")
-        return set(indices)  # Убираем дубликаты и сортируем
+        return list(dict.fromkeys(indices))  # Убираем дубликаты и сортируем
 
     def post(self, request, *args, **kwargs):
         # Получаем параметры из запроса
