@@ -64,6 +64,7 @@ class Contest(models.Model):
     start_time = models.DateTimeField(verbose_name="Дата начала", db_index=True)
     end_time = models.DateTimeField(verbose_name="Дата окончания", null=True, db_index=True)
     place = models.CharField(verbose_name="Город", max_length=300, blank=True, null=True)
+    file = models.FileField(verbose_name="Файл", upload_to='uploads/', null=True)
     contest_char = models.CharField("Характер соревнования", max_length=11, db_index=True, default=ContestCharateristic.PERSONAL, choices=ContestCharateristic)
     contest_type = models.ForeignKey(ContestType, verbose_name="Уровень соревнования", db_index=True, null=True, on_delete=models.SET_NULL)
     format = models.CharField("Формат соревнования", max_length=20, db_index=True, default=ContestFormat.ONL, choices=ContestFormat)

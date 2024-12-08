@@ -11,5 +11,5 @@ urlpatterns = [
     path('get-user/', GetUserData.as_view()),
     path('profile/', UserProfile.as_view()),
     path('<int:pk>/', UserViewSet.as_view({'get': 'get_by_id'})),
-    path('activate/<uid>/<token>/', UserViewSet.as_view({'get': 'activate_account'}), name='activate'),
+    path('activate/<uid64>/<token>/', UserViewSet.as_view({'get': 'activate_account'}), name='activate'),
 ]
