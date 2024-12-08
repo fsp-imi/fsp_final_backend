@@ -24,7 +24,7 @@ class Claim(models.Model):
         REJECTED = "REJECTED", _("Отклонен")
         ACCEPTED = 'ACCEPTED', _("Принят")
         
-    name = models.CharField(verbose_name="Название заявки", max_length=300, null=True)
+    name = models.CharField(verbose_name="Название заявки", max_length=300)
     sender_federation = models.ForeignKey(Federation, related_name="Отправитель",null=True, on_delete=models.CASCADE)
     receiver_federation = models.ForeignKey(Federation, related_name="Приниматель",null=True, on_delete=models.CASCADE)
     start_time = models.DateTimeField(verbose_name="Дата начала", db_index=True, null=True)
@@ -36,6 +36,7 @@ class Claim(models.Model):
     contest_type = models.ForeignKey(ContestType, verbose_name="Уровень соревнования", db_index=True, null=True, on_delete=models.SET_NULL)
     contest_discipline = models.ManyToManyField(Discipline, verbose_name="Дисциплина соревнования")
     contest_age_group = models.ManyToManyField(AgeGroup, verbose_name="Возрастная группа")
+    file = models.CharField('Ссылка на файл', max_length=300, null=True, blank=True)
 
     def save(self, *args, **kwargs):
         if self.status == self.Status.ACCEPTED:
@@ -77,4 +78,4 @@ class ClaimFile(models.Model):
     description = models.CharField(verbose_name="Описание", max_length=300)
     
     def __str__(self):
-        return self.claim.name
+        return f"{self.claim.name or 'Без названия'} - {self.description or 'Описание отсутствует'}"
