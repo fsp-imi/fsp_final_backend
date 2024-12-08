@@ -50,16 +50,22 @@ class Claim(models.Model):
             c.format = self.format
             c.contest_char = self.contest_char
             c.contest_type = c.contest_type
-            for d in self.contest_discipline:
-                cd = ContestAgeGroup(contest=c, discipline=d)
+            c.save()
+            for d in self.contest_discipline.all():
+                cd = ContestDiscipline(contest=c, discipline=d)
                 cd.save()
-            for ag in self.contest_age_group:
+            for ag in self.contest_age_group.all():
                 ca = ContestAgeGroup(contest=c, age_group=ag)
                 ca.save()
-            c.save()
-            sendClaimNotification(self, f'Обратите внимание! Информация по заявлению \"{self.name}\" изменилась!')
-            pass
-        super(Contest, self).save(*args, **kwargs)
+            sendClaimNotification(self, f'Поздравляем! Ваша заявление \"{self.name}\" принята!', self.sender_federation.agent)
+        elif self.status == self.Status.REJECTED:
+            sendClaimNotification(self, f'К сожалению Ваша заявление \"{self.name}\" отклонена!', self.sender_federation.agent)
+        elif self.status == self.Status.MODERATE:
+            sendClaimNotification(self, f'Обратите внимание! Ваша заявление \"{self.name}\" отправлена на доработку!', self.sender_federation.agent)
+        elif self.status == self.Status.NEW:
+            sendClaimNotification(self, f'Обратите внимание! Ваша заявление поступило новое заявление!', User.objects.filter(is_staff=True).first())
+        
+        super(Claim, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.name
