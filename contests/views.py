@@ -114,6 +114,10 @@ class ContestView(ModelViewSet):
                 self.queryset = self.queryset.filter(end_time__lte=end)
             except:
                 return Response({'error': 'Формат даты конца периода задан неверно!'}, status=404)
+        if 'region' in request.GET:
+            #self.queryset = self.queryset.filter(organizer__region__id=request.GET['region'])
+            self.queryset = self.queryset.filter(place__icontains=request.GET['region'])
+
 
         try:
             page = int(request.GET['page'])
