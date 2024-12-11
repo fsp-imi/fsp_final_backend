@@ -65,14 +65,15 @@ INSTALLED_APPS = [
     'storages',
     's3',
     'analytics',
+    "rest_framework_api_key",
 ]
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
-
+        #'rest_framework.permissions.AllowAny',
+        'rest_framework_api_key.permissions.HasAPIKey',
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
@@ -80,6 +81,8 @@ REST_FRAMEWORK = {
     ],
     'EXCEPTION_HANDLER': 'fsp.utils.custom_exception_handler.custom_exception_handler',
 }
+
+API_KEY_CUSTOM_HEADER = "HTTP_API_KEY"
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
