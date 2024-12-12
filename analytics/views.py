@@ -119,4 +119,14 @@ class AnalyticsClaimsView(ModelViewSet):
         
         serializer = self.get_serializer(search_result, many=True)
         return Response(serializer.data, status=HTTP_200_OK)
-        
+
+
+class RegionTeamsView(ModelViewSet):
+    queryset = Result.objects.all()
+    serializer_class = ResultSerializer
+
+    def get_regions_teams(self, request):
+        result = Region.objects.all()
+        ser = self.get_serializer(result, many=True)
+
+        return Response(ser.data, status=HTTP_200_OK)
