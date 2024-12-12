@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['fsp-imi-fsp-final-backend-5a76.twc1.net', 'localhost', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost', 'https://fsp-imi-fsp-final-backend-5a76.twc1.net']
+CSRF_TRUSTED_ORIGINS = ['http://localhost', 'https://fsp-imi-fsp-final-backend-5a76.twc1.net', 'http://127.0.0.1']
+
+CORS_ALLOW_HEADERS = ['Api-Key']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
