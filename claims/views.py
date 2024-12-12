@@ -61,3 +61,49 @@ class ClaimView(ModelViewSet):
         return Response(serializer.errors, status=HTTP_400_BAD_REQUEST)
 
         
+class FSClaimsView(ModelViewSet):  
+    queryset = Claim.objects.all()
+    serializer_class = ClaimSerializer
+    
+    def get_queryset(self):
+        status = self.request.query_params.get('status', None)
+        sender_id = self.request.query_params.get('sender', None)
+        receiver_id = self.request.query_params.get('receiver', None)
+        _format = self.request.query_params.get('formats', None)
+        # _city = self.request.query_params.get('city', None)
+        claims = self.queryset
+        filters = {}
+
+        if status:
+            filters['status'] = status
+        if sender_id:
+            filters['sender_federation__id'] = sender_id
+        if receiver_id:
+            filters['receiver_federation__id'] = receiver_id
+        if _format:
+            filters['format'] = _format
+        # if _city:
+        #     filter['city'] = _city
+        if filters:
+            claims = claims.filter(**filters)
+        
+        return claims
+    
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True) 
+        return Response(serializer.data, status=HTTP_200_OK)
+
+    def search(self, request):
+        claims = self.queryset
+        region = self.request.query_params.get('region', None)
+        search_result = []
+
+        for claim in claims:
+            if claim.sender_federation and claim.sender_federation.region:
+                if claim.sender_federation.region.name and \
+                    region.lower() in claim.sender_federation.region.name.lower():
+                    search_result.append(claim)
+        
+        serializer = self.get_serializer(search_result, many=True)
+        return Response(serializer.data, status=HTTP_200_OK)
