@@ -28,8 +28,8 @@ class AnalyticsResultsView(ModelViewSet):
             
             if count > 0:
                 avg_scores[reg.name] = reg_score / count
-            else:
-                avg_scores[reg.name] = 0
+            # else:
+            #     avg_scores[reg.name] = 0
         
         return Response(avg_scores, status=HTTP_200_OK)
 
