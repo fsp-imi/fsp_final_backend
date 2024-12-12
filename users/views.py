@@ -10,6 +10,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.tokens import default_token_generator
 from .serializers import UserSerializer
 from fsp.utils.mail_confirm_sender import send_activation_email
+from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 
 # Create your views here.
 
@@ -29,7 +30,28 @@ class UserViewSet(ModelViewSet):
         # send_activation_email(user, request)
         # return Response({'detail': 'Проверьте почту для активации аккаунта.'}, status=HTTP_201_CREATED)
         return Response({'token': token.key}, status=HTTP_201_CREATED)
- 
+#gg
+        # username = request.data.get('username')
+        # email = request.data.get('email')
+        # password = request.data.get('password')
+
+        # if User.objects.filter(email=email).exists():
+        #     return Response({'error': 'Email already registered'}, status=status.HTTP_400_BAD_REQUEST)
+
+        # user = User.objects.create_user(username=username, email=email, password=password, is_active=False)
+        # uid = urlsafe_base64_encode(force_bytes(user.pk))
+        # token = default_token_generator.make_token(user)
+
+        # activation_link = f"{fsp.settings.FRONTEND_URL}/activate/{uid}/{token}"
+        # send_mail(
+        #     'Confirm your registration',
+        #     f'Click the link to confirm your registration: {activation_link}',
+        #     settings.EMAIL_HOST_USER,
+        #     [email],
+        #     fail_silently=False,
+        # )
+
+        # return Response({'message': 'User registered. Please confirm your email to activate your account.'}, status=status.HTTP_201_CREATED)
     def get_by_id(self, request, *args, **kwargs):
         user_id = kwargs.get('pk')
         user = get_object_or_404(User, pk=user_id)
