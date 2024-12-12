@@ -91,17 +91,19 @@ class ContestView(ModelViewSet):
             self.queryset = self.queryset.filter(contestdiscipline__discipline__id__in=request.GET.getlist('discipline')).distinct()
         if 'contesttype' in request.GET:
             self.queryset = self.queryset.filter(contest_type__id__in=request.GET.getlist('contesttype'))
-        if 'agestart' in request.GET:
-            self.queryset = self.queryset.filter(contestagegroup__age_group__start__gte=request.GET['agestart']).distinct()
-        if 'ageend' in request.GET:
-            self.queryset = self.queryset.filter(contestagegroup__age_group__end__lte=request.GET['ageend']).distinct()
-        if 'gender' in request.GET:
-            self.queryset = self.queryset.filter(contestagegroup__age_group__gender=request.GET['gender']).distinct()
+        #if 'agestart' in request.GET:
+        #    self.queryset = self.queryset.filter(contestagegroup__age_group__start__gte=request.GET['agestart']).distinct()
+        #if 'ageend' in request.GET:
+        #    self.queryset = self.queryset.filter(contestagegroup__age_group__end__lte=request.GET['ageend']).distinct()
+        #if 'gender' in request.GET:
+        #    self.queryset = self.queryset.filter(contestagegroup__age_group__gender=request.GET['gender']).distinct()
+        if 'agegroup' in request.GET:
+            self.queryset = self.queryset.filter(contestagegroup_age_group__id__in=request.GET.getlist('agegroup'))
         if 'starttime' in request.GET:
             print('starttime')
             try:
                 print(request.GET['starttime'])
-                start = datetime.datetime.strptime(request.GET['starttime'], '%d%m%Y')
+                start = datetime.datetime.strptime(request.GET['starttime'], '%d-%m-%Y')
                 self.queryset = self.queryset.filter(start_time__gte=start)
             except Exception as e:
                 print(e)
@@ -110,10 +112,14 @@ class ContestView(ModelViewSet):
             print('endtime')
             try:
                 print(request.GET['endtime'])
-                end = datetime.datetime.strptime(request.GET['endtime'], '%d%m%Y')
+                end = datetime.datetime.strptime(request.GET['endtime'], '%d-%m-%Y')
                 self.queryset = self.queryset.filter(end_time__lte=end)
             except:
                 return Response({'error': 'Формат даты конца периода задан неверно!'}, status=404)
+        if 'place' in request.GET:
+            #self.queryset = self.queryset.filter(organizer__region__id=request.GET['region'])
+            self.queryset = self.queryset.filter(place__icontains=request.GET['region'])
+
 
         try:
             page = int(request.GET['page'])

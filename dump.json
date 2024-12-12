@@ -2542,7 +2542,8 @@
         "format": "ONLINE",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2558,7 +2559,8 @@
         "format": "ONLINE",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2574,7 +2576,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2590,7 +2593,8 @@
         "format": "Международный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2606,7 +2610,8 @@
         "format": "Региональный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2622,7 +2627,8 @@
         "format": "Международный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2638,7 +2644,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2654,7 +2661,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2670,7 +2678,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2686,7 +2695,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2702,7 +2712,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2718,7 +2729,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2734,7 +2746,8 @@
         "format": "Международный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2750,7 +2763,8 @@
         "format": "Международный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2766,7 +2780,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2782,7 +2797,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2798,7 +2814,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2814,7 +2831,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2830,7 +2848,8 @@
         "format": "Региональный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2846,7 +2865,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2862,7 +2882,8 @@
         "format": "Региональный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2878,7 +2899,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2894,7 +2916,8 @@
         "format": "Международный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2910,7 +2933,8 @@
         "format": "Международный",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2926,7 +2950,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -2942,7 +2967,8 @@
         "format": "Всероссийский",
         "status": "ACTIVE",
         "organizer": null,
-        "federation": null
+        "federation": null,
+        "file": null
     }
 },
 {
@@ -5689,6 +5715,18 @@
         "level": "REG",
         "region": 1,
         "logo": "https://fsp-russia.com/upload/iblock/ed1/g6n33a11szyzcp9slgpqewrgbafl8ds3.jpg"
+    }
+},
+{
+    "model": "rest_framework_api_key.apikey",
+    "pk": "roCbRY3M.sha512$$00c1b5f85ba2a11a1eabf9a69d67c567e6dc3407703c64f1a8fb51aa821ea863e7275c8142b5e4a76004c4ebedc01407279deb081ee72551ae320dca3188e759",
+    "fields": {
+        "prefix": "roCbRY3M",
+        "hashed_key": "sha512$$00c1b5f85ba2a11a1eabf9a69d67c567e6dc3407703c64f1a8fb51aa821ea863e7275c8142b5e4a76004c4ebedc01407279deb081ee72551ae320dca3188e759",
+        "created": "2024-12-12T05:58:13.414Z",
+        "name": "default",
+        "revoked": false,
+        "expiry_date": null
     }
 },
 {
