@@ -1,4 +1,5 @@
 from django.utils.dateparse import parse_date
+from django.http import Http404
 from .models import Result, ResultFile
 from country.models import Region
 from contests.models import Contest
@@ -8,7 +9,7 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from rest_framework.status import HTTP_201_CREATED
+from rest_framework.status import HTTP_201_CREATED, HTTP_200_OK
 
 from rest_framework.exceptions import ValidationError
 
@@ -58,6 +59,15 @@ class ResultView(ModelViewSet):
         results = serializer.save()
         results.save()
         return Response(serializer.data, status=HTTP_201_CREATED)
+    
+    def get_by_id(self, request, *args, **kwargs):
+        contest_id = kwargs.get('pk')
+        results = Result.objects.filter(contest_id=contest_id)
+        if not results.exists():
+            raise Http404("Results not found")
+        serializer = self.get_serializer(results, many=True)
+        return Response(serializer.data, status=HTTP_200_OK)
+
 
 class FSResultsView(ModelViewSet):  
     queryset = Result.objects.all()
