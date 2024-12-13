@@ -301,6 +301,7 @@ class ResultUploadAPIView(APIView):
             # )
 
             contest.file = f"{AWS_S3_ENDPOINT_URL}/{AWS_STORAGE_BUCKET_NAME}/{s3_file_name}"
+            contest.status = Contest.Status.CLOSED
             contest.save()
 
             return Response(
