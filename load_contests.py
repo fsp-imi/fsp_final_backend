@@ -23,7 +23,8 @@ def load_contests(file_name):
             else:
                 c.start_time = datetime.datetime.now()
             c.place = contest['location']
-            c.format = get_contest_type(contest['name'])
+            c.contest_type = get_contest_type(contest['name'])
+            c.format = get_contest_format(contest['format'])
             c.save()
             if 'disciplines' in contest and\
                 contest['disciplines'] is not None and\
@@ -119,6 +120,22 @@ def get_contest_type(contest_name):
        'окруж' in contest_name:
         return types[interregional]
     return types[regional]
+
+
+def get_contest_format(contest_format):
+    if contest_format is None:
+        return Contest.ContestFormat.ONL
+    
+    contest_format = contest_format.lower()
+    match contest_format:
+        case "Оффлайн":
+            return Contest.ContestFormat.OFL
+        case "Онлайн":
+            return Contest.ContestFormat.ONL
+        case "Онлайн\\Оффлайн":
+            return Contest.ContestFormat.ONFL
+        case _:
+            return Contest.ContestFormat.ONL
 
 
 if __name__ == "__main__":
