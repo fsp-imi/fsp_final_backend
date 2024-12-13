@@ -67,7 +67,7 @@ class ContestView(ModelViewSet):
         instance = self.get_object()
         serializer = self.get_serializer(instance)
         disciplines, age_group = self.get_contest_discpilines_ages([instance])
-        return Response({'data': {'contest': serializer.data, 'disciplines': disciplines, 'age_group': age_group}}, status=200)
+        return Response({'data': {'contest': serializer.data, 'disciplines': disciplines, 'age_group': age_group, 'contest_type': ContestTypeSerializer(ContestType.objects.all(), many=True).data}}, status=200)
     
     def list(self, request, *args, **kwargs):
         try:
@@ -132,7 +132,7 @@ class ContestView(ModelViewSet):
         disciplines, ages = self.get_contest_discpilines_ages(objs)
 
         ser = self.get_serializer(objs, many=True)
-        return Response({'data': {'contests': ser.data, 'disciplines':disciplines, 'ages':ages}, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
+        return Response({'data': {'contests': ser.data, 'disciplines':disciplines, 'ages':ages, 'contest_type': ContestTypeSerializer(ContestType.objects.all(), many=True).data}, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
 
 
 class ContestDisciplineView(ModelViewSet):
