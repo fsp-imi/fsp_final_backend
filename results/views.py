@@ -1,3 +1,5 @@
+from django.utils.dateparse import parse_date
+from django.http import Http404
 from .models import Result, ResultFile
 from country.models import Region
 from contests.models import Contest
@@ -7,7 +9,7 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from rest_framework.status import HTTP_201_CREATED
+from rest_framework.status import HTTP_201_CREATED, HTTP_200_OK
 
 from rest_framework.exceptions import ValidationError
 
@@ -49,14 +51,71 @@ class ResultView(ModelViewSet):
             result.save()
             results.append(result)
 
-        serializer = self.get_serializer(results, many=True)
-        return Response(serializer.data, status=HTTP_201_CREATED)
+        # serializer = self.get_serializer(results, many=True)
+        # return Response(serializer.data, status=HTTP_201_CREATED)
 
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         results = serializer.save()
         results.save()
         return Response(serializer.data, status=HTTP_201_CREATED)
+    
+    def get_by_id(self, request, *args, **kwargs):
+        contest_id = kwargs.get('pk')
+        results = Result.objects.filter(contest_id=contest_id)
+        if not results.exists():
+            raise Http404("Results not found")
+        serializer = self.get_serializer(results, many=True)
+        return Response(serializer.data, status=HTTP_200_OK)
+
+
+class FSResultsView(ModelViewSet):  
+    queryset = Result.objects.all()
+    regions = Region.objects.all()
+    serializer_class = ResultSerializer
+    
+    def get_queryset(self):
+        contest_id = self.request.query_params.get('contest', None)
+        region_id = self.request.query_params.get('region', None)
+        date_str = self.request.query_params.get('date', None)
+
+        results = self.queryset
+        filters = {}
+
+        if contest_id:
+            filters['contest__id'] = contest_id
+        if region_id:
+            filters['contest__federation__region__id'] = region_id
+        if date_str:
+            date = parse_date(date_str)
+            if not date:
+                raise ValidationError('Неверный формат даты. Ожидается YYYY-MM-DD.')
+            filters['contest__start_time__date'] = date
+
+        if filters:
+            results = results.filter(**filters)
+        
+        return results
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True) 
+        return Response(serializer.data, status=HTTP_200_OK)
+
+    def search(self, request):
+        results = self.queryset
+        region = self.request.query_params.get('region', None)
+        search_result = []
+
+        for result in results:
+            if result.sender_federation and result.sender_federation.region:
+                if result.sender_federation.region.name and \
+                    region.lower() in result.contest.organizer.region.name.lower():
+                    search_result.append(result)
+        
+        serializer = self.get_serializer(search_result, many=True)
+        return Response(serializer.data, status=HTTP_200_OK)
+     
 
 class ColumnPreviewAPIView(APIView):
     parser_classes = (MultiPartParser, FormParser)
@@ -242,6 +301,7 @@ class ResultUploadAPIView(APIView):
             # )
 
             contest.file = f"{AWS_S3_ENDPOINT_URL}/{AWS_STORAGE_BUCKET_NAME}/{s3_file_name}"
+            contest.status = Contest.Status.CLOSED
             contest.save()
 
             return Response(

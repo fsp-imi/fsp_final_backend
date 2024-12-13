@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['fsp-imi-fsp-final-backend-5a76.twc1.net', 'localhost', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost', 'https://fsp-imi-fsp-final-backend-5a76.twc1.net']
+CSRF_TRUSTED_ORIGINS = ['http://localhost', 'https://fsp-imi-fsp-final-backend-5a76.twc1.net', 'http://127.0.0.1']
+
+CORS_ALLOW_HEADERS = ['Api-Key', 'Content-Type', 'Authorization']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
@@ -52,6 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
+    'django_rest_passwordreset',
     'corsheaders',
     'users',
     'country',
@@ -65,14 +68,15 @@ INSTALLED_APPS = [
     'storages',
     's3',
     'analytics',
+    "rest_framework_api_key",
 ]
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
-
+        #'rest_framework.permissions.AllowAny',
+        'rest_framework_api_key.permissions.HasAPIKey',
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
@@ -80,6 +84,8 @@ REST_FRAMEWORK = {
     ],
     'EXCEPTION_HANDLER': 'fsp.utils.custom_exception_handler.custom_exception_handler',
 }
+
+API_KEY_CUSTOM_HEADER = "HTTP_API_KEY"
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',

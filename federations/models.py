@@ -21,4 +21,4 @@ class Federation(models.Model):
     logo = models.CharField("Ссылка на лого", max_length=300, blank=True, null=True)
 
     def __str__(self):
-        return self.name + ' ' + self.region.name
+        return f"{self.name}"+" "+(f"{self.region.name}" if self.region is not None else "")

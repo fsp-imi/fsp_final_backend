@@ -51,6 +51,7 @@ class ContestView(ModelViewSet):
     def get_contest_discpilines_ages(self, contests):
         disciplines = {}
         age_group = {}
+        sport_types = {}
         for contest in contests:
             disciplines[contest.id] = []
             age_group[contest.id] = []
@@ -60,14 +61,15 @@ class ContestView(ModelViewSet):
             ages = ContestAgeGroup.objects.filter(contest__id=contest.id)
             for a in ages:
                 age_group[contest.id].append(str(a.age_group))
-        return disciplines, age_group
+            sport_types[contest.id] = str(ds[0].discipline.sport_type)
+        return disciplines, age_group, sport_types
 
     def retrieve(self, request, *args, **kwargs):
         # do your customization here
         instance = self.get_object()
         serializer = self.get_serializer(instance)
-        disciplines, age_group = self.get_contest_discpilines_ages([instance])
-        return Response({'data': {'contest': serializer.data, 'disciplines': disciplines, 'age_group': age_group}}, status=200)
+        disciplines, age_group, sport_types = self.get_contest_discpilines_ages([instance])
+        return Response({'data': {'contest': serializer.data, 'disciplines': disciplines, 'age_group': age_group, 'sport_types': sport_types}}, status=200)
     
     def list(self, request, *args, **kwargs):
         try:
@@ -78,10 +80,10 @@ class ContestView(ModelViewSet):
             per_page = 10
         objs, page, per_page, total = get_page_object(self.queryset.order_by('id'), page, per_page)
 
-        disciplines, ages = self.get_contest_discpilines_ages(objs)
+        disciplines, ages, sport_types = self.get_contest_discpilines_ages(objs)
 
         ser = self.get_serializer(objs, many=True)
-        return Response({'data': {'contests': ser.data, 'disciplines':disciplines, 'ages':ages}, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
+        return Response({'data': {'contests': ser.data, 'disciplines':disciplines, 'ages':ages, 'sport_types': sport_types}, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
 
     def get_filter_data(self, request):
         
@@ -91,17 +93,19 @@ class ContestView(ModelViewSet):
             self.queryset = self.queryset.filter(contestdiscipline__discipline__id__in=request.GET.getlist('discipline')).distinct()
         if 'contesttype' in request.GET:
             self.queryset = self.queryset.filter(contest_type__id__in=request.GET.getlist('contesttype'))
-        if 'agestart' in request.GET:
-            self.queryset = self.queryset.filter(contestagegroup__age_group__start__gte=request.GET['agestart']).distinct()
-        if 'ageend' in request.GET:
-            self.queryset = self.queryset.filter(contestagegroup__age_group__end__lte=request.GET['ageend']).distinct()
-        if 'gender' in request.GET:
-            self.queryset = self.queryset.filter(contestagegroup__age_group__gender=request.GET['gender']).distinct()
+        #if 'agestart' in request.GET:
+        #    self.queryset = self.queryset.filter(contestagegroup__age_group__start__gte=request.GET['agestart']).distinct()
+        #if 'ageend' in request.GET:
+        #    self.queryset = self.queryset.filter(contestagegroup__age_group__end__lte=request.GET['ageend']).distinct()
+        #if 'gender' in request.GET:
+        #    self.queryset = self.queryset.filter(contestagegroup__age_group__gender=request.GET['gender']).distinct()
+        if 'agegroup' in request.GET:
+            self.queryset = self.queryset.filter(contestagegroup_age_group__id__in=request.GET.getlist('agegroup'))
         if 'starttime' in request.GET:
             print('starttime')
             try:
                 print(request.GET['starttime'])
-                start = datetime.datetime.strptime(request.GET['starttime'], '%d%m%Y')
+                start = datetime.datetime.strptime(request.GET['starttime'], '%d-%m-%Y')
                 self.queryset = self.queryset.filter(start_time__gte=start)
             except Exception as e:
                 print(e)
@@ -110,10 +114,15 @@ class ContestView(ModelViewSet):
             print('endtime')
             try:
                 print(request.GET['endtime'])
-                end = datetime.datetime.strptime(request.GET['endtime'], '%d%m%Y')
+                end = datetime.datetime.strptime(request.GET['endtime'], '%d-%m-%Y')
                 self.queryset = self.queryset.filter(end_time__lte=end)
             except:
                 return Response({'error': 'Формат даты конца периода задан неверно!'}, status=404)
+        if 'region' in request.GET:
+            #self.queryset = self.queryset.filter(organizer__region__id=request.GET['region'])
+            print(request.GET.getlist('region'))
+            self.queryset = self.queryset.filter(organizer__region__id__in=request.GET.getlist('region'))
+
 
         try:
             page = int(request.GET['page'])
@@ -123,10 +132,10 @@ class ContestView(ModelViewSet):
             per_page = 10
         objs, page, per_page, total = get_page_object(self.queryset.order_by('id'), page, per_page)
         
-        disciplines, ages = self.get_contest_discpilines_ages(objs)
+        disciplines, ages, sport_types = self.get_contest_discpilines_ages(objs)
 
         ser = self.get_serializer(objs, many=True)
-        return Response({'data': {'contests': ser.data, 'disciplines':disciplines, 'ages':ages}, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
+        return Response({'data': {'contests': ser.data, 'disciplines':disciplines, 'ages':ages, 'sport_types': sport_types}, 'pages':{"total": total, "per_page": per_page, 'cur_page': page}}, status=200)
 
 
 class ContestDisciplineView(ModelViewSet):

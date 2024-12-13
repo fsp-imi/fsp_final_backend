@@ -1,122 +1,66 @@
-from django.utils.dateparse import parse_date
-from django.core.exceptions import ValidationError
+from django.db.models import Avg
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.response import Response
-from rest_framework.status import HTTP_200_OK
 from results.models import Result
-from results.serializers import ResultSerializer
-from claims.models import Claim
-from claims.serializers import ClaimSerializer
 from country.models import Region
+from contestant.models import Team
+from utils import get_page_object
 # Create your views here.
 
-class AnalyticsResultsView(ModelViewSet):  
-    queryset = Result.objects.all()
-    regions = Region.objects.all()
-    serializer_class = ResultSerializer
+
+class AnalyticsResultsView(ModelViewSet):
     
-    def get_queryset(self):
-        contest_id = self.request.query_params.get('contest', None)
-        region_id = self.request.query_params.get('region', None)
-        date_str = self.request.query_params.get('date', None)
-
-        results = self.queryset
-        filters = {}
-
-        if contest_id:
-            filters['contest__id'] = contest_id
-        if region_id:
-            filters['contest__federation__region__id'] = region_id
-        if date_str:
-            date = parse_date(date_str)
-            if not date:
-                raise ValidationError('Неверный формат даты. Ожидается YYYY-MM-DD.')
-            filters['contest__start_time__date'] = date
-
-        if filters:
-            results = results.filter(**filters)
-        
-        return results
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.get_queryset()
-        serializer = self.get_serializer(queryset, many=True) 
-        return Response(serializer.data, status=HTTP_200_OK)
-
-    def search(self, request):
-        results = self.queryset
-        region = self.request.query_params.get('region', None)
-        search_result = []
-
-        for result in results:
-            if result.sender_federation and result.sender_federation.region:
-                if result.sender_federation.region.name and \
-                    region.lower() in result.contest.organizer.region.name.lower():
-                    search_result.append(result)
-        
-        serializer = self.get_serializer(search_result, many=True)
-        return Response(serializer.data, status=HTTP_200_OK)
-        
     def avg_scores(self, request):
-        regions = self.regions
-        avg_scores = {}
+        region_ids = request.query_params.getlist('region')
+        regions = Region.objects.filter(id__in=region_ids) if region_ids else Region.objects.all()
+        results = Result.objects.filter(team__region__id__in=regions.values_list('id', flat=True))
         
-        for reg in regions:
-            reg_score = 0
-            count = 0
-            for res in Result.objects.filter(team__region__id=reg.id):
-                reg_score += res.score
-                count += 1
+        avg_scores = (
+            results.values('team__region__name')
+            .annotate(avg_score=Avg('score'))
+            .order_by('team__region__name')
+        )
+        
+        page = int(request.query_params.get('page', 1))  # Текущая страница
+        amount = int(request.query_params.get('amount', 10))  # Количество записей на страницу
+        paginated_scores, cur_page, per_page, total_pages = get_page_object(avg_scores, page, amount)
+        avg_scores_dict = [{item['team__region__name']: item['avg_score']} for item in paginated_scores]
+
+        response_data = {
+            "data": avg_scores_dict,
+            "pages": {
+                "total": total_pages,
+                "per_page": per_page,
+                "cur_page": cur_page,
+            }
+        }
+
+        return Response(response_data)
+
+class RegionTeamsView(ModelViewSet):
+    def get_regions_teams(self, request):
+        region_ids = request.query_params.getlist('region')
+        if region_ids:
+            regions = Region.objects.filter(id__in=region_ids)
+        else:
+            regions = Region.objects.all()
             
+        teams = Team.objects.all()
+        result = []
+        for region in regions:
+            count = sum(1 for team in teams if team.region and team.region.name == region.name)
             if count > 0:
-                avg_scores[reg.name] = reg_score / count
-            else:
-                avg_scores[reg.name] = 0
-        
-        return Response(avg_scores, status=HTTP_200_OK)
-      
-    
-class AnalyticsClaimsView(ModelViewSet):  
-    queryset = Claim.objects.all()
-    serializer_class = ClaimSerializer
-    
-    def get_queryset(self):
-        status = self.request.query_params.get('status', None)
-        sender_id = self.request.query_params.get('sender', None)
-        receiver_id = self.request.query_params.get('receiver', None)
-        _format = self.request.query_params.get('formats', None)
-        claims = self.queryset
-        filters = {}
+                result.append({region.name: count})
+        page = int(request.query_params.get('page', 1))
+        amount = int(request.query_params.get('amount', 10))
+        paginated_result, cur_page, per_page, total_pages = get_page_object(result, page, amount)
+        response_data = {
+            "data": paginated_result,
+            "pages": {
+                "total": total_pages,
+                "per_page": per_page,
+                "cur_page": cur_page,
+            }
+        }
 
-        if status:
-            filters['status'] = status
-        if sender_id:
-            filters['sender_federation__id'] = sender_id
-        if receiver_id:
-            filters['receiver_federation__id'] = receiver_id
-        if _format:
-            filters['format'] = _format
-        if filters:
-            claims = claims.filter(**filters)
-        
-        return claims
-    
-    def list(self, request, *args, **kwargs):
-        queryset = self.get_queryset()
-        serializer = self.get_serializer(queryset, many=True) 
-        return Response(serializer.data, status=HTTP_200_OK)
-
-    def search(self, request):
-        claims = self.queryset
-        region = self.request.query_params.get('region', None)
-        search_result = []
-
-        for claim in claims:
-            if claim.sender_federation and claim.sender_federation.region:
-                if claim.sender_federation.region.name and \
-                    region.lower() in claim.sender_federation.region.name.lower():
-                    search_result.append(claim)
-        
-        serializer = self.get_serializer(search_result, many=True)
-        return Response(serializer.data, status=HTTP_200_OK)
-        
+        return Response(response_data)
