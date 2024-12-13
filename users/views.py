@@ -43,7 +43,7 @@ class UserViewSet(ModelViewSet):
 
         # activation_link = f"http://localhost:5173/api/v1/users/activate/{uid}/{emailtoken}"
         # Вот это ссылку поменять на фронт прод внизу который, не только здесь
-        activation_link = f"http://localhost:4173/email-verification?uuid={uid}&token={emailtoken}"
+        activation_link = f"http://fsp-imi-fsp-final-frontend-5466.twc1.net/email-verification?uuid={uid}&token={emailtoken}"
         send_mail(
             'Подтвердите регистрацию',
             f'Нажмите на ссылку чтобы подтвердить свою регистрацию: {activation_link}',
