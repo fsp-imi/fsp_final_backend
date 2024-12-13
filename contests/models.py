@@ -77,7 +77,8 @@ class Contest(models.Model):
     def save(self, *args, **kwargs):
         if self.pk is not None:
             # Создание нового объекта
-            sendNotification(self)
+            # sendNotification(self)
+            pass
         super(Contest, self).save(*args, **kwargs)
 
     def __str__(self):
