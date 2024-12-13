@@ -42,7 +42,8 @@ class UserViewSet(ModelViewSet):
         emailtoken = default_token_generator.make_token(user)
 
         # activation_link = f"http://localhost:5173/api/v1/users/activate/{uid}/{emailtoken}"
-        activation_link = f"http://localhost:5173/email-verification?uuid={uid}&token={emailtoken}"
+        # Вот это ссылку поменять на фронт прод внизу который, не только здесь
+        activation_link = f"http://localhost:4173/email-verification?uuid={uid}&token={emailtoken}"
         send_mail(
             'Подтвердите регистрацию',
             f'Нажмите на ссылку чтобы подтвердить свою регистрацию: {activation_link}',

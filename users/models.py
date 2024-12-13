@@ -9,6 +9,7 @@ from django_rest_passwordreset.signals import reset_password_token_created
 
 @receiver(reset_password_token_created)
 def password_reset_token_created(sender, instance, reset_password_token, *args, **kwargs):
+    # Ссылку поменять
     context = {
         'email': reset_password_token.user.email,
         'reset_password_url': f"http://localhost:5173/password-reset-change/?token={reset_password_token.key}"
