@@ -12,6 +12,7 @@ from .serializers import UserSerializer
 from django.utils.encoding import force_bytes, force_str
 from django.core.mail import send_mail
 from fsp.settings import EMAIL_HOST_USER
+from fsp.utils.active_user_token_authentication import ActiveUserTokenAuthentication
 
 # Create your views here.
 
@@ -74,6 +75,7 @@ class UserViewSet(ModelViewSet):
             return Response({'detail': 'Неверный токен'}, status=HTTP_400_BAD_REQUEST)
 
 class UserProfile(APIView):
+    authentication_classes = [ActiveUserTokenAuthentication]
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
@@ -89,7 +91,7 @@ class UserProfile(APIView):
 
 
 class CheckToken(APIView):
-    queryset = User.objects.all()
+    authentication_classes = [ActiveUserTokenAuthentication]
 
     def get(self, request):
         user = get_object_or_404(Token, key=request.headers['Authorization'].split()[-1]).user
