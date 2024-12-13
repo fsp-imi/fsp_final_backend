@@ -61,7 +61,7 @@ class ContestView(ModelViewSet):
             ages = ContestAgeGroup.objects.filter(contest__id=contest.id)
             for a in ages:
                 age_group[contest.id].append(str(a.age_group))
-            sport_types[contest.id].append(str(ds[0].sport_type))
+            sport_types[contest.id] = str(ds[0].discipline.sport_type)
         return disciplines, age_group, sport_types
 
     def retrieve(self, request, *args, **kwargs):
