@@ -50,9 +50,9 @@ class RegionTeamsView(ModelViewSet):
         for region in regions:
             count = sum(1 for team in teams if team.region and team.region.name == region.name)
             if count > 0:
-                result.append({'region': region.name, 'team_count': count})
-        page = int(request.query_params.get('page', 1))  # Текущая страница
-        amount = int(request.query_params.get('amount', 10))  # Количество записей на страницу
+                result.append({region.name: count})
+        page = int(request.query_params.get('page', 1))
+        amount = int(request.query_params.get('amount', 10))
         paginated_result, cur_page, per_page, total_pages = get_page_object(result, page, amount)
         response_data = {
             "data": paginated_result,
