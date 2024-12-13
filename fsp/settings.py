@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-rm3u8+1f8f5)^(*w%i-5k3@$z83u)l%w-qq!^4f+xk%voxxhr=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fsp-imi-fsp-final-backend-5a76.twc1.net', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['fsp-imi-fsp-final-backend-5a76.twc1.net','fsp-imi-fsp-final-backend-54c5.twc1.net','fsp-imi-fsp-final-frontend-5466.twc1.net', 'localhost', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost', 'https://fsp-imi-fsp-final-backend-5a76.twc1.net', 'http://127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://localhost', 'fsp-imi-fsp-final-backend-54c5.twc1.net','fsp-imi-fsp-final-frontend-5466.twc1.net','https://fsp-imi-fsp-final-backend-5a76.twc1.net', 'http://127.0.0.1']
 
 CORS_ALLOW_HEADERS = ['Api-Key', 'Content-Type', 'Authorization']
 
