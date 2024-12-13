@@ -27,21 +27,22 @@ class UserViewSet(ModelViewSet):
         # user = serializer.save()
         # user.is_active=True
         # user.save()
-        # token, created = Token.objects.get_or_create(user=user)
-        # return Response({'token': token.key}, status=HTTP_201_CREATED)
 #gg
         username = request.data.get('username')
         email = request.data.get('email')
         password = request.data.get('password')
 
         if User.objects.filter(email=email).exists():
-            return Response({'detail': 'Email уже зарегистрирован'}, status=HTTP_400_BAD_REQUEST)
+            return Response({'details': ['Email уже зарегистрирован']}, status=HTTP_400_BAD_REQUEST)
 
         user = User.objects.create_user(username=username, email=email, password=password, is_active=False)
-        uid = urlsafe_base64_encode(force_bytes(user.pk))
-        token = default_token_generator.make_token(user)
+        token, created = Token.objects.get_or_create(user=user)
 
-        activation_link = f"http://localhost:8000/api/v1/users/activate/{uid}/{token}"
+        uid = urlsafe_base64_encode(force_bytes(user.pk))
+        emailtoken = default_token_generator.make_token(user)
+
+        # activation_link = f"http://localhost:5173/api/v1/users/activate/{uid}/{emailtoken}"
+        activation_link = f"http://localhost:5173/email-verification?uuid={uid}&token={emailtoken}"
         send_mail(
             'Подтвердите регистрацию',
             f'Нажмите на ссылку чтобы подтвердить свою регистрацию: {activation_link}',
@@ -49,7 +50,7 @@ class UserViewSet(ModelViewSet):
             [email],
             fail_silently=False,
         )
-        return Response({'detail': 'Пользователь зарегистрирован. Пожалуйста, подтвердите email почту для активации аккаунта.'}, status=HTTP_201_CREATED)
+        return Response({'detail': 'Пользователь зарегистрирован. Пожалуйста, подтвердите email почту для активации аккаунта.', 'token': token.key}, status=HTTP_201_CREATED)
     
     def get_by_id(self, request, *args, **kwargs):
         user_id = kwargs.get('pk')
